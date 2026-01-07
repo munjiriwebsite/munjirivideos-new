@@ -67,7 +67,7 @@ html {
   }
 
   h1 {
-    @apply font-crimson text-3xl md:text-4xl leading-tight;
+    @apply font-crimson font-bold text-3xl md:text-4xl leading-tight;
   }
 
   h2 {
