@@ -34,7 +34,7 @@
 </head>
 
 <body class="bg-linen font-crimson text-gray-800">
-    <!-- NAVBAR -->
+  <!-- navbar -->
 <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
@@ -59,21 +59,39 @@
       <nav class="hidden md:flex space-x-6 items-center">
         <a href="video-production-portfolio.html" class="text-gray-800 hover:text-gray-500">Portfolio</a>
 
-        <!-- Dropdown -->
-        <div class="relative group">
-          <button class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center">
-            Works by Focus
-            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div class="text-center absolute left-0 w-48 bg-white opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
-            <a href="creative-video-productions.html" class="mt-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Creativity</a>
-            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:text-gray-500">Community</a>
-            <a href="nature-video-production.html" class="mb-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Caring for Nature</a>
-          </div>
-        </div>
+       <div class="relative group">
+  <button
+    class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center"
+  >
+    Works by Focus
+    <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <!-- Dropdown -->
+  <div
+    class="absolute left-0 top-full w-48 bg-linen text-center
+           opacity-0 invisible pointer-events-none
+           group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto
+           transition-opacity duration-200 z-10"
+  >
+    <a href="creative-video-productions.html"
+       class="block px-4 pt-4 py-2 text-gray-800 hover:text-gray-500">
+      Creativity
+    </a>
+    <a href="charity-video-production.html"
+       class="block px-4 py-2 text-gray-800 hover:text-gray-500">
+      Community
+    </a>
+    <a href="nature-video-production.html"
+       class="block px-4 pb-4 py-2 text-gray-800 hover:text-gray-500">
+      Caring for Nature
+    </a>
+  </div>
+</div>
+
 
         <a href="index.html#about" class="text-gray-800 hover:text-gray-500">About</a>
         <a href="blog.html" class="text-gray-800 hover:text-gray-500">Blog</a>
@@ -102,14 +120,13 @@
 </header>
 <main class="pt-20 md:pt-34">
 <!-- End of Header -->
-<section class="bg-linen text-gray-800 py-12">
-  <div class="container max-w-7xl mx-auto px-4">
+<section class="bg-linen py-20">
+  <div class="container max-w-6xl mx-auto px-4">
     <div class="flex justify-center">
       <div class="w-full md:w-8/12 text-center">
-        <h2 class="text-2xl font-bold pb-3">Creative Video Productions</h2>
-        <p class="text-md md:text-lg leading-relaxed">
-        Explore some of our standout creative video productions and brand storytelling projects for artisans, designers, and creative businesses. Our work highlights the artistry, craftsmanship, and meaningful stories behind handmade products, ethical fashion, and artisan brands. Whether you're an artist, designer, fashion brand, or homeware company, our videography brings your creative vision to life, showcasing the skill and passion behind your work.
-        </p>
+        <h1 class="pb-3">Creative Video Productions</h1>
+        <p>
+       Explore some of our standout creative video productions and brand storytelling projects for artisans, designers, and creative businesses. Our work highlights the artistry, craftsmanship, and meaningful stories behind handmade products, ethical fashion, and artisan brands. Whether you're an artist, designer, fashion brand, or homeware company, our videography brings your creative vision to life, showcasing the skill and passion behind your work.
       </div>
     </div>
   </div>
@@ -131,24 +148,48 @@
   </div>
 </section>
 
-<section class="bg-linen text-black py-16" id="content5-25a">
+<section class="py-16">
   <div class="container mx-auto px-4">
-    <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-xl md:text-2xl font-bold mb-6">
-        Yewo: Crafting Jewelry with Purpose through Creative Video Production
-      </h2>
-      <p class="text-md md:text-lg space-y-4">
-        Yewo’s jewelry isn’t just a product, it’s a story told through craftsmanship and community impact. Our creative video production captures the journey behind each piece, blending traditional skills with innovative design.
-        <br/><br/>
-        <strong>Artisanal Craft:</strong> Watch as skilled artisans breathe life into each design with precision and care, telling a visual story through video.
-        <br/>
-        <strong>Community Empowerment:</strong> Yewo provides training and employment for artisans, enriching local communities in Malawi. Our video highlights this meaningful impact.
-        <br/>
-        <strong>Creative Collaboration:</strong> Every piece tells a story of co-creation and cultural heritage, merging modern design with traditional techniques, captured through our story-driven videography.
-      </p>
+    <div class="mx-auto max-w-3xl">
+
+      <!-- Centered intro -->
+      <div class="text-center">
+        <h2 class="mb-6">
+          Yewo: Crafting Jewelry with Purpose through Creative Video Production
+        </h2>
+
+        <p class="mb-8">
+          Yewo’s jewelry isn’t just a product, it’s a story told through craftsmanship and community impact.
+          Our creative video production captures the journey behind each piece, blending traditional skills
+          with innovative design.
+        </p>
+      </div>
+
+      <!-- Left-aligned sub content -->
+      <div class="space-y-4 text-left">
+        <p>
+          <strong>Artisanal Craft:</strong>
+          Watch as skilled artisans breathe life into each design with precision and care,
+          telling a visual story through video.
+        </p>
+
+        <p>
+          <strong>Community Empowerment:</strong>
+          Yewo provides training and employment for artisans, enriching local communities in Malawi.
+          Our video highlights this meaningful impact.
+        </p>
+
+        <p>
+          <strong>Creative Collaboration:</strong>
+          Every piece tells a story of co-creation and cultural heritage,
+          merging modern design with traditional techniques, captured through our story-driven videography.
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
+
 
 <section class="py-16 px-4 bg-linen">
   <div class="max-w-6xl mx-auto">

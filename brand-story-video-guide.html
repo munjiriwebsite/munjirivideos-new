@@ -34,7 +34,7 @@
 </head>
 
 <body class="bg-linen font-crimson text-gray-800">
-    <!-- NAVBAR -->
+  <!-- navbar -->
 <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
@@ -59,21 +59,39 @@
       <nav class="hidden md:flex space-x-6 items-center">
         <a href="video-production-portfolio.html" class="text-gray-800 hover:text-gray-500">Portfolio</a>
 
-        <!-- Dropdown -->
-        <div class="relative group">
-          <button class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center">
-            Works by Focus
-            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div class="text-center absolute left-0 w-48 bg-white opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
-            <a href="creative-video-productions.html" class="mt-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Creativity</a>
-            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:text-gray-500">Community</a>
-            <a href="nature-video-production.html" class="mb-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Caring for Nature</a>
-          </div>
-        </div>
+       <div class="relative group">
+  <button
+    class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center"
+  >
+    Works by Focus
+    <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <!-- Dropdown -->
+  <div
+    class="absolute left-0 top-full w-48 bg-linen text-center
+           opacity-0 invisible pointer-events-none
+           group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto
+           transition-opacity duration-200 z-10"
+  >
+    <a href="creative-video-productions.html"
+       class="block px-4 pt-4 py-2 text-gray-800 hover:text-gray-500">
+      Creativity
+    </a>
+    <a href="charity-video-production.html"
+       class="block px-4 py-2 text-gray-800 hover:text-gray-500">
+      Community
+    </a>
+    <a href="nature-video-production.html"
+       class="block px-4 pb-4 py-2 text-gray-800 hover:text-gray-500">
+      Caring for Nature
+    </a>
+  </div>
+</div>
+
 
         <a href="index.html#about" class="text-gray-800 hover:text-gray-500">About</a>
         <a href="blog.html" class="text-gray-800 hover:text-gray-500">Blog</a>
@@ -105,23 +123,26 @@
 <section class="py-20 px-4">
   <div class="max-w-4xl mx-auto text-center">
 
-    <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6">
+    <h1 class="mb-6">
       How To Tell Your Brand Story Through Video: 10 Simple Steps
     </h1>
 
-    <p class="text-md md:text-lg leading-relaxed text-gray-800">
-      Storytelling through video is one of the most powerful ways to communicate your brand message.
-      At Munjiri Videos, we believe that every brand has a unique story waiting to be told — and video
-      is the perfect medium to bring it to life.
-      <br /><br />
-      In this blog, we’ll guide you through <strong>10 actionable steps</strong> to help you craft an
-      emotional, engaging, and memorable brand story using video.
+    <p>
+    Storytelling through video is one of the most powerful ways to communicate your brand message. At <a
+  href="https://www.munjiri.com/index.html"
+  class="font-semibold text-gray-800 no-underline
+         hover:underline hover:decoration-violet-500
+         hover:decoration-2 hover:underline-offset-4
+         "
+>
+  Munjiri Videos</a>
+, we believe that every brand has a unique story waiting to be told and video is the perfect medium to do it. This blog will guide you through 10 actionable steps to craft an emotional, engaging, and memorable brand story using video.
     </p>
 
   </div>
 </section>
 
-<section class="py-16 px-4 bg-linen">
+<section class="py-16 px-4">
   <div class="max-w-5xl mx-auto">
     <figure class="w-full flex justify-center">
       <div class="w-full max-w-4xl aspect-video">
@@ -136,40 +157,43 @@
     </figure>
   </div>
 </section>
-
 <section class="py-16 px-4">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-3xl mx-auto">
+<h2 class="mb-6 text-center">
+  Why Telling Your Brand Story with Video Matters
+</h2>
 
-    <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-center">
-      Why Telling Your Brand Story with Video Matters
-    </h2>
+<p class="mb-6 text-center">
+  Stories connect people. When combined with video, the best medium for evoking emotions, your brand message becomes even more impactful. A well-told video story helps:
+</p>
 
-    <p class="text-md md:text-lg leading-relaxed text-gray-800 mb-6 text-center">
-      Stories connect people. When combined with video — one of the most powerful mediums for evoking emotion —
-      your brand message becomes even more impactful. A well-told video story helps your brand:
-    </p>
+<ul class="mb-6 space-y-8 text-center list-none">
+  <li>Build trust with your audience</li>
+  <li>Differentiate your brand from competitors</li>
+  <li>Create emotional connections with customers</li>
+  <li>Increase brand awareness and loyalty</li>
+  <li>Boost conversions and engagement rates</li>
+</ul>
 
-    <ul class="max-w-2xl mx-auto space-y-3 text-md md:text-lg leading-relaxed text-gray-800 list-disc list-inside mb-8">
-      <li>Build trust with your audience</li>
-      <li>Differentiate your brand from competitors</li>
-      <li>Create emotional connections with customers</li>
-      <li>Increase brand awareness and loyalty</li>
-      <li>Boost conversions and engagement rates</li>
-    </ul>
+<p class="mb-6 text-center">
+  According to <a
+  href="https://www.forbes.com/sites/yec/2017/07/13/how-to-incorporate-video-into-your-social-media-strategy/"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="font-semibold text-gray-800 no-underline
+         hover:underline hover:decoration-violet-500
+         hover:decoration-2 hover:underline-offset-4"
+>
+  studies</a>
+, people remember 95% of a message when they watch it in a video compared to only 10% when reading it. This makes video storytelling one of the most effective marketing strategies for brands today.
+</p>
 
-    <p class="text-md md:text-lg leading-relaxed text-gray-800 mb-6 text-center">
-      According to studies, people remember up to <strong>95% of a message</strong> when they watch it in a video,
-      compared to only <strong>10%</strong> when reading it. This makes video storytelling one of the most effective
-      marketing strategies for brands today.
-    </p>
-
-    <p class="text-md md:text-lg leading-relaxed text-gray-800 text-center">
-      If you're ready to create a brand story that people remember, here are
-      <strong>10 simple steps</strong> to telling your brand story with video.
-    </p>
-
-  </div>
+<p class="text-center">
+  If you're ready to create a brand story that people remember, here are 10 steps to telling your brand story with video.
+</p>
+</div>
 </section>
+
 
  <section class="py-20 px-4 bg-linen">
   <div class="max-w-5xl mx-auto">
@@ -177,7 +201,7 @@
 
       <div class="relative aspect-video overflow-hidden">
         <img
-          src="/src/assets/images/dsc03417-676x452.jpg"
+          src="/src/assets/images/dsc08560-676x380.jpg"
           alt=""
           class="w-full h-full object-cover"
         />
@@ -185,7 +209,7 @@
 
       <div class="relative aspect-video overflow-hidden">
         <img
-          src="/src/assets/images/dsc03508-676x451.jpg"
+          src="/src/assets/images/dsc08832-676x380.jpg"
           alt=""
           class="w-full h-full object-cover"
         />
@@ -193,7 +217,7 @@
 
       <div class="relative aspect-video overflow-hidden">
         <img
-          src="/src/assets/images/dsc03431-676x452.jpg"
+          src="/src/assets/images/dsc09020-676x381.jpg"
           alt=""
           class="w-full h-full object-cover"
         />
