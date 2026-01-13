@@ -59,21 +59,39 @@
       <nav class="hidden md:flex space-x-6 items-center">
         <a href="video-production-portfolio.html" class="text-gray-800 hover:text-gray-500">Portfolio</a>
 
-        <!-- Dropdown -->
-        <div class="relative group">
-          <button class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center">
-            Works by Focus
-            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div class="text-center absolute left-0 w-48 bg-linen opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
-            <a href="creative-video-productions.html" class="mt-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Creativity</a>
-            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:text-gray-500">Community</a>
-            <a href="nature-video-production.html" class="mb-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Caring for Nature</a>
-          </div>
-        </div>
+       <div class="relative group">
+  <button
+    class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center"
+  >
+    Works by Focus
+    <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <!-- Dropdown -->
+  <div
+    class="absolute left-0 top-full w-48 bg-linen text-center
+           opacity-0 invisible pointer-events-none
+           group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto
+           transition-opacity duration-200 z-10"
+  >
+    <a href="creative-video-productions.html"
+       class="block px-4 pt-4 py-2 text-gray-800 hover:text-gray-500">
+      Creativity
+    </a>
+    <a href="charity-video-production.html"
+       class="block px-4 py-2 text-gray-800 hover:text-gray-500">
+      Community
+    </a>
+    <a href="nature-video-production.html"
+       class="block px-4 pb-4 py-2 text-gray-800 hover:text-gray-500">
+      Caring for Nature
+    </a>
+  </div>
+</div>
+
 
         <a href="index.html#about" class="text-gray-800 hover:text-gray-500">About</a>
         <a href="blog.html" class="text-gray-800 hover:text-gray-500">Blog</a>
@@ -131,23 +149,18 @@
 </section>
 
 
-<section id="content" class="font-crimson py-24 px-4">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="mb-6 font-crimson">
+<section class="py-24 px-4">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="mb-6">
       Crafting Films for Brands Doing Good
     </h2>
-    <p class="text-md md:text-lg leading-relaxed font-light">
-      There's a lot of noise out there—cat videos, big brands shouting the loudest. But the ones doing real,
-      meaningful work? Their stories often get lost. The thing is, you have the best stories—stories that are true.
-      You just need a bit of guidance (that's where we come in).
-      <br><br>
-      We take everything we know about video, storytelling, editing, lighting, camera work and combine it with
-      practical marketing strategies to make sure your voice is heard and your work makes the impact it deserves.
+    <p>
+    There's a lot of noise out there, cat videos, big brands shouting the loudest. But the ones doing real, meaningful work? Their stories often get lost. The thing is, you have the best stories, stories that are true. You just need a bit of guidance (that's where we come in). We take everything we know about video, storytelling, editing, lighting, camera work and combine it with practical marketing strategies to make sure your voice is heard and your work makes the impact it deserves.
     </p>
   </div>
 </section>
 
-<section class="py-16 px-4 bg-white">
+<section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <figure class="w-full">
       <div class="w-full md:w-[71%] mx-auto">
@@ -162,25 +175,25 @@
   </div>
 </section>
 
-<section class="font-crimson bg-white py-20 px-4">
+<section class="py-20 px-4">
   <div class="max-w-3xl mx-auto text-center space-y-12">
-    
+    <h2>We Specialize in Video Production for</h2>
     <div>
-      <h3 class="text-xl font-semibold text-black mb-2 font-crimson">Social Impact Organizations</h3>
-      <p class="text-gray-700 text-lg leading-relaxed">
+      <h3 class="mb-2">Social Impact Organizations</h3>
+      <p>
         Non-profits, charities, and social enterprises working to make a difference. From global non-profits to grass roots local charities.
       </p>
     </div>
 
     <div>
-      <h3 class="text-xl font-semibold text-black mb-2 font-crimson">Nature Focused Brands</h3>
+      <h3>Nature Focused Brands</h3>
       <p class="text-gray-700 text-lg leading-relaxed">
         Eco brands and nature-focused organizations. From regenerative farming to solar panels, eco-lodges to adventure retreats.
       </p>
     </div>
 
     <div>
-      <h3 class="text-xl font-semibold text-black mb-2 font-crimson">Creative Brands</h3>
+      <h3>Creative Brands</h3>
       <p class="text-gray-700 text-lg leading-relaxed">
         Artisans, makers, craft businesses, artists and designers. From natural fibre knitwear to functional homewares.
       </p>
@@ -189,7 +202,7 @@
   </div>
 </section>
 
-<section id="behind-the-scenes" class="py-16 px-4 bg-white">
+<section id="behind-the-scenes" class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
     <figure class="w-full">
       <div class="w-full md:w-[71%] mx-auto">
