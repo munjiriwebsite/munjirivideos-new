@@ -33,9 +33,9 @@
   </script>
 </head>
 
-<body class="bg-linen font-crimson text-gray-800">
+<body class="bg-linen">
  <!-- navbar -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
+<header id="siteHeader" class="fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
       <!-- Logo -->
@@ -290,7 +290,7 @@
 </section>
 <!-- 3 HORIZONTAL PHOTOS -->
  <section class="py-20 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
+  <div class="max-w-6xl mx-auto">
     <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
 
       <div class="relative aspect-video overflow-hidden">
@@ -321,11 +321,22 @@
   </div>
 </section>
 <!-- 4 HORIZONTAL PHOTOS-->
+ <!-- 1 Vertical Photo -->
+  <section class="py-20 px-4">
+  <div class="max-w-3xl mx-auto">
+    <img 
+      src="/src/assets/images/dsc09603-844x1264.jpg"
+      alt="Behind-the-scenes image"
+      class="w-full h-auto object-cover"
+    />
+  </div>
+</section>
+
 <!-- 2 VERTICAL PHOTOS -->
  <section class="py-20 px-4">
   <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
     
-    <!-- Left: Horizontal Image -->
+    <!-- Left -->
     <div class="md:w-1/2">
       <img 
         src="/src/assets/images/dsc09604-1156x1731.jpg" 
@@ -334,7 +345,7 @@
       />
     </div>
 
-    <!-- Right: Vertical Image -->
+    <!-- Right -->
     <div class="md:w-1/2">
       <img 
         src="/src/assets/images/dsc09603-844x1264.jpg" 
@@ -402,7 +413,7 @@
 
 <a
   href="https://www.munjiri.com/index.html"
-  class="text-gray-800 no-underline
+  class="font-semibold text-slate-500 no-underline
          hover:underline hover:decoration-violet-500
          hover:decoration-2 hover:underline-offset-4
          "
