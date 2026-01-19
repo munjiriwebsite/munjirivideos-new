@@ -32,9 +32,9 @@
     gtag('config', 'UA-57585637-2');
   </script>
 </head>
-<body class="bg-linen font-crimson text-gray-800">
-    <!-- NAVBAR -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
+<body class="bg-linen">
+ <!-- navbar -->
+<header id="siteHeader" class="fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
       <!-- Logo -->
@@ -58,21 +58,39 @@
       <nav class="hidden md:flex space-x-6 items-center">
         <a href="video-production-portfolio.html" class="text-gray-800 hover:text-gray-500">Portfolio</a>
 
-        <!-- Dropdown -->
-        <div class="relative group">
-          <button class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center">
-            Works by Focus
-            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div class="text-center absolute left-0 w-48 bg-white opacity-0 group-hover:opacity-100 group-hover:translate-y-1 transform transition-all duration-200 z-10">
-            <a href="creative-video-productions.html" class="mt-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Creativity</a>
-            <a href="charity-video-production.html" class="block px-4 py-2 text-gray-800 hover:text-gray-500">Community</a>
-            <a href="nature-video-production.html" class="mb-4 block px-4 py-2 text-gray-800 hover:text-gray-500">Caring for Nature</a>
-          </div>
-        </div>
+       <div class="relative group">
+  <button
+    class="text-gray-800 hover:text-gray-500 focus:outline-none inline-flex items-center"
+  >
+    Works by Focus
+    <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <!-- Dropdown -->
+  <div
+    class="absolute left-0 top-full w-48 bg-linen text-center
+           opacity-0 invisible pointer-events-none
+           group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto
+           transition-opacity duration-200 z-10"
+  >
+    <a href="creative-video-productions.html"
+       class="block px-4 pt-4 py-2 text-gray-800 hover:text-gray-500">
+      Creativity
+    </a>
+    <a href="charity-video-production.html"
+       class="block px-4 py-2 text-gray-800 hover:text-gray-500">
+      Community
+    </a>
+    <a href="nature-video-production.html"
+       class="block px-4 pb-4 py-2 text-gray-800 hover:text-gray-500">
+      Caring for Nature
+    </a>
+  </div>
+</div>
+
 
         <a href="index.html#about" class="text-gray-800 hover:text-gray-500">About</a>
         <a href="blog.html" class="text-gray-800 hover:text-gray-500">Blog</a>
