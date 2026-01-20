@@ -48,7 +48,6 @@ export default defineConfig({
         socialmediavideoproduction: path.resolve(__dirname, 'social-media-video-production.html'),
         socialmediaforcharity: path.resolve(__dirname, 'social-media-for-charity.html'),
         socialmediavideoideas: path.resolve(__dirname, 'social-media-video-ideas.html'),
-        socialmediavideoproduction: path.resolve(__dirname, 'social-media-video-production.html'),
         socialmediavideography: path.resolve(__dirname, 'social-media-videography.html'),
         souldesignjewellerymunjirivideos: path.resolve(__dirname, 'soul-design-jewellery-munjiri-videos.html'),
         sourfigjamrecipe: path.resolve(__dirname, 'sour-fig-jam-recipe.html'),
