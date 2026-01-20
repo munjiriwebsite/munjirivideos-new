@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 1. Your homepage -->
+  <url>
+    <loc>https://munjiri.com/</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 2. Portfolio -->
+  <url>
+    <loc>https://munjiri.com/video-production-portfolio</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+    <!-- 3. Creative Video Productions -->
+  <url>
+    <loc>https://munjiri.com/creative-video-productions</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+      <!-- 4. Charity Video Production -->
+  <url>
+    <loc>https://munjiri.com/charity-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+    <!-- 5. Nature Video Production -->
+  <url>
+    <loc>https://munjiri.com/nature-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+      <!-- 6. Blog  -->
+  <url>
+    <loc>https://munjiri.com/blog</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+      <!-- 7. Services -->
+  <url>
+    <loc>https://munjiri.com/video-content-packages</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+     <!-- 8. Contact -->
+  <url>
+    <loc>https://munjiri.com/contact</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+
+
+
+
+  <!-- …add more URLs here… -->
+
+</urlset>

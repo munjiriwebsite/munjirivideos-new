@@ -1,3 +1,17 @@
+######################
+# Build Settings
+######################
+
 [build]
   command = "npm run build"
   publish = "dist"
+
+######################
+# Redirect Rules
+######################
+
+[[redirects]]
+  from = "https://www.munjiri.com/"
+  to = "https://munjiri.com/"
+  status = 301
+  force = true
