@@ -1,24 +1,3 @@
 [build]
   command = "npm run build"
   publish = "dist"
-
-# Pretty URLs: redirect .html to clean URLs
-[[redirects]]
-  from = "/:page.html"
-  to = "/:page"
-  status = 301
-  force = true
-
-# Ensure www redirects to root domain (SEO best practice)
-[[redirects]]
-  from = "https://www.munjiri.com/*"
-  to = "https://munjiri.com/:splat"
-  status = 301
-  force = true
-
-# Optional: catch trailing slashes if needed
-[[redirects]]
-  from = "/:page/"
-  to = "/:page"
-  status = 301
-  force = false
