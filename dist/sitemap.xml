@@ -6,7 +6,7 @@
   <url>
     <loc>https://munjiri.com/</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
 
@@ -14,7 +14,7 @@
   <url>
     <loc>https://munjiri.com/video-production-portfolio</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
@@ -22,7 +22,7 @@
   <url>
     <loc>https://munjiri.com/creative-video-productions</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
@@ -30,7 +30,7 @@
   <url>
     <loc>https://munjiri.com/charity-video-production</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
@@ -38,7 +38,7 @@
   <url>
     <loc>https://munjiri.com/nature-video-production</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
@@ -46,7 +46,7 @@
   <url>
     <loc>https://munjiri.com/blog</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
 
@@ -54,7 +54,7 @@
   <url>
     <loc>https://munjiri.com/video-content-packages</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
@@ -62,13 +62,473 @@
   <url>
     <loc>https://munjiri.com/contact</loc>
     <lastmod>2026-01-20</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
+     <!-- 9. African Bat Conservation Munjiri Videos -->
+  <url>
+    <loc>https://munjiri.com/african-bat-conservation-munjiri-videos</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
 
+       <!-- 10. Brand Story Video Guide -->
+  <url>
+    <loc>https://munjiri.com/brand-story-video-guide</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
 
+       <!-- 11. Brand Video Production -->
+  <url>
+    <loc>https://munjiri.com/brand-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
 
+       <!-- 12. Brand Videos -->
+  <url>
+    <loc>https://munjiri.com/brand-videos</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 13. Charity Videographer -->
+  <url>
+    <loc>https://munjiri.com/charity-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 14. Charleston House -->
+  <url>
+    <loc>https://munjiri.com/charleston-house</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 15. Coimbra Video Production -->
+  <url>
+    <loc>https://munjiri.com/coimbra-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 16. Collingwood Norris Knitwear Munjiri Videos -->
+  <url>
+    <loc>https://munjiri.com/collingwood-norris-knitwear-munjiri-videos</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 17. Common Mistakes Social Media Video Production -->
+  <url>
+    <loc>https://munjiri.com/common-mistakes-social-media-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 18. Dehye Collective Cape Town -->
+  <url>
+    <loc>https://munjiri.com/dehye-collective-cape-town</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 19. Drone Videographer Portugal -->
+  <url>
+    <loc>https://munjiri.com/drone-videographer-portugal</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 20. Drone Videographer -->
+  <url>
+    <loc>https://munjiri.com/drone-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 21. Editor Videographer -->
+  <url>
+    <loc>https://munjiri.com/editor-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 22. Event Video Production -->
+  <url>
+    <loc>https://munjiri.com/event-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 23. How To Be More Confident On Camera -->
+  <url>
+    <loc>https://munjiri.com/how-to-be-more-confident-on-camera</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 24. How To Create a Storytelling Video -->
+  <url>
+    <loc>https://munjiri.com/how-to-create-a-storytelling-video</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 25. How To Optimize Youtube Videos For SEO -->
+  <url>
+    <loc>https://munjiri.com/how-to-optimize-youtube-videos-for-seo</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 26. How To Plan Successful Video Content -->
+  <url>
+    <loc>https://munjiri.com/how-to-plan-successful-video-content</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 27. How To Tell An Engaging Video Story -->
+  <url>
+    <loc>https://munjiri.com/how-to-tell-an-engaging-video-story</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 28. kate Ray Guided Wellbeing -->
+  <url>
+    <loc>https://munjiri.com/kate-ray-guided-wellbeing</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 29. Kew Gardens Palm House -->
+  <url>
+    <loc>https://munjiri.com/kew-gardens-palm-house</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 30. Kgalagadi National Park Travel Guide -->
+  <url>
+    <loc>https://munjiri.com/kgalagadi-national-park-travel-guide</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 31. Learn Video making -->
+  <url>
+    <loc>https://munjiri.com/learn-video-making</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 32. Lisbon Videographer -->
+  <url>
+    <loc>https://munjiri.com/lisbon-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 33. Make Storytelling Video -->
+  <url>
+    <loc>https://munjiri.com/make-storytelling-video</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 34. Mayamiko a Meaningful Wardrobe -->
+  <url>
+    <loc>https://munjiri.com/mayamiko-a-meaningful-wardrobe</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 35. Natasha Minyon Sale The Adorned -->
+  <url>
+    <loc>https://munjiri.com/natasha-minyon-sale-the-adorned</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 36. Nyika national Park Travel Guide -->
+  <url>
+    <loc>https://munjiri.com/nyika-national-park-travel-guide</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 37. Picking Damsons jam Recipe -->
+  <url>
+    <loc>https://munjiri.com/picking-damsons-jam-recipe</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 38. Product Video Production -->
+  <url>
+    <loc>https://munjiri.com/product-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 39. Social Impact Video Production -->
+  <url>
+    <loc>https://munjiri.com/social-impact-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 40. Social Media For Charity -->
+  <url>
+    <loc>https://munjiri.com/social-media-for-charity</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 41. Social Media Video Ideas -->
+  <url>
+    <loc>https://munjiri.com/social-media-video-ideas</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 42. Social Media Video production -->
+  <url>
+    <loc>https://munjiri.com/social-media-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+       <!-- 43. Social Media Videography -->
+  <url>
+    <loc>https://munjiri.com/social-media-videography</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 44. Soul Design Jewellery Munjiri Videos -->
+  <url>
+    <loc>https://munjiri.com/soul-design-jewellery-munjiri-videos</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 45. Sour Fig Jam Recipe -->
+  <url>
+    <loc>https://munjiri.com/sour-fig-jam-recipe</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 46. Sustainable Video Production -->
+  <url>
+    <loc>https://munjiri.com/sustainable-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 47. The Best Way To Upload Videos On Youtube -->
+  <url>
+    <loc>https://munjiri.com/the-best-way-to-upload-videos-on-youtube</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 48. Travel Video Production -->
+  <url>
+    <loc>https://munjiri.com/travel-video-production</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 49. UK Videographer -->
+  <url>
+    <loc>https://munjiri.com/uk-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 50. Video Advice Composition -->
+  <url>
+    <loc>https://munjiri.com/video-advice-composition</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 51. Video Advice Natural Light -->
+  <url>
+    <loc>https://munjiri.com/video-advice-natural-light</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 52. Video Production Cape Town -->
+  <url>
+    <loc>https://munjiri.com/video-production-cape-town</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 53. Video Production For Non Profit Questions -->
+  <url>
+    <loc>https://munjiri.com/video-production-for-non-profit-questions</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 54. Video Production For Sustainable Brands -->
+  <url>
+    <loc>https://munjiri.com/video-production-for-sustainable-brands</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 55. Video Production Portugal -->
+  <url>
+    <loc>https://munjiri.com/video-production-portugal</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 56. Video Production South Africa -->
+  <url>
+    <loc>https://munjiri.com/video-production-south-africa</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 57. Videographer Portugal Cost -->
+  <url>
+    <loc>https://munjiri.com/videographer-portugal-cost</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 58. Videographer Portugal -->
+  <url>
+    <loc>https://munjiri.com/videographer-portugal</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 59. Videographer South Africa -->
+  <url>
+    <loc>https://munjiri.com/videographer-south-africa</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 60. Wandering The Cederberg -->
+  <url>
+    <loc>https://munjiri.com/wandering-the-cederberg</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 61. Wedding Videographer portugal -->
+  <url>
+    <loc>https://munjiri.com/wedding-videographer-portugal</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 62. Why Charities Need Videography -->
+  <url>
+    <loc>https://munjiri.com/why-charities-need-videography</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 63. Why Is Video marketing Effective -->
+  <url>
+    <loc>https://munjiri.com/why-is-video-marketing-effective</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 64. Wildlife Videography -->
+  <url>
+    <loc>https://munjiri.com/Wildlife-videography</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 65. Woman Videographer -->
+  <url>
+    <loc>https://munjiri.com/woman-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+         <!-- 66. Yoga Videographer -->
+  <url>
+    <loc>https://munjiri.com/yoga-videographer</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
+  </url>
 
   <!-- …add more URLs here… -->
 
