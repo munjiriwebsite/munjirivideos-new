@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -508,7 +509,7 @@
 
          <!-- 64. Wildlife Videography -->
   <url>
-    <loc>https://munjiri.com/Wildlife-videography</loc>
+    <loc>https://munjiri.com/wildlife-videography</loc>
     <lastmod>2026-01-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>

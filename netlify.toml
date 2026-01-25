@@ -10,8 +10,34 @@
 # Redirect Rules
 ######################
 
+# --------------------------------
+# Force HTTPS + non-www canonical
+# --------------------------------
+
 [[redirects]]
-  from = "https://www.munjiri.com/"
-  to = "https://munjiri.com/"
+  from = "http://www.munjiri.com/*"
+  to = "https://munjiri.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.munjiri.com/*"
+  to = "https://munjiri.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://munjiri.com/*"
+  to = "https://munjiri.com/:splat"
+  status = 301
+  force = true
+
+# --------------------------------
+# Remove .html from URLs
+# --------------------------------
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
   status = 301
   force = true
