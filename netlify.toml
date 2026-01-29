@@ -11,12 +11,6 @@
 ######################
 
 [[redirects]]
-  from = "/:splat.html"
-  to = "/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/munjiri-caring-for-nature-films.html"
   to = "/nature-video-production"
   status = 301
