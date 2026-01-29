@@ -11,7 +11,49 @@
 ######################
 
 [[redirects]]
-  from = "/*.html"
+  from = "/:splat.html"
   to = "/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://munjiri.com/*"
+  to = "https://www.munjiri.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/munjiri-caring-for-nature-films.html"
+  to = "/nature-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/munjiri-creativity-films.html"
+  to = "/creative-video-productions"
+  status = 301
+
+[[redirects]]
+  from = "/munjiri-community-films.html"
+  to = "/social-impact-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/videography-services-in-portugal.html"
+  to = "/videographer-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/foraging-damsons-jam-recipe.html"
+  to = "/picking-damsons-jam-recipe"
+  status = 301
+
+[[redirects]]
+  from = "/page55.html"
+  to = "/410"
+  status = 410
+
+[[redirects]]
+  from = "/page56.html"
+  to = "/410"
+  status = 410
+

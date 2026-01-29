@@ -79,7 +79,7 @@ html {
   }
 
   h4 {
-    @apply font-crimson text-xl md:text-2xl font-medium;
+    @apply font-crimson text-lg md:text-xl font-medium;
   }
 
   h5 {
