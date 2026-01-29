@@ -11,6 +11,331 @@
 ######################
 
 [[redirects]]
+  from = "/video-production-portfolio.html"
+  to = "/video-production-portfolio"
+  status = 301
+
+[[redirects]]
+  from = "/creative-video-productions.html"
+  to = "/creative-video-productions"
+  status = 301
+
+[[redirects]]
+  from = "/charity-video-production.html"
+  to = "/charity-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/nature-video-production.html"
+  to = "/nature-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog"
+  status = 301
+
+[[redirects]]
+  from = "/video-content-packages.html"
+  to = "/video-content-packages"
+  status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/african-bat-conservation-munjiri-videos.html"
+  to = "/african-bat-conservation-munjiri-videos"
+  status = 301
+
+[[redirects]]
+  from = "/brand-story-video-guide.html"
+  to = "/brand-story-video-guide"
+  status = 301
+
+[[redirects]]
+  from = "/brand-video-production.html"
+  to = "/brand-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/brand-videos.html"
+  to = "/brand-videos"
+  status = 301
+
+[[redirects]]
+  from = "/charity-videographer.html"
+  to = "/charity-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/charleston-house.html"
+  to = "/charleston-house"
+  status = 301
+
+[[redirects]]
+  from = "/coimbra-video-production.html"
+  to = "/coimbra-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/collingwood-norris-knitwear-munjiri-videos.html"
+  to = "/collingwood-norris-knitwear-munjiri-videos"
+  status = 301
+
+[[redirects]]
+  from = "/common-mistakes-social-media-video-production.html"
+  to = "/common-mistakes-social-media-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/dehye-collective-cape-town.html"
+  to = "/dehye-collective-cape-town"
+  status = 301
+
+[[redirects]]
+  from = "/drone-videographer-portugal.html"
+  to = "/drone-videographer-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/drone-videographer.html"
+  to = "/drone-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/editor-videographer.html"
+  to = "/editor-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/event-video-production.html"
+  to = "/event-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-be-more-confident-on-camera.html"
+  to = "/how-to-be-more-confident-on-camera"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-create-a-storytelling-video.html"
+  to = "/how-to-create-a-storytelling-video"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-optimize-youtube-videos-for-seo.html"
+  to = "/how-to-optimize-youtube-videos-for-seo"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-plan-successful-video-content.html"
+  to = "/how-to-plan-successful-video-content"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-tell-an-engaging-video-story.html"
+  to = "/how-to-tell-an-engaging-video-story"
+  status = 301
+
+[[redirects]]
+  from = "/kate-ray-guided-wellbeing.html"
+  to = "/kate-ray-guided-wellbeing"
+  status = 301
+
+[[redirects]]
+  from = "/kew-gardens-palm-house.html"
+  to = "/kew-gardens-palm-house"
+  status = 301
+
+[[redirects]]
+  from = "/kgalagadi-national-park-travel-guide.html"
+  to = "/kgalagadi-national-park-travel-guide"
+  status = 301
+
+[[redirects]]
+  from = "/learn-video-making.html"
+  to = "/learn-video-making"
+  status = 301
+
+[[redirects]]
+  from = "/lisbon-videographer.html"
+  to = "/lisbon-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/make-storytelling-video.html"
+  to = "/make-storytelling-video"
+  status = 301
+
+[[redirects]]
+  from = "/mayamiko-a-meaningful-wardrobe.html"
+  to = "/mayamiko-a-meaningful-wardrobe"
+  status = 301
+
+[[redirects]]
+  from = "/natasha-minyon-sale-the-adorned.html"
+  to = "/natasha-minyon-sale-the-adorned"
+  status = 301
+
+[[redirects]]
+  from = "/nyika-national-park-travel-guide.html"
+  to = "/nyika-national-park-travel-guide"
+  status = 301
+
+[[redirects]]
+  from = "/picking-damsons-jam-recipe.html"
+  to = "/picking-damsons-jam-recipe"
+  status = 301
+
+[[redirects]]
+  from = "/product-video-production.html"
+  to = "/product-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/social-impact-video-production.html"
+  to = "/social-impact-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-for-charity.html"
+  to = "/social-media-for-charity"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-video-ideas.html"
+  to = "/social-media-video-ideas"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-video-production.html"
+  to = "/social-media-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-videography.html"
+  to = "/social-media-videography"
+  status = 301
+
+[[redirects]]
+  from = "/soul-design-jewellery-munjiri-videos.html"
+  to = "/soul-design-jewellery-munjiri-videos"
+  status = 301
+
+[[redirects]]
+  from = "/sour-fig-jam-recipe.html"
+  to = "/sour-fig-jam-recipe"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-video-production.html"
+  to = "/sustainable-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/the-best-way-to-upload-videos-on-youtube.html"
+  to = "/the-best-way-to-upload-videos-on-youtube"
+  status = 301
+
+[[redirects]]
+  from = "/travel-video-production.html"
+  to = "/travel-video-production"
+  status = 301
+
+[[redirects]]
+  from = "/uk-videographer.html"
+  to = "/uk-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/video-advice-composition.html"
+  to = "/video-advice-composition"
+  status = 301
+
+[[redirects]]
+  from = "/video-advice-natural-light.html"
+  to = "/video-advice-natural-light"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-cape-town.html"
+  to = "/video-production-cape-town"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-for-non-profit-questions.html"
+  to = "/video-production-for-non-profit-questions"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-for-sustainable-brands.html"
+  to = "/video-production-for-sustainable-brands"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-portugal.html"
+  to = "/video-production-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-south-africa.html"
+  to = "/video-production-south-africa"
+  status = 301
+
+[[redirects]]
+  from = "/videographer-portugal-cost.html"
+  to = "/videographer-portugal-cost"
+  status = 301
+
+[[redirects]]
+  from = "/videographer-portugal.html"
+  to = "/videographer-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/videographer-south-africa.html"
+  to = "/videographer-south-africa"
+  status = 301
+
+[[redirects]]
+  from = "/wandering-the-cederberg.html"
+  to = "/wandering-the-cederberg"
+  status = 301
+
+[[redirects]]
+  from = "/wedding-videographer-portugal.html"
+  to = "/wedding-videographer-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/why-charities-need-videography.html"
+  to = "/why-charities-need-videography"
+  status = 301
+
+[[redirects]]
+  from = "/why-is-video-marketing-effective.html"
+  to = "/why-is-video-marketing-effective"
+  status = 301
+
+[[redirects]]
+  from = "/wildlife-videography.html"
+  to = "/wildlife-videography"
+  status = 301
+
+[[redirects]]
+  from = "/woman-videographer.html"
+  to = "/woman-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/yoga-videographer.html"
+  to = "/yoga-videographer"
+  status = 301
+
+[[redirects]]
   from = "/munjiri-caring-for-nature-films.html"
   to = "/nature-video-production"
   status = 301
