@@ -11,43 +11,13 @@
 ######################
 
 [[redirects]]
-  from = "/video-production-portfolio.html"
-  to = "/video-production-portfolio"
-  status = 301
-
-[[redirects]]
-  from = "/creative-video-productions.html"
-  to = "/creative-video-productions"
-  status = 301
-
-[[redirects]]
-  from = "/charity-video-production.html"
-  to = "/charity-video-production"
-  status = 301
-
-[[redirects]]
-  from = "/nature-video-production.html"
-  to = "/nature-video-production"
+  from = "/african-bat-conservation-munjiri-videos.html"
+  to = "/african-bat-conservation-munjiri-videos"
   status = 301
 
 [[redirects]]
   from = "/blog.html"
   to = "/blog"
-  status = 301
-
-[[redirects]]
-  from = "/video-content-packages.html"
-  to = "/video-content-packages"
-  status = 301
-
-[[redirects]]
-  from = "/contact.html"
-  to = "/contact"
-  status = 301
-
-[[redirects]]
-  from = "/african-bat-conservation-munjiri-videos.html"
-  to = "/african-bat-conservation-munjiri-videos"
   status = 301
 
 [[redirects]]
@@ -57,12 +27,12 @@
 
 [[redirects]]
   from = "/brand-video-production.html"
-  to = "/brand-video-production"
+  to = "/brand-videographer"
   status = 301
 
 [[redirects]]
-  from = "/brand-videos.html"
-  to = "/brand-videos"
+  from = "/brand-video-production"
+  to = "/brand-videographer"
   status = 301
 
 [[redirects]]
@@ -77,7 +47,12 @@
 
 [[redirects]]
   from = "/coimbra-video-production.html"
-  to = "/coimbra-video-production"
+  to = "/coimbra-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/coimbra-video-production"
+  to = "/coimbra-videographer"
   status = 301
 
 [[redirects]]
@@ -89,6 +64,22 @@
   from = "/common-mistakes-social-media-video-production.html"
   to = "/common-mistakes-social-media-video-production"
   status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/creative-video-productions.html"
+  to = "/creative-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/creative-video-productions"
+  to = "/creative-videographer"
+  status = 301
+
 
 [[redirects]]
   from = "/dehye-collective-cape-town.html"
@@ -112,32 +103,17 @@
 
 [[redirects]]
   from = "/event-video-production.html"
-  to = "/event-video-production"
+  to = "/event-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/event-video-production"
+  to = "/event-videographer"
   status = 301
 
 [[redirects]]
   from = "/how-to-be-more-confident-on-camera.html"
   to = "/how-to-be-more-confident-on-camera"
-  status = 301
-
-[[redirects]]
-  from = "/how-to-create-a-storytelling-video.html"
-  to = "/how-to-create-a-storytelling-video"
-  status = 301
-
-[[redirects]]
-  from = "/how-to-optimize-youtube-videos-for-seo.html"
-  to = "/how-to-optimize-youtube-videos-for-seo"
-  status = 301
-
-[[redirects]]
-  from = "/how-to-plan-successful-video-content.html"
-  to = "/how-to-plan-successful-video-content"
-  status = 301
-
-[[redirects]]
-  from = "/how-to-tell-an-engaging-video-story.html"
-  to = "/how-to-tell-an-engaging-video-story"
   status = 301
 
 [[redirects]]
@@ -151,11 +127,6 @@
   status = 301
 
 [[redirects]]
-  from = "/kgalagadi-national-park-travel-guide.html"
-  to = "/kgalagadi-national-park-travel-guide"
-  status = 301
-
-[[redirects]]
   from = "/learn-video-making.html"
   to = "/learn-video-making"
   status = 301
@@ -166,11 +137,6 @@
   status = 301
 
 [[redirects]]
-  from = "/make-storytelling-video.html"
-  to = "/make-storytelling-video"
-  status = 301
-
-[[redirects]]
   from = "/mayamiko-a-meaningful-wardrobe.html"
   to = "/mayamiko-a-meaningful-wardrobe"
   status = 301
@@ -178,6 +144,16 @@
 [[redirects]]
   from = "/natasha-minyon-sale-the-adorned.html"
   to = "/natasha-minyon-sale-the-adorned"
+  status = 301
+
+[[redirects]]
+  from = "/nature-video-production.html"
+  to = "/nature-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/nature-video-production"
+  to = "/nature-videographer"
   status = 301
 
 [[redirects]]
@@ -192,17 +168,12 @@
 
 [[redirects]]
   from = "/product-video-production.html"
-  to = "/product-video-production"
+  to = "/product-videographer"
   status = 301
 
 [[redirects]]
-  from = "/social-impact-video-production.html"
-  to = "/social-impact-video-production"
-  status = 301
-
-[[redirects]]
-  from = "/social-media-for-charity.html"
-  to = "/social-media-for-charity"
+  from = "/product-video-production"
+  to = "/product-videographer"
   status = 301
 
 [[redirects]]
@@ -212,12 +183,22 @@
 
 [[redirects]]
   from = "/social-media-video-production.html"
-  to = "/social-media-video-production"
+  to = "/social-media-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-video-production"
+  to = "/social-media-videographer"
   status = 301
 
 [[redirects]]
   from = "/social-media-videography.html"
-  to = "/social-media-videography"
+  to = "/social-media-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/social-media-videography"
+  to = "/social-media-videographer"
   status = 301
 
 [[redirects]]
@@ -231,18 +212,18 @@
   status = 301
 
 [[redirects]]
-  from = "/sustainable-video-production.html"
-  to = "/sustainable-video-production"
-  status = 301
-
-[[redirects]]
   from = "/the-best-way-to-upload-videos-on-youtube.html"
   to = "/the-best-way-to-upload-videos-on-youtube"
   status = 301
 
 [[redirects]]
   from = "/travel-video-production.html"
-  to = "/travel-video-production"
+  to = "/travel-videographer"
+  status = 301
+
+[[redirects]]
+  from = "/travel-video-production"
+  to = "/travel-videographer"
   status = 301
 
 [[redirects]]
@@ -261,29 +242,54 @@
   status = 301
 
 [[redirects]]
+  from = "/video-content-packages.html"
+  to = "/video-content-packages"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-portfolio.html"
+  to = "/video-production-portfolio"
+  status = 301
+
+[[redirects]]
   from = "/video-production-cape-town.html"
-  to = "/video-production-cape-town"
+  to = "/videographer-cape-town"
   status = 301
 
 [[redirects]]
-  from = "/video-production-for-non-profit-questions.html"
-  to = "/video-production-for-non-profit-questions"
+  from = "/video-production-cape-town"
+  to = "/videographer-cape-town"
+  status = 301  
+
+[[redirects]]
+  from = "/video-production-kenya.html"
+  to = "/videographer-kenya"
   status = 301
 
 [[redirects]]
-  from = "/video-production-for-sustainable-brands.html"
-  to = "/video-production-for-sustainable-brands"
+  from = "/video-production-kenya"
+  to = "/videographer-kenya"
   status = 301
 
 [[redirects]]
   from = "/video-production-portugal.html"
-  to = "/video-production-portugal"
+  to = "/videographer-portugal"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-portugal"
+  to = "/videographer-portugal"
   status = 301
 
 [[redirects]]
   from = "/video-production-south-africa.html"
-  to = "/video-production-south-africa"
+  to = "/videographer-south-africa"
   status = 301
+
+ [[redirects]]
+  from = "/video-production-south-africa"
+  to = "/videographer-south-africa"
+  status = 301 
 
 [[redirects]]
   from = "/videographer-portugal-cost.html"
@@ -308,21 +314,6 @@
 [[redirects]]
   from = "/wedding-videographer-portugal.html"
   to = "/wedding-videographer-portugal"
-  status = 301
-
-[[redirects]]
-  from = "/why-charities-need-videography.html"
-  to = "/why-charities-need-videography"
-  status = 301
-
-[[redirects]]
-  from = "/why-is-video-marketing-effective.html"
-  to = "/why-is-video-marketing-effective"
-  status = 301
-
-[[redirects]]
-  from = "/wildlife-videography.html"
-  to = "/wildlife-videography"
   status = 301
 
 [[redirects]]
@@ -370,3 +361,82 @@
   to = "/410"
   status = 410
 
+[[redirects]]
+  from = "/wildlife-videography.html"
+  to = "/410"
+  status = 410
+
+[[redirects]]
+  from = "/why-is-video-marketing-effective.html"
+  to = "/410"
+  status = 410
+
+[[redirects]]
+  from = "/why-charities-need-videography.html"
+  to = "/410"
+  status = 410
+
+[[redirects]]
+  from = "/video-production-for-sustainable-brands.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/video-production-for-non-profit-questions.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/sustainable-video-production.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/social-media-for-charity.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/social-impact-video-production.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/make-storytelling-video.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/kgalagadi-national-park-travel-guide.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/how-to-tell-an-engaging-video-story.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/how-to-plan-successful-video-content.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/how-to-optimize-youtube-videos-for-seo.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/how-to-create-a-storytelling-video.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/brand-videos.html"
+  to = "/410"
+  status = 401
+
+[[redirects]]
+  from = "/charity-video-production.html"
+  to = "/410"
+  status = 401

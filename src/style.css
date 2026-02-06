@@ -67,15 +67,15 @@ html {
   }
 
   h1 {
-    @apply font-crimson font-bold text-xl md:text-2xl leading-tight;
+    @apply font-crimson font-bold text-xl md:text-2xl;
   }
 
   h2 {
-    @apply font-crimson font-bold text-lg md:text-xl leading-tight;
+    @apply font-crimson text-lg md:text-xl;
   }
 
   h3 {
-    @apply font-crimson font-semibold text-lg md:text-xl;
+    @apply font-crimson text-lg;
   }
 
   h4 {
