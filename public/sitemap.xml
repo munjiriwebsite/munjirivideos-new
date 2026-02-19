@@ -27,14 +27,6 @@
     <priority>0.80</priority>
   </url>
 
-      <!-- 6. Blog  -->
-  <url>
-    <loc>https://www.munjiri.com/blog</loc>
-    <lastmod>2026-02-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
       <!-- 7. Services -->
   <url>
     <loc>https://www.munjiri.com/video-content-packages</loc>
@@ -55,6 +47,22 @@
   <url>
     <loc>https://www.munjiri.com/african-bat-conservation-munjiri-videos</loc>
     <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+     <!-- Behind the Scenes Videography South Africa -->
+  <url>
+    <loc>https://www.munjiri.com/behind-the-scenes-videography-south-africa</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+        <!-- Blog  -->
+  <url>
+    <loc>https://www.munjiri.com/blog</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -155,6 +163,14 @@
     <priority>0.50</priority>
   </url>
 
+     <!-- How to Edit Videos for Social Media -->
+  <url>
+    <loc>https://www.munjiri.com/how-to-edit-videos-for-social-media</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
        <!-- 28. kate Ray Guided Wellbeing -->
   <url>
     <loc>https://www.munjiri.com/kate-ray-guided-wellbeing</loc>
@@ -223,6 +239,14 @@
   <url>
     <loc>https://www.munjiri.com/product-videographer</loc>
     <lastmod>2026-02-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+     <!-- Questions to Ask a videographer portugal -->
+  <url>
+    <loc>https://www.munjiri.com/questions-to-ask-a-videographer-portugal</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
