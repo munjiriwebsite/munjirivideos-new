@@ -133,7 +133,12 @@
 
 [[redirects]]
   from = "/lisbon-videographer.html"
-  to = "/lisbon-videographer"
+  to = "/videographer-lisbon"
+  status = 301
+
+[[redirects]]
+  from = "/lisbon-videographer"
+  to = "/videographer-lisbon"
   status = 301
 
 [[redirects]]
