@@ -356,92 +356,129 @@
   to = "/picking-damsons-jam-recipe"
   status = 301
 
+# Remove old creative videographer page permanently
+[[redirects]]
+  from = "/creative-videographer"
+  to = "/"
+  status = 410
+  force = true
+
 [[redirects]]
   from = "/page55.html"
-  to = "/410"
+  to = "/"
   status = 410
+  force = true
 
 [[redirects]]
   from = "/page56.html"
-  to = "/410"
+  to = "/"
   status = 410
+  force = true
 
 [[redirects]]
   from = "/wildlife-videography.html"
-  to = "/410"
+   to = "/"
   status = 410
+  force = true
 
 [[redirects]]
   from = "/why-is-video-marketing-effective.html"
-  to = "/410"
+  to = "/"
   status = 410
+  force = true
 
 [[redirects]]
   from = "/why-charities-need-videography.html"
-  to = "/410"
+   to = "/"
   status = 410
+  force = true
 
 [[redirects]]
   from = "/video-production-for-sustainable-brands.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/video-production-for-non-profit-questions.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/sustainable-video-production.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/social-media-for-charity.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/social-impact-video-production.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/make-storytelling-video.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/kgalagadi-national-park-travel-guide.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/how-to-tell-an-engaging-video-story.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/the-best-way-to-upload-videos-on-youtube"
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/how-to-plan-successful-video-content.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/how-to-optimize-youtube-videos-for-seo.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/how-to-create-a-storytelling-video.html"
-  to = "/410"
-  status = 401
+  to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/brand-videos.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
 
 [[redirects]]
   from = "/charity-video-production.html"
-  to = "/410"
-  status = 401
+   to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/social-impact-video-production"
+   to = "/"
+  status = 410
+  force = true
