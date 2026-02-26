@@ -6,7 +6,7 @@
   <!-- 1. Your homepage -->
   <url>
     <loc>https://www.munjiri.com/</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -14,7 +14,7 @@
   <!-- 2. Portfolio -->
   <url>
     <loc>https://www.munjiri.com/video-production-portfolio</loc>
-    <lastmod>2026-02-25</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -78,7 +78,7 @@
        <!-- 13. Charity Videographer -->
   <url>
     <loc>https://www.munjiri.com/charity-videographer</loc>
-    <lastmod>2026-02-03</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -113,6 +113,14 @@
     <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
+  </url>
+
+         <!-- 17. Common Mistakes Social Media Video Production -->
+  <url>
+    <loc>https://www.munjiri.com/creative-videographer</loc>
+    <lastmod>2026-02-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
 
        <!-- 18. Dehye Collective Cape Town -->
@@ -190,7 +198,7 @@
        <!-- 31. Learn Video making -->
   <url>
     <loc>https://www.munjiri.com/learn-video-making</loc>
-    <lastmod>2026-02-03</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -278,7 +286,7 @@
          <!-- 44. Soul Design Jewellery Munjiri Videos -->
   <url>
     <loc>https://www.munjiri.com/soul-design-jewellery-munjiri-videos</loc>
-    <lastmod>2026-02-03</lastmod>
+    <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

@@ -9,7 +9,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, 'index.html'),
         portfolio: path.resolve(__dirname, 'video-production-portfolio.html'),
-        creativevideoproductions: path.resolve(__dirname, 'creative-videographer.html'),
+        creativevideographer: path.resolve(__dirname, 'creative-videographer.html'),
         charityvideoproduction: path.resolve(__dirname, 'charity-videographer.html'),
         naturevideoproduction: path.resolve(__dirname, 'nature-videographer.html'),
         blog: path.resolve(__dirname, 'blog.html'),

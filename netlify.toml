@@ -338,7 +338,7 @@
 
 [[redirects]]
   from = "/munjiri-creativity-films.html"
-  to = "/creative-video-productions"
+  to = "/creative-videographer"
   status = 301
 
 [[redirects]]
@@ -356,12 +356,7 @@
   to = "/picking-damsons-jam-recipe"
   status = 301
 
-# Remove old creative videographer page permanently
-[[redirects]]
-  from = "/creative-videographer"
-  to = "/"
-  status = 410
-  force = true
+# Remove old page permanently
 
 [[redirects]]
   from = "/page55.html"
