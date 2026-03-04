@@ -33,12 +33,12 @@
     gtag('js', new Date());
     gtag('config', 'UA-57585637-2');
   </script>
-  <script type="module" crossorigin src="/assets/main-6owguYVU.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-BfybyD20.css">
+  <script type="module" crossorigin src="/assets/main-BUw58u1x.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BlCqKuba.css">
 </head>
 <!-- End of Head, Start of Body -->
 <body class="bg-linen font-crimson text-gray-800">
-    <!-- navbar -->
+     <!-- navbar -->
 <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
@@ -48,55 +48,79 @@
           <img src="/assets/munjiri-take-two-C05UZ0f_.gif" alt="Munjiri Videos" class="h-20 transition-all duration-300" id="logoImg" loading="eager">
         </a>
       </div>
+   <!-- Hamburger -->
+<div class="flex items-center md:hidden pr-2">
+  <button id="navToggleBtn"
+    class="text-gray-800 focus:outline-none z-50 relative"
+    aria-label="Toggle navigation menu">
+    <!-- Hamburger icon -->
+    <svg id="hamburgerIcon" class="h-7 w-7 transition-transform duration-300"
+      fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+  </button>
+</div>
+<!-- Overlay -->
+<div id="navOverlay"
+  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
+</div>
+<!-- Slide Menu -->
+<div id="mobileNav"
+  class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl
+         transform translate-x-full
+         transition-transform duration-300 ease-in-out
+         z-50">
+  <!-- Close button -->
+  <div class="absolute top-8 right-6">
+    <button id="navCloseBtn"
+      class="text-gray-800 focus:outline-none"
+      aria-label="Close menu">
 
-       <!-- Hamburger (mobile) -->
-      <div class="flex items-center md:hidden">
-        <button id="navToggleBtn" class="text-gray-800 focus:outline-none" aria-label="Toggle navigation menu">
-          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </div>
+      <svg class="h-7 w-7"
+        fill="none" stroke="currentColor" viewBox="0 0 24 24">
 
+        <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 6l12 12M6 18L18 6"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Links -->
+  <div class="pt-28 px-6 space-y-6">
+    <a href="/video-production-portfolio" class="block text-lg text-gray-800">Portfolio</a>
+    <a href="/video-content-packages" class="block text-lg text-gray-800">Services</a>
+    <a href="/locations" class="block text-lg text-gray-800">Locations</a>
+    <a href="/blog" class="block text-lg text-gray-800">Blog</a>
+    <a href="/index#about" class="block text-lg text-gray-800">About</a>
+    <a href="/contact" class="block text-lg text-gray-800">Contact</a>
+  </div>
+</div>
       <!-- Nav links -->
       <nav class="hidden md:flex space-x-6 items-center">
         <a href="/video-production-portfolio" class="text-gray-800 hover:text-gray-500">Portfolio</a>
         <a href="/video-content-packages" class="text-gray-800 hover:text-gray-500">Services</a>
         <a href="/locations" class="text-gray-800 hover:text-gray-500">Locations</a>
         <a href="/blog" class="text-gray-800 hover:text-gray-500">Blog</a>
-        <a href="/#about" class="text-gray-800 hover:text-gray-500">About</a>
+        <a href="/index#about" class="text-gray-800 hover:text-gray-500">About</a>
         <a href="/contact" class="text-gray-800 hover:text-gray-500">Contact</a>
       </nav>
-    </div>
-
-    <!-- Mobile Menu -->
-     <div class="md:hidden hidden pt-4 pb-6 space-y-2" id="mobileNav">
-      <a href="/video-production-portfolio" class="block text-gray-800 px-4">Portfolio</a>
-      <a href="/video-content-packages" class="block text-gray-800 px-4">Services</a>
-      <a href="/locations" class="block text-gray-800 px-4">Locations</a>
-      <a href="/blog" class="block text-gray-800 px-4">Blog</a>
-      <a href="/#about" class="block text-gray-800 px-4">About</a>
-      <a href="/contact" class="block text-gray-800 px-4">Contact</a>
     </div>
   </div>
 </header>
 <main class="pt-16">
 
-<section class="mx-auto text-center max-w-4xl px-4 py-12">
+<section class="mx-auto text-center max-w-4xl px-4 py-12 md:py-24">
   <div class="space-y-6">
-    <h1 class="font-semibold tracking-tight">
-      Brand Video Production
+    <h1 class="font-bold tracking-tight">
+      Brand Videographer
     </h1>
 
     <p>
       At <a
-  href="https://www.munjiri.com/index.html"
-  class="font-semibold text-zinc-600 no-underline
-         hover:underline hover:decoration-purple-400
-         hover:decoration-2 hover:underline-offset-2
-         "
->Munjiri Videos</a>, we’re all about helping you tell your story in a way that connects with the people who matter most. Whether you’re a non-profit, an eco-conscious brand, or a creative business, we craft brand videos that speak to your audience and get them to care. With our passion for storytelling and know-how in video production, we make sure your brand stands out and grows in a world full of noise.
+  href="/" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">Munjiri Videos</a>, we’re all about helping you tell your story in a way that connects with the people who matter most. Whether you’re a non-profit, an eco-conscious brand, or a creative business, we craft brand videos that speak to your audience and get them to care. With our passion for storytelling and know-how in video production, we make sure your brand stands out and grows in a world full of noise.
     </p>
   </div>
 </section>
@@ -152,7 +176,7 @@
     <div class="md:w-1/2">
       <img 
         src="/assets/11-1086x1629-n_BBZWYJ.jpg" 
-        alt="Behind-the-scenes horizontal image"
+        alt="Beautiful image of a village brand vifeographer"
         class="w-full h-auto object-cover"
       />
     </div>
@@ -161,7 +185,7 @@
     <div class="md:w-1/2">
       <img 
         src="/assets/showreel-25-876x1311-DFfVnnJp.jpg" 
-        alt="Behind-the-scenes vertical image"
+        alt="Pottery brand being filmed by a videographer"
         class="w-full h-auto object-cover"
       />
     </div>
@@ -228,10 +252,7 @@
           Step 5 – Final Delivery &amp; How to Make the Most of It
         </h3>
         <p>
-          Once you're happy with the final video, we give it to you along with a
-          plan for getting the most out of it. Whether it’s for social media, your
-          website, or anything else, we’ll guide you on how to use your video to
-          reach more people and make a bigger impact.
+          Once you're happy with the final video, we give it to you along with a plan for getting the most out of it. Whether it’s for <a href="/how-to-edit-videos-for-social-media" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">social media</a>, your website, or anything else, we’ll guide you on how to use your video to reach more people and make a bigger impact.
         </p>
       </div>
     </div>
@@ -267,7 +288,7 @@
         </h3>
         <p>
           We work with brands that genuinely care about making a positive impact.
-          Our videos aren’t just about showing off products or services; we focus
+          <a href="/video-production-portfolio" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">Our videos</a> aren’t just about showing off products or services; we focus
           on what really matters—the heart of your brand and the difference you’re
           trying to make. Whether you’re an eco-friendly company, a charity, or an
           artisan business, we craft stories that truly reflect your values.
@@ -306,7 +327,7 @@
         <p>
           We know that no two brands are the same, so we offer video packages tailored
           to your specific goals. Whether you need a brand video for your website,
-          content for social media, or a powerful piece for a global cause, we provide
+          content for <a href="/social-media-videographer" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">social media</a>, or a powerful piece for a global cause, we provide
           solutions that help amplify your message and connect with your audience.
         </p>
       </div>
@@ -321,7 +342,7 @@
     <div class="md:w-1/2">
       <img 
         src="/assets/dsc00808-1086x1626-CmsVvx7b.jpg" 
-        alt="Behind-the-scenes horizontal image"
+        alt="a misty morning filmed by a brand videographer"
         class="w-full h-auto object-cover"
       />
     </div>
@@ -330,7 +351,7 @@
     <div class="md:w-1/2">
       <img 
         src="/assets/dsc04250-626x937-Cbt57MWj.jpg" 
-        alt="Behind-the-scenes vertical image"
+        alt="Finished pottery being filmed by a brand videographer"
         class="w-full h-auto object-cover"
       />
     </div>
@@ -439,7 +460,7 @@
 
     <p>
       Ready to bring your brand’s story to life? Let’s chat at
-      <a href="mailto:katy@munjiri.com" class="underline underline-offset-4">
+      <a href="mailto:katy@munjiri.com" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">
         katy@munjiri.com
       </a>
     </p>
