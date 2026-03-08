@@ -44,6 +44,7 @@ export default {
     "./uk-videographer.html",
     "./video-advice-composition.html",
     "./video-advice-natural-light.html",
+    "./video-storytelling.html",
     "./videographer-cape-town.html",
     "./videographer-kenya.html",
     "./videographer-lisbon.html",

@@ -49,6 +49,7 @@ export default defineConfig({
         ukvideographer: path.resolve(__dirname, 'uk-videographer.html'),
         videoadvicecomposition: path.resolve(__dirname, 'video-advice-composition.html'),
         videoadvicenaturallight: path.resolve(__dirname, 'video-advice-natural-light.html'),
+        videostorytelling: path.resolve(__dirname, 'video-storytelling.html'),
         videoproductioncapetown: path.resolve(__dirname, 'videographer-cape-town.html'),
         videoproductionkenya: path.resolve(__dirname, 'videographer-kenya.html'),
         videographerlisbon: path.resolve(__dirname, 'videographer-lisbon.html'),
