@@ -59,6 +59,7 @@ export default defineConfig({
         videographer: path.resolve(__dirname, 'videographer.html'),
         wanderingthecederberg: path.resolve(__dirname, 'wandering-the-cederberg.html'),
         weddingvideographerportugal: path.resolve(__dirname, 'wedding-videographer-portugal.html'),
+        whatisavideographer: path.resolve(__dirname, 'what-is-a-videographer.html'),
         womanvideographer: path.resolve(__dirname, 'woman-videographer.html'),
         yogavideographer: path.resolve(__dirname, 'yoga-videographer.html'),
       }
