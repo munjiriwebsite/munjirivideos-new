@@ -391,6 +391,14 @@
     <priority>0.50</priority>
   </url>
 
+           <!-- What is a Videographer? -->
+  <url>
+    <loc>https://www.munjiri.com/what-is-a-videographer</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
          <!-- 65. Woman Videographer -->
   <url>
     <loc>https://www.munjiri.com/woman-videographer</loc>
