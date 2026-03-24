@@ -3,15 +3,15 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- 1. Your homepage -->
+  <!-- Your homepage -->
   <url>
     <loc>https://www.munjiri.com/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-09</lastmod>     
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
 
-  <!-- 2. Portfolio -->
+  <!-- Portfolio -->
   <url>
     <loc>https://www.munjiri.com/video-production-portfolio</loc>
     <lastmod>2026-03-09</lastmod>
@@ -19,7 +19,7 @@
     <priority>0.80</priority>
   </url>
 
-    <!-- 5. Nature Video Production -->
+    <!-- Nature Video Production -->
   <url>
     <loc>https://www.munjiri.com/nature-videographer</loc>
     <lastmod>2026-03-09</lastmod>
@@ -27,7 +27,7 @@
     <priority>0.80</priority>
   </url>
 
-      <!-- 7. Services -->
+      <!-- Services -->
   <url>
     <loc>https://www.munjiri.com/video-content-packages</loc>
     <lastmod>2026-03-09</lastmod>
@@ -35,7 +35,7 @@
     <priority>0.80</priority>
   </url>
 
-     <!-- 8. Contact -->
+     <!-- Contact -->
   <url>
     <loc>https://www.munjiri.com/contact</loc>
     <lastmod>2026-03-09</lastmod>
@@ -43,7 +43,7 @@
     <priority>0.80</priority>
   </url>
 
-     <!-- 9. African Bat Conservation Munjiri Videos -->
+     <!-- African Bat Conservation Munjiri Videos -->
   <url>
     <loc>https://www.munjiri.com/african-bat-conservation-munjiri-videos</loc>
     <lastmod>2026-03-09</lastmod>
@@ -67,7 +67,7 @@
     <priority>0.50</priority>
   </url>
 
-       <!-- 11. Brand Video Production -->
+       <!-- Brand Video Production -->
   <url>
     <loc>https://www.munjiri.com/brand-videographer</loc>
     <lastmod>2026-03-09</lastmod>
@@ -75,7 +75,7 @@
     <priority>0.50</priority>
   </url>
 
-       <!-- 13. Charity Videographer -->
+       <!-- Charity Videographer -->
   <url>
     <loc>https://www.munjiri.com/charity-videographer</loc>
     <lastmod>2026-03-09</lastmod>
@@ -83,7 +83,7 @@
     <priority>0.50</priority>
   </url>
 
-       <!-- 14. Charleston House -->
+       <!-- Charleston House -->
   <url>
     <loc>https://www.munjiri.com/charleston-house</loc>
     <lastmod>2026-03-09</lastmod>
@@ -91,7 +91,7 @@
     <priority>0.50</priority>
   </url>
 
-       <!-- 15. Coimbra Video Production -->
+       <!-- Coimbra Video Production -->
   <url>
     <loc>https://www.munjiri.com/coimbra-videographer</loc>
     <lastmod>2026-03-09</lastmod>
@@ -99,7 +99,7 @@
     <priority>0.50</priority>
   </url>
 
-       <!-- 16. Collingwood Norris Knitwear Munjiri Videos -->
+       <!-- Collingwood Norris Knitwear Munjiri Videos -->
   <url>
     <loc>https://www.munjiri.com/collingwood-norris-knitwear-munjiri-videos</loc>
     <lastmod>2026-03-09</lastmod>
@@ -394,6 +394,14 @@
            <!-- What is a Videographer? -->
   <url>
     <loc>https://www.munjiri.com/what-is-a-videographer</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+             <!-- Where to find freelance videographers near me -->
+  <url>
+    <loc>https://www.munjiri.com/where-to-find-freelance-videographers-near-me</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>

@@ -55,6 +55,7 @@ export default {
     "./wandering-the-cederberg.html",
     "./wedding-videographer-portugal.html",
     "./what-is-a-videographer.html",
+    "./where-to-find-freelance-videographers-near-me.html",
     "./woman-videographer.html",
     "./yoga-videographer.html",
     "./src/**/*.{js,ts,jsx,tsx}"
