@@ -16,33 +16,9 @@
 
 @font-face {
   font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-SemiBoldItalic.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Crimson Text';
   src: url('./assets/fonts/CrimsonText-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-BoldItalic.woff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -93,4 +69,45 @@ html {
   p {
     @apply mb-4;
   }
+}
+
+.youtube-lite {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.youtube-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.youtube-lite:hover .youtube-overlay {
+  background: rgba(0,0,0,0.35);
+}
+
+.youtube-play {
+  width: 68px;
+  height: 48px;
+  transition: transform 0.2s ease;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.35));
+}
+
+.youtube-lite:hover .youtube-play {
+  transform: scale(1.08);
+}
+
+.youtube-play::before {
+  content: "";
+  position: absolute;
+  left: 26px;
+  top: 16px;
+  border-style: solid;
+  border-width: 8px 0 8px 14px;
+  border-color: transparent transparent transparent white;
 }

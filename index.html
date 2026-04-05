@@ -25,6 +25,8 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/src/style.css">
+  <!-- Preload Fonts -->
+<link rel="preload" href="/src/assets/fonts/CrimsonText-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- Analytics (Global – stays the same everywhere) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"></script>
@@ -110,11 +112,23 @@
   </div>
 </header>
 <main>
-<section class="relative h-screen w-full overflow-hidden">
-  <!-- YouTube Background -->
+ <section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24">
+  
+  <!-- Background Image (loads fast) -->
+  <div class="absolute inset-0 w-full h-full bg-black">
+    <img 
+      src="/src/assets/images/homepage/main-video-snippet-munjiri-videos-storytelling.webp" 
+      alt="Munjiri Video Storytelling"
+      class="w-full h-full object-cover"
+      loading="eager"
+    >
+  </div>
+  <!-- Youtube Iframe -->
   <div class="absolute inset-0 w-full h-full bg-black z-0">
     <iframe
       class="absolute top-1/2 left-1/2 min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+      id="heroVideo"
+      loading="lazy"
       src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&"
       frameborder="0"
       allow="autoplay; fullscreen"
@@ -139,10 +153,10 @@
 </section>
 
 <section class="py-12 md:py-32 px-4">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-12">
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-12">
     
     <!-- Text Content -->
-    <div class="md:w-8/12 flex flex-col justify-center md:text-right md:pr-8">
+    <div class="md:w-8/12 flex flex-col justify-center text-center md:text-right md:pr-8">
       <p class="mb-8">
         Hi! We’re Katy and Eugene, filmmakers / videographers with over 8 years of experience. We’ve worked with <a href="/video-production-portfolio" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">small businesses</a>, <a href="/charity-videographer" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">grassroots organisations</a>, and larger clients like CNBC and Michelle Obama.
       </p>
@@ -156,15 +170,41 @@
       </p>
     </div>
 
-    <!-- Image -->
-    <div class="md:w-4/12 w-full flex justify-center md:justify-end">
-      <img
-        src="/src/assets/images/about-1014x1521.jpg"
-        alt="Katy and Eugene from Munjiri Videos"
-        title="Capturing brand stories with professional videography."
-        class="w-full max-w-md md:max-w-full h-auto object-cover"
-      />
-    </div>
+ <!-- Image -->
+<div class="md:w-4/12 w-full flex justify-center md:justify-end">
+  <picture>
+    <source 
+      type="image/avif"
+      srcset="
+        /src/assets/images/homepage/about-360.avif 360w,
+        /src/assets/images/homepage/about-560.avif 560w,
+        /src/assets/images/homepage/about-720.avif 720w
+      "
+      sizes="(max-width: 768px) 100vw, 324px"
+    />
+
+    <source 
+      type="image/webp"
+      srcset="
+        /src/assets/images/homepage/about-360.webp 360w,
+        /src/assets/images/homepage/about-560.webp 560w,
+        /src/assets/images/homepage/about-720.webp 720w
+      "
+      sizes="(max-width: 768px) 100vw, 324px"
+    />
+
+    <img
+      src="/src/assets/images/homepage/about-560.webp"
+      alt="Katy and Eugene from Munjiri Videos"
+      title="Capturing brand stories with professional videography."
+      width="324"
+      height="486"
+      class="w-full max-w-md md:max-w-full h-auto object-cover"
+      loading="eager"
+      decoding="async"
+    />
+  </picture>
+</div>
 
   </div>
 </section>
@@ -174,12 +214,36 @@
   <div class="max-w-6xl mx-auto">
     <figure class="w-full">
       <div class="w-full md:w-[71%] mx-auto">
-        <img
-          src="/src/assets/images/video-marketing-strategy-1466x978.jpg"
-          alt="Behind-the-scenes of a video shoot at Munjiri Videos, showcasing the creative process"
-          title="Behind-the-scenes video production at Munjiri Videos."
-          class="w-full h-auto aspect-auto object-cover"
-        />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/eugene-filming-timelapse-video-storytelling-370.avif 370w,
+      /src/assets/images/homepage/eugene-filming-timelapse-video-storytelling-1230.avif 1230w
+    "
+    sizes="(max-width: 768px) 100vw, 818px"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/eugene-filming-timelapse-video-storytelling-370.webp 370w,
+      /src/assets/images/homepage/eugene-filming-timelapse-video-storytelling-1230.webp 1230w
+    "
+    sizes="(max-width: 768px) 100vw, 818px"
+  />
+
+  <img
+    src="/src/assets/images/homepage/eugene-filming-timelapse-video-storytelling-1230.webp"
+    width="818"
+    height="546"
+    class="w-full h-auto object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Eugene filming timelapse video storytelling"
+    title="Eugene filming timelapse video storytelling"
+  />
+</picture>
       </div>
     </figure>
   </div>
@@ -187,28 +251,28 @@
 
 <section class="py-20 px-4">
   <div class="max-w-2xl mx-auto text-center space-y-12">
-    <h2>Why our videos work</h2>
+    <h2 class="font-bold ">Why our videos work</h2>
     <div>
-     <h3 class="mb-4">
+     <h3 class="font-bold mb-4">
 Strategy
      </h3>
-     <p class="mb-6">
+     <p class="mb-8">
 We turn your customers’ challenges into action that grows your business. Before we even pick up a camera, we spend a lot of time researching your audience and the benefits of your product or service. So your video doesn’t just look good, it actually helps the right people understand why you matter and what to do next. 
      </p>
-      <h3 class="mb-4">
+      <h3 class="font-bold mb-4">
 
 Easy and Stress-Free Process
      </h3>
-     <p class="mb-6">
+     <p class="mb-8">
      We make sure you <a href="/how-to-be-more-confident-on-camera" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300">feel relaxed on camera</a>, so there’s no awkwardness or stress. Behind the scenes, we handle everything, from interviews and shot lists to logistics and keep you in the loop during editing for easy, clear feedback.
      </p>
-      <h3 class="mb-4">
+      <h3 class="font-bold mb-4">
 Story-Driven Videography That People Remember
      </h3>
-     <p class="mb-6">
+     <p class="mb-8">
     Stories are how humans connect and remember, facts alone aren’t enough. By following a simple story arc including real, personal moments, our videos make people laugh, cry, and remember the people and places we capture. Turning a video from something people watch into something they care about.
      </p>
-      <h3 class="mb-4">
+      <h3 class="font-bold mb-4">
 High-Quality Videos That Look and Sound Beautiful
      </h3>
      <p>
@@ -222,23 +286,139 @@ High-Quality Videos That Look and Sound Beautiful
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.20.33-510x781.png"
-             class="w-full h-full object-cover" alt="Setting in Lamu capturing nice light Video Storytelling" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/lamu-house-interior-video-storytelling-180.avif 180w,
+      /src/assets/images/homepage/lamu-house-interior-video-storytelling-280.avif 280w,
+      /src/assets/images/homepage/lamu-house-interior-video-storytelling-560.avif 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/lamu-house-180.webp 180w,
+      /src/assets/images/homepage/lamu-house-280.webp 280w,
+      /src/assets/images/homepage/lamu-house-560.webp 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/lamu-house-interior-video-storytelling-280.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Setting in Lamu capturing nice light Video Storytelling"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.20.13-510x771.png"
-             class="w-full h-full object-cover" alt="Donkey standing in the street in Lamu" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-180.avif 180w,
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-280.avif 280w,
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-560.avif 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-180.webp 180w,
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-280.webp 280w,
+      /src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-560.webp 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/donkey-in-streets-lamu-video-storytelling-280.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Donkey in the streets of Lamu"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.23.34-480x882.png"
-             class="w-full h-full object-cover" alt="Glass beads filmed in Nairobi CBD" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-180.avif 180w,
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-280.avif 280w,
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-560.avif 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-180.webp 180w,
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-280.webp 280w,
+      /src/assets/images/homepage/glass-beads-nairobi-video-storytelling-560.webp 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/glass-beads-nairobi-video-storytelling-280.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="glass beads found in nairobi"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.25.47-510x769.png"
-             class="w-full h-full object-cover" alt="Eugene overlooking the ocean in Shela" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-180.avif 180w,
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-280.avif 280w,
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-560.avif 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-180.webp 180w,
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-280.webp 280w,
+      /src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-560.webp 560w
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/eugene-overlooking-shela-video-storytelling-280.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Eugene overlooking shela Video Storytelling"
+  />
+</picture>
       </div>
 
     </div>
@@ -248,7 +428,7 @@ High-Quality Videos That Look and Sound Beautiful
 
 <section class="font-crimson text-black py-20 px-4">
   <div class="max-w-xl mx-auto text-center">
-    <h2 class="mb-10">
+    <h2 class="font-bold mb-10">
      Our Services
     </h2>
 
@@ -278,38 +458,145 @@ High-Quality Videos That Look and Sound Beautiful
     </div>
   </div>
 </section>
-
 <section class="py-20 px-4">
   <div class="max-w-6xl mx-auto">
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/dsc04188-1284x1922.jpg"
-             class="w-full h-full object-cover" alt="Video Storytelling" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/painter-painting-on-paper-180.avif 180w,
+      /src/assets/images/homepage/painter-painting-on-paper-360.avif 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/painter-painting-on-paper-180.webp 180w,
+      /src/assets/images/homepage/painter-painting-on-paper-360.webp 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/painter-painting-on-paper-360.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Setting in Lamu capturing nice light Video Storytelling"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/dsc04250-1130x1692.jpg"
-             class="w-full h-full object-cover" alt="Pottery setting being filmed" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/pottery-setting-filmed-180.avif 180w,
+      /src/assets/images/homepage/pottery-setting-filmed-360.avif 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/pottery-setting-filmed-180.webp 180w,
+      /src/assets/images/homepage/pottery-setting-filmed-360.webp 360w,
+
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/pottery-setting-filmed-360.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Donkey in the streets of Lamu"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/dsc04281-836x1251.jpg"
-             class="w-full h-full object-cover" alt="Mug being painted Video Storytelling" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/painting-pottery-mug-180.avif 180w,
+      /src/assets/images/homepage/painting-pottery-mug-360.avif 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/painting-pottery-mug-180.webp 180w,
+      /src/assets/images/homepage/painting-pottery-mug-360.webp 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/painting-pottery-mug-360.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="glass beads found in nairobi"
+  />
+</picture>
       </div>
 
       <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/dsc04303-782x1171.jpg"
-             class="w-full h-full object-cover" alt="Shot down of paint in a plastic glass" />
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/paint-brushes-in-water-180.avif 180w,
+      /src/assets/images/homepage/paint-brushes-in-water-360.avif 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/paint-brushes-in-water-180.webp 180w,
+      /src/assets/images/homepage/paint-brushes-in-water-360-360.webp 360w,
+    "
+    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+  />
+
+  <img
+    src="/src/assets/images/homepage/paint-brushes-in-water-360.webp"
+    width="276"
+    height="414"
+    class="w-full h-full object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Eugene overlooking shela Video Storytelling"
+  />
+</picture>
       </div>
 
     </div>
   </div>
 </section>
-
 <section id="about" class="py-16 px-6 scroll-mt-32">
   <div class="max-w-3xl mx-auto text-center">
-    <h2 class="mb-6">
+    <h2 class="font-bold mb-6">
      Our Story
     </h2>
     <p class="mb-6">
@@ -332,30 +619,64 @@ A still morning. Mist curls over the river. Hippos grunt. A monkey with her baby
     </p>
   </div>
 </section>
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/dsc00691-1576x1053.jpg"
-        alt="Katy being filmed in Video storytelling"
-        class="w-full h-full object-cover"
-      />
-    </div>
+<section class="py-16 px-4">
+  <div class="max-w-6xl mx-auto">
+    <figure class="w-full">
+      <div class="w-full md:w-[71%] mx-auto">
+        <picture>
+  <source 
+    type="image/avif"
+    srcset="
+      /src/assets/images/homepage/katy-filming-video-storytelling-370.avif 370w,
+      /src/assets/images/homepage/katy-filming-video-storytelling-1230.avif 1230w
+    "
+    sizes="(max-width: 768px) 100vw, 818px"
+  />
+
+  <source 
+    type="image/webp"
+    srcset="
+      /src/assets/images/homepage/katy-filming-video-storytelling-370.webp 370w,
+      /src/assets/images/homepage/katy-filming-video-storytelling-1230.webp 1230w
+    "
+    sizes="(max-width: 768px) 100vw, 818px"
+  />
+
+  <img
+    src="/src/assets/images/homepage/katy-filming-video-storytelling-1230.webp"
+    width="818"
+    height="546"
+    class="w-full h-auto object-cover"
+    loading="lazy"
+    decoding="async"
+    alt="Katy filming video storytelling"
+    title="Katy filming video storytelling"
+  />
+</picture>
+      </div>
+    </figure>
   </div>
 </section>
 
- <section class="py-16 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
+<section class="py-16 px-4 bg-linen">
+  <div class="max-w-4xl mx-auto">
     <figure class="w-full flex justify-center">
-      <div class="w-full max-w-5xl aspect-video">
-        <iframe
-          class="w-full h-full"
-          src="https://www.youtube.com/embed/F4gBQty6BUo?rel=0&showinfo=0&autoplay=0&loop=0"
-          frameborder="0"
-          allowfullscreen
-          title="Embedded Video"
-        ></iframe>
+      
+      <div class="youtube-lite w-full max-w-5xl aspect-video" data-id="F4gBQty6BUo">
+        <img 
+          src="https://i.ytimg.com/vi/F4gBQty6BUo/hqdefault.jpg"
+          alt="Embedded Video"
+          class="w-full h-full object-cover"
+          loading="lazy"
+        />
+      <div class="youtube-overlay">
+  <svg class="youtube-play" viewBox="0 0 68 48" aria-hidden="true">
+    <path d="M66.52 7.02a8.27 8.27 0 0 0-5.82-5.85C55.65 0 34 0 34 0S12.35 0 7.3 1.17a8.27 8.27 0 0 0-5.82 5.85A85.9 85.9 0 0 0 0 24a85.9 85.9 0 0 0 1.48 16.98 8.27 8.27 0 0 0 5.82 5.85C12.35 48 34 48 34 48s21.65 0 26.7-1.17a8.27 8.27 0 0 0 5.82-5.85A85.9 85.9 0 0 0 68 24a85.9 85.9 0 0 0-1.48-16.98z" fill="#FF0000"/>
+    <path d="M45 24 27 14v20" fill="#fff"/>
+  </svg>
+</div>
       </div>
+
     </figure>
   </div>
 </section>
@@ -388,31 +709,81 @@ A still morning. Mist curls over the river. Hippos grunt. A monkey with her baby
 </a>
   </div>
 </section>
-<!-- IMAGE BOXES -->
 <section class="py-20 px-4">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
     
-    <!-- Left: Horizontal Image -->
+    <!-- Left: Portrait -->
     <div class="md:w-2/5">
-      <img 
-        src="/src/assets/images/dsc05398-1104x1653.jpg" 
-        alt="Cheetah being filmed in a Video Storytelling way in Kgalagadi"
-        class="w-full h-auto object-cover"
-      />
+      <picture>
+        <source 
+          type="image/avif"
+          srcset="
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-370.avif 370w,
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-450.avif 450w,
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-900.avif 900w
+          "
+          sizes="(max-width: 768px) 100vw, 40vw"
+        />
+
+        <source 
+          type="image/webp"
+          srcset="
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-370.webp 370w,
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-450.webp 450w,
+            /src/assets/images/homepage/eugene-filming-cheetah-sunset-900.webp 900w
+          "
+          sizes="(max-width: 768px) 100vw, 40vw"
+        />
+
+        <img 
+          src="/src/assets/images/homepage/eugene-filming-cheetah-sunset-450.webp"
+          width="448"
+          height="671"
+          loading="lazy"
+          decoding="async"
+          alt="Cheetah being filmed in a Video Storytelling way in Kgalagadi"
+          class="w-full h-auto object-cover"
+        />
+      </picture>
     </div>
 
-    <!-- Right: Vertical Image -->
+    <!-- Right: Landscape -->
     <div class="md:w-3/5">
-      <img 
-        src="/src/assets/images/dsc00867-1104x737.jpg" 
-        alt="Cheetah lying in Kgalagadi Video Storytelling shoot"
-        class="w-full h-auto object-cover"
-      />
+      <picture>
+        <source 
+          type="image/avif"
+          srcset="
+            /src/assets/images/homepage/cheetah-filmed-sunset-370.avif 370w,
+            /src/assets/images/homepage/cheetah-filmed-sunset-670.avif 670w,
+            /src/assets/images/homepage/cheetah-filmed-sunset-1340.avif 1340w
+          "
+          sizes="(max-width: 768px) 100vw, 60vw"
+        />
+
+        <source 
+          type="image/webp"
+          srcset="
+            /src/assets/images/homepage/cheetah-filmed-sunset-370.webp 370w,
+            /src/assets/images/homepage/cheetah-filmed-sunset-670.webp 670w,
+            /src/assets/images/homepage/cheetah-filmed-sunset-1340.webp 1340w
+          "
+          sizes="(max-width: 768px) 100vw, 60vw"
+        />
+
+        <img 
+          src="/src/assets/images/homepage/cheetah-filmed-sunset-670.webp"
+          width="672"
+          height="449"
+          loading="lazy"
+          decoding="async"
+          alt="Cheetah lying in Kgalagadi Video Storytelling shoot"
+          class="w-full h-auto object-cover"
+        />
+      </picture>
     </div>
 
   </div>
 </section>
-
 </main>
 <!-- Footer -->
 <footer>
