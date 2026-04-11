@@ -48,6 +48,7 @@ export default {
     "./videographer-cape-town.html",
     "./videographer-kenya.html",
     "./videographer-lisbon.html",
+    "./videographer-london.html",
     "./videographer-portugal-cost.html",
     "./videographer-portugal.html",
     "./videographer-south-africa.html",

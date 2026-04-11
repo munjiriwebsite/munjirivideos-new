@@ -1,428 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Your homepage -->
+  <!-- Homepage -->
   <url>
-    <loc>https://www.munjiri.com/</loc>
-    <lastmod>2026-03-09</lastmod>     
-    <changefreq>monthly</changefreq>
-    <priority>1.00</priority>
+    <loc>https://www.munjiri.com</loc>
   </url>
 
   <!-- Portfolio -->
   <url>
     <loc>https://www.munjiri.com/video-production-portfolio</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
 
-    <!-- Nature Video Production -->
+  <!-- Services & Specialties -->
   <url>
     <loc>https://www.munjiri.com/nature-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
-
-      <!-- Services -->
   <url>
     <loc>https://www.munjiri.com/video-content-packages</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
-
-     <!-- Contact -->
-  <url>
-    <loc>https://www.munjiri.com/contact</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-     <!-- African Bat Conservation Munjiri Videos -->
-  <url>
-    <loc>https://www.munjiri.com/african-bat-conservation-munjiri-videos</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-     <!-- Behind the Scenes Videography South Africa -->
-  <url>
-    <loc>https://www.munjiri.com/behind-the-scenes-videography-south-africa</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-        <!-- Blog  -->
-  <url>
-    <loc>https://www.munjiri.com/blog</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- Brand Video Production -->
   <url>
     <loc>https://www.munjiri.com/brand-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-       <!-- Charity Videographer -->
   <url>
     <loc>https://www.munjiri.com/charity-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-       <!-- Charleston House -->
-  <url>
-    <loc>https://www.munjiri.com/charleston-house</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- Coimbra Video Production -->
-  <url>
-    <loc>https://www.munjiri.com/coimbra-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- Collingwood Norris Knitwear Munjiri Videos -->
-  <url>
-    <loc>https://www.munjiri.com/collingwood-norris-knitwear-munjiri-videos</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 17. Common Mistakes Social Media Video Production -->
-  <url>
-    <loc>https://www.munjiri.com/common-mistakes-social-media-video-production</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 17. Common Mistakes Social Media Video Production -->
-  <url>
-    <loc>https://www.munjiri.com/creative-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-       <!-- 18. Dehye Collective Cape Town -->
-  <url>
-    <loc>https://www.munjiri.com/dehye-collective-cape-town</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 19. Drone Videographer Portugal -->
-  <url>
-    <loc>https://www.munjiri.com/drone-videographer-portugal</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 20. Drone Videographer -->
   <url>
     <loc>https://www.munjiri.com/drone-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-       <!-- 21. Editor Videographer -->
+  <url>
+    <loc>https://www.munjiri.com/drone-videographer-portugal</loc>
+  </url>
   <url>
     <loc>https://www.munjiri.com/editor-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-       <!-- 22. Event Video Production -->
   <url>
     <loc>https://www.munjiri.com/event-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-       <!-- 23. How To Be More Confident On Camera -->
-  <url>
-    <loc>https://www.munjiri.com/how-to-be-more-confident-on-camera</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-     <!-- How to Edit Videos for Social Media -->
-  <url>
-    <loc>https://www.munjiri.com/how-to-edit-videos-for-social-media</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 28. kate Ray Guided Wellbeing -->
-  <url>
-    <loc>https://www.munjiri.com/kate-ray-guided-wellbeing</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 29. Kew Gardens Palm House -->
-  <url>
-    <loc>https://www.munjiri.com/kew-gardens-palm-house</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 31. Learn Video making -->
-  <url>
-    <loc>https://www.munjiri.com/learn-video-making</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 32. Lisbon Videographer -->
-  <url>
-    <loc>https://www.munjiri.com/lisbon-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 34. Mayamiko a Meaningful Wardrobe -->
-  <url>
-    <loc>https://www.munjiri.com/mayamiko-a-meaningful-wardrobe</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 35. Natasha Minyon Sale The Adorned -->
-  <url>
-    <loc>https://www.munjiri.com/natasha-minyon-sale-the-adorned</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 36. Nyika national Park Travel Guide -->
-  <url>
-    <loc>https://www.munjiri.com/nyika-national-park-travel-guide</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 37. Picking Damsons jam Recipe -->
-  <url>
-    <loc>https://www.munjiri.com/picking-damsons-jam-recipe</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 38. Product Video Production -->
-  <url>
-    <loc>https://www.munjiri.com/product-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-     <!-- Questions to Ask a videographer portugal -->
-  <url>
-    <loc>https://www.munjiri.com/questions-to-ask-a-videographer-portugal</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 39. Social Impact Video Production -->
-  <url>
-    <loc>https://www.munjiri.com/social-impact-video-production</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 41. Social Media Video Ideas -->
-  <url>
-    <loc>https://www.munjiri.com/social-media-video-ideas</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-       <!-- 42. Social Media Video production -->
   <url>
     <loc>https://www.munjiri.com/social-media-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 44. Soul Design Jewellery Munjiri Videos -->
-  <url>
-    <loc>https://www.munjiri.com/soul-design-jewellery-munjiri-videos</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 45. Sour Fig Jam Recipe -->
-  <url>
-    <loc>https://www.munjiri.com/sour-fig-jam-recipe</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 47. The Best Way To Upload Videos On Youtube -->
-  <url>
-    <loc>https://www.munjiri.com/the-best-way-to-upload-videos-on-youtube</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 48. Travel Video Production -->
   <url>
     <loc>https://www.munjiri.com/travel-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 49. UK Videographer -->
   <url>
     <loc>https://www.munjiri.com/uk-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 50. Video Advice Composition -->
-  <url>
-    <loc>https://www.munjiri.com/video-advice-composition</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 51. Video Advice Natural Light -->
-  <url>
-    <loc>https://www.munjiri.com/video-advice-natural-light</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-    <url>
-    <loc>https://www.munjiri.com/video-storytelling</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
   <url>
     <loc>https://www.munjiri.com/videographer-cape-town</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-  <url>
-    <loc>https://www.munjiri.com/videographer-portugal-cost</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
+    <url>
+    <loc>https://www.munjiri.com/videographer-london</loc>
   </url>
-
-         <!-- 58. Videographer Portugal -->
   <url>
     <loc>https://www.munjiri.com/videographer-portugal</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 59. Videographer South Africa -->
   <url>
     <loc>https://www.munjiri.com/videographer-south-africa</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 60. Wandering The Cederberg -->
-  <url>
-    <loc>https://www.munjiri.com/wandering-the-cederberg</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- 61. Wedding Videographer portugal -->
   <url>
     <loc>https://www.munjiri.com/wedding-videographer-portugal</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-           <!-- What is a Videographer? -->
-  <url>
-    <loc>https://www.munjiri.com/what-is-a-videographer</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-             <!-- Where to find freelance videographers near me -->
-  <url>
-    <loc>https://www.munjiri.com/where-to-find-freelance-videographers-near-me</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
-         <!-- Woman Videographer -->
   <url>
     <loc>https://www.munjiri.com/woman-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
-
-         <!-- 66. Yoga Videographer -->
   <url>
     <loc>https://www.munjiri.com/yoga-videographer</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
 
-  <!-- …add more URLs here… -->
+  <!-- Blog & Articles -->
+  <url>
+    <loc>https://www.munjiri.com/blog</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/how-to-be-more-confident-on-camera</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/how-to-edit-videos-for-social-media</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/learn-video-making</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/questions-to-ask-a-videographer-portugal</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/what-is-a-videographer</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/where-to-find-freelance-videographers-near-me</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/the-best-way-to-upload-videos-on-youtube</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/video-advice-composition</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/video-advice-natural-light</loc>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.munjiri.com/contact</loc>
+  </url>
+
+  <!-- Projects / Case Studies -->
+  <url>
+    <loc>https://www.munjiri.com/african-bat-conservation-munjiri-videos</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/behind-the-scenes-videography-south-africa</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/charleston-house</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/coimbra-videographer</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/collingwood-norris-knitwear-munjiri-videos</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/dehye-collective-cape-town</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/mayamiko-a-meaningful-wardrobe</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/natasha-minyon-sale-the-adorned</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/nyika-national-park-travel-guide</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/picking-damsons-jam-recipe</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/product-videographer</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/social-impact-video-production</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/social-media-video-ideas</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/soul-design-jewellery-munjiri-videos</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/sour-fig-jam-recipe</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/wandering-the-cederberg</loc>
+  </url>
 
 </urlset>

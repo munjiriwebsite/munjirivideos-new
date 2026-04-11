@@ -111,3 +111,12 @@ html {
   border-width: 8px 0 8px 14px;
   border-color: transparent transparent transparent white;
 }
+
+#heroVideo {
+  opacity: 0;
+  transition: opacity .8s ease;
+}
+
+#heroVideo.loaded {
+  opacity: 1;
+}
