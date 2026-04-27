@@ -27,16 +27,8 @@
   <!-- Preload Fonts -->
 <link rel="preload" href="/assets/CrimsonText-Regular-CaMLulTe.woff2" as="font" type="font/woff2" crossorigin>
 
-  <!-- Analytics (Global – stays the same everywhere) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-57585637-2');
-  </script>
-  <script type="module" crossorigin src="/assets/main-CQsEif-R.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/main-COx3ZiCm.css">
+  <script type="module" crossorigin src="/assets/main-Btd1V2-U.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-Jf_uIt_s.css">
 </head>
   <!-- Index Page start of Main -->
 <body class="bg-linen font-crimson text-gray-800">
@@ -113,44 +105,39 @@
   </div>
 </header>
 <main>
- <section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24">
+<section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24 bg-black">
   
-  <!-- Background Image (loads fast) -->
-  <div class="absolute inset-0 w-full h-full bg-black">
-    <img 
-      src="/assets/main-video-snippet-munjiri-videos-storytelling-BgLSdvKb.webp" 
-      alt="Munjiri Video Storytelling"
-      class="w-full h-full object-cover"
-      loading="eager"
-    >
-  </div>
-  <!-- Youtube Iframe -->
-  <div class="absolute inset-0 w-full h-full bg-black z-0">
-    <iframe
-  class="absolute top-1/2 left-1/2 min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-  id="heroVideo"
-  loading="lazy"
-  frameborder="0"
-  allow="autoplay; fullscreen"
-  title="Background video"
-></iframe>
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black opacity-10"></div>
-  </div>
+  <img 
+    src="/assets/main-video-snippet-munjiri-videos-storytelling-BgLSdvKb.webp" 
+    alt="Munjiri video storytelling"
+    class="absolute inset-0 z-0 w-full h-full object-cover"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+  >
 
-  <!-- Content -->
+  <iframe
+    class="absolute top-1/2 left-1/2 z-[1] min-w-[177.77vh] min-h-[100vh] w-[100vw] h-[56.25vw] -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+    src="https://www.youtube.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&start=1&controls=0&playsinline=1&loop=1&playlist=JdIaYJL6bS8&modestbranding=1&rel=0&iv_load_policy=3&disablekb=1"
+    title="Munjiri background video"
+    frameborder="0"
+    allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
+
+  <div class="absolute inset-0 bg-black opacity-20 z-[2]"></div>
+
   <div class="relative z-10 flex items-center justify-center h-full">
     <div class="text-center text-white max-w-5xl px-6">
       <h1 class="mb-6 text-2xl md:text-4xl">
         Video Storytelling
       </h1>
       <p>
-       We create videos that help brands that care grow. From websites to social media, our videos make your ideal audience watch and take action, so you can relax and enjoy the process.
+        We create videos that help brands that care grow. From websites to social media, our videos make your ideal audience watch and take action, so you can relax and enjoy the process.
       </p>
     </div>
   </div>
 </section>
-
 <section class="py-12 md:py-32 px-4">
   <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-12">
     
