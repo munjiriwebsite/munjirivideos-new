@@ -263,13 +263,6 @@
   status = 301
   force = true
 
-# Generic .html removal fallback
-# This handles normal old URLs like /contact.html → /contact
-[[redirects]]
-  from = "/:slug.html"
-  to = "/:slug"
-  status = 301
-  force = true
 
 # Old junk/removed pages
 [[redirects]]
@@ -389,7 +382,7 @@
     Cross-Origin-Opener-Policy = "same-origin"
     Cross-Origin-Resource-Policy = "same-site"
     Cache-Control = "public, max-age=0, must-revalidate"
-    Content-Security-Policy-Report-Only = "require-trusted-types-for 'script'"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https://i.ytimg.com data:; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; frame-src https://www.youtube-nocookie.com https://www.youtube.com; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;"
 
 [[headers]]
   for = "/assets/*"
