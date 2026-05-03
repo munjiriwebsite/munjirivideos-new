@@ -18,8 +18,9 @@ window.addEventListener("load", () => {
   const hero = document.getElementById("heroVideo");
   if (!hero) return;
 
-  hero.src =
-    "https://www.youtube-nocookie.com/embed/JdIaYJL6bS8?autoplay=1&mute=1&loop=1&playlist=JdIaYJL6bS8&controls=0&showinfo=0&rel=0";
+  hero.src = hero.dataset.src;
 
-  hero.onload = () => hero.classList.add("loaded");
+  hero.onload = () => {
+    hero.style.opacity = "1";
+  };
 });
