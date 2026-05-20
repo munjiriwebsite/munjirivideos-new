@@ -10,879 +10,342 @@
 # Redirect Rules
 ######################
 
-# Important renamed pages
+# Blog
+
 [[redirects]]
   from = "/blog.html"
   to = "/blog/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/blog"
   to = "/blog/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/behind-the-scenes-videography-south-africa"
   to = "/blog/field-notes/behind-the-scenes-videography-south-africa/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/nyika-national-park-travel-guide.html"
   to = "/blog/field-notes/nyika-national-park-travel-guide/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/nyika-national-park-travel-guide"
   to = "/blog/field-notes/nyika-national-park-travel-guide/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/wandering-the-cederberg.html"
   to = "/blog/field-notes/wandering-the-cederberg/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/wandering-the-cederberg"
   to = "/blog/field-notes/wandering-the-cederberg/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/questions-to-ask-a-videographer-portugal"
   to = "/blog/hire-videographer/questions-to-ask-a-videographer-portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/how-to-be-more-confident-on-camera"
   to = "/blog/skills/how-to-be-more-confident-on-camera/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/how-to-edit-videos-for-social-media"
   to = "/blog/skills/how-to-edit-videos-for-social-media/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-advice-composition"
   to = "/blog/skills/video-advice-composition/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-advice-natural-light"
   to = "/blog/skills/video-advice-natural-light/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/common-mistakes-social-media-video-production"
   to = "/blog/strategy/common-mistakes-social-media-video-production/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-video-ideas"
   to = "/blog/strategy/social-media-video-ideas/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/the-best-way-to-upload-video-on-youtube.html"
   to = "/blog/strategy/the-best-way-to-upload-video-on-youtube/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/the-best-way-to-upload-video-on-youtube"
   to = "/blog/strategy/the-best-way-to-upload-video-on-youtube/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-storytelling"
   to = "/blog/strategy/video-storytelling/"
   status = 301
-  force = true
+
+# Core Pages
 
 [[redirects]]
   from = "/contact.html"
   to = "/contact/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/contact"
   to = "/contact/"
   status = 301
-  force = true
 
-# Learn pages
+# Learn
 
 [[redirects]]
   from = "/learn-video-making.html"
   to = "/learn/learn-video-making/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/learn-video-making"
   to = "/learn/learn-video-making/"
   status = 301
-  force = true
 
-# Location pages
+# Locations
 
 [[redirects]]
   from = "/locations.html"
   to = "/locations/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/locations"
   to = "/locations/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-kenya"
   to = "/locations/videographer-kenya/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-kenya.html"
   to = "/locations/videographer-kenya/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-kenya"
   to = "/locations/videographer-kenya/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-portugal"
   to = "/locations/portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-portugal.html"
   to = "/locations/portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videography-services-in-portugal"
   to = "/locations/portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videography-services-in-portugal.html"
   to = "/locations/portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-portugal"
   to = "/locations/portugal/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/coimbra-video-production"
-  to = "/location/portugal/coimbra/"
+  to = "/locations/portugal/coimbra/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/coimbra-video-production.html"
-  to = "/location/portugal/coimbra/"
+  to = "/locations/portugal/coimbra/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/coimbra-videographer"
-  to = "/location/portugal/coimbra/"
+  to = "/locations/portugal/coimbra/"
   status = 301
-  force = true
-
-[[redirects]]
-  from = "/coimbra-videographer"
-  to = "/videographer/portugal/coimbra/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/lisbon-videographer"
   to = "/locations/portugal/lisbon/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/lisbon-videographer.html"
   to = "/locations/portugal/lisbon/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-lisbon"
   to = "/locations/portugal/lisbon/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-porto"
   to = "/locations/portugal/porto/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-south-africa"
   to = "/locations/south-africa/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-south-africa.html"
   to = "/locations/south-africa/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-south-africa"
   to = "/locations/south-africa/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-cape-town"
   to = "/locations/south-africa/cape-town/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/video-production-cape-town.html"
   to = "/locations/south-africa/cape-town/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-cape-town"
   to = "/locations/south-africa/cape-town/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/uk-videographer.html"
   to = "/locations/uk/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/uk-videographer"
   to = "/locations/uk/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer-london"
   to = "/locations/uk/london/"
   status = 301
-  force = true
 
-# Portfolio pages
-
-[[redirects]]
-  from = "/video-production-portfolio.html"
-  to = "/portfolio/"
-  status = 301
-  force = true
+# Services
 
 [[redirects]]
-  from = "/video-production-portfolio"
-  to = "/portfolio/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/african-bat-conservation-munjiri-videos.html"
-  to = "/portfolio/african-bat-conservation/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/african-bat-conservation-munjiri-videos"
-  to = "/portfolio/african-bat-conservation/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/charleston-house.html"
-  to = "/portfolio/charleston-house/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/charleston-house"
-  to = "/portfolio/charleston-house/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/collingwood-norris-knitwear-munjiri-videos.html"
-  to = "/portfolio/collingwood-norris-knitwear/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/collingwood-norris-knitwear-munjiri-videos"
-  to = "/portfolio/collingwood-norris-knitwear/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/dehye-collective-cape-town.html"
-  to = "/portfolio/evelyn-bertrand/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/dehye-collective-cape-town"
-  to = "/portfolio/evelyn-bertrand/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kate-ray-guided-wellbeing.html"
-  to = "/portfolio/kate-ray-guided-wellbeing/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kate-ray-guided-wellbeing"
-  to = "/portfolio/kate-ray-guided-wellbeing/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kew-gardens-palm-house.html"
-  to = "/portfolio/kew-gardens-palm-house/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/kew-gardens-palm-house"
-  to = "/portfolio/kew-gardens-palm-house/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/mayamiko-a-meaningful-wardrobe.html"
-  to = "/portfolio/mayamiko-a-meaningful-wardrobe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/mayamiko-a-meaningful-wardrobe"
-  to = "/portfolio/mayamiko-a-meaningful-wardrobe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/natasha-minyon-sale-the-adorned.html"
-  to = "/portfolio/natasha-minyon-sale-the-adorned/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/natasha-minyon-sale-the-adorned"
-  to = "/portfolio/natasha-minyon-sale-the-adorned/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/foraging-damsons-jam-recipe"
-  to = "/portfolio/picking-damsons-jam-recipe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/foraging-damsons-jam-recipe.html"
-  to = "/portfolio/picking-damsons-jam-recipe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/picking-damsons-jam-recipe.html"
-  to = "/portfolio/picking-damsons-jam-recipe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/picking-damsons-jam-recipe"
-  to = "/portfolio/picking-damsons-jam-recipe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/soul-design-jewellery-munjiri-videos.html"
-  to = "/portfolio/soul-design-jewellery/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/soul-design-jewellery-munjiri-videos"
-  to = "/portfolio/soul-design-jewellery/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/sour-fig-jam-recipe.html"
-  to = "/portfolio/sour-fig-jam-recipe/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/sour-fig-jam-recipe"
-  to = "/portfolio/sour-fig-jam-recipe/"
-  status = 301
-  force = true
-
-# Service pages
- 
-  [[redirects]]
   from = "/video-content-packages.html"
   to = "/services/"
   status = 301
-  force = true
 
-  [[redirects]]
+[[redirects]]
   from = "/video-content-packages"
   to = "/services/"
   status = 301
-  force = true
 
-  [[redirects]]
+[[redirects]]
   from = "/brand-video-production"
   to = "/services/brand-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/brand-video-production.html"
   to = "/services/brand-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/brand-videographer"
   to = "/services/brand-videographer/"
   status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-community-films"
-  to = "/services/charity-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-community-films.html"
-  to = "/services/charity-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/social-impact-video-production"
-  to = "/services/charity-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/social-impact-video-production.html"
-  to = "/services/charity-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/charity-videographer"
-  to = "/services/charity-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/creative-video-productions"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/creative-video-productions.html"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-creativity-films"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-creativity-films.html"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-creativity-films.html"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/creative-videographer"
-  to = "/services/creative-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/drone-videographer"
-  to = "/services/drone-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/drone-videographer.html"
-  to = "/services/drone-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/drone-videographer-portugal"
-  to = "/services/drone-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/drone-videographer-portugal.html"
-  to = "/services/drone-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/editor-videographer.html"
-  to = "/services/editor-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/editor-videographer"
-  to = "/services/editor-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/event-video-production"
-  to = "/services/event-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/event-video-production.html"
-  to = "/services/event-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-from = "/event-videographer"
-to = "/services/event-videographer/"
-status = 301
-force = true
-
-[[redirects]]
-  from = "/nature-video-production"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/nature-video-production.html"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/nature-videographer"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-caring-for-nature-films"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-caring-for-nature-films.html"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/munjiri-caring-for-nature-films.html"
-  to = "/services/nature-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/product-video-production"
-  to = "/services/product-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/product-video-production.html"
-  to = "/services/product-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/product-videographer"
-  to = "/services/product-videographer/"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-video-production"
-  to = "/social-media-videographer"
+  to = "/services/social-media-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-video-production.html"
   to = "/services/social-media-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-videography"
   to = "/services/social-media-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-videography.html"
   to = "/services/social-media-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/social-media-videographer"
   to = "/services/social-media-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/travel-video-production"
-  to = "/travel-videographer"
+  to = "/services/travel-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/travel-video-production.html"
   to = "/services/travel-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/travel-videographer"
   to = "/services/travel-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/videographer"
   to = "/services/videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/wedding-videographer.html"
   to = "/services/wedding-videographer/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/wedding-videographer"
   to = "/services/wedding-videographer/"
   status = 301
-  force = true
 
-[[redirects]]
-  from = "/woman-videographer.html"
-  to = "/services/woman-videographer/"
-  status = 301
-  force = true
+# Removed Pages
 
-[[redirects]]
-  from = "/woman-videographer"
-  to = "/services/woman-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/yoga-videographer.html"
-  to = "/services/yoga-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/yoga-videographer"
-  to = "/services/yoga-videographer/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/videographer-portugal-cost.html"
-  to = "/locations/portugal/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/videographer-portugal-cost"
-  to = "/locations/portugal/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/what-is-a-videographer"
-  to = "/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/where-to-find-freelance-videographers-near-me"
-  to = "/"
-  status = 301
-  force = true
-
-# Old junk/removed pages
 [[redirects]]
   from = "/page55.html"
   to = "/404.html"
   status = 410
-  force = true
 
 [[redirects]]
   from = "/page56.html"
   to = "/404.html"
   status = 410
-  force = true
-
-[[redirects]]
-  from = "/wildlife-videography.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/why-is-video-marketing-effective.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/why-charities-need-videography.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/video-production-for-sustainable-brands.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/video-production-for-non-profit-questions.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/sustainable-video-production.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/social-media-for-charity.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/make-storytelling-video.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/kgalagadi-national-park-travel-guide.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/how-to-tell-an-engaging-video-story.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/how-to-plan-successful-video-content.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/how-to-optimize-youtube-videos-for-seo.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/how-to-create-a-storytelling-video.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/brand-videos.html"
-  to = "/404.html"
-  status = 410
-  force = true
-
-[[redirects]]
-  from = "/charity-video-production.html"
-  to = "/404.html"
-  status = 410
-  force = true
 
 ######################
 # Headers
