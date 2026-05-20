@@ -531,7 +531,7 @@
 
 [[redirects]]
   from = "/creative-video-productions.html"
-  to = /services/creative-videographer/"
+  to = "/services/creative-videographer/"
   status = 301
   force = true
 
