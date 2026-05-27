@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'),
+        about: path.resolve(__dirname, 'about/index.html'),
         blog: path.resolve(__dirname, 'blog/index.html'),
         fieldnotes: path.resolve(__dirname, 'blog/field-notes/index.html'),
         behindthescenesvideographysouthafrica: path.resolve(__dirname, 'blog/field-notes/behind-the-scenes-videography-south-africa/index.html'),
