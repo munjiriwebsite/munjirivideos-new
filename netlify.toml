@@ -10,7 +10,7 @@
 # Redirect Rules
 ######################
 
-# Blog
+# Core Pages
 
 [[redirects]]
   from = "/blog.html"
@@ -23,8 +23,25 @@
   status = 301
 
 [[redirects]]
+  from = "/contact.html"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact/"
+  status = 301
+
+# Blog
+
+[[redirects]]
   from = "/behind-the-scenes-videography-south-africa"
   to = "/blog/field-notes/behind-the-scenes-videography-south-africa/"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio/picking-damsons-jam-recipe/"
+  to = "/blog/field-notes/picking-damsons-jam-recipe/"
   status = 301
 
 [[redirects]]
@@ -95,18 +112,6 @@
 [[redirects]]
   from = "/video-storytelling"
   to = "/blog/strategy/video-storytelling/"
-  status = 301
-
-# Core Pages
-
-[[redirects]]
-  from = "/contact.html"
-  to = "/contact/"
-  status = 301
-
-[[redirects]]
-  from = "/contact"
-  to = "/contact/"
   status = 301
 
 # Learn
@@ -253,7 +258,96 @@
   to = "/locations/uk/london/"
   status = 301
 
+# portfolio
+
+[[redirects]]
+  from = "/african-bat-conservation-munjiri-videos.html"
+  to = "/portfolio/african-bat-conservation/"
+  status = 301
+
+[[redirects]]
+  from = "/natasha-minyon-sale-the-adorned.html"
+  to = "/portfolio/natasha-minyon-sale-the-adorned/"
+  status = 301
+
 # Services
+
+[[redirects]]
+  from = "/videographer"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/services/videographer/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/editor-videographer"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/services/editor-videographer/"
+  to = "/services/"
+  status = 301
+
+# Nature Videographer
+
+[[redirects]]
+  from = "/nature-videographer"
+  to = "/services/travel-videographer/"
+  status = 301
+
+[[redirects]]
+  from = "/services/nature-videographer/"
+  to = "/services/travel-videographer/"
+  status = 301
+
+[[redirects]]
+  from = "/services/nature-video-production"
+  to = "/services/travel-videographer/"
+  status = 301
+
+[[redirects]]
+  from = "/event-videographer"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/services/event-videographer/"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/yoga-videographer"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/services/yoga-videographer/"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/creative-videographer"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/services/creative-videographer/"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/product-videographer"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/services/product-videographer/"
+  to = "/services/"
+  status = 301
 
 [[redirects]]
   from = "/video-content-packages.html"
@@ -321,18 +415,18 @@
   status = 301
 
 [[redirects]]
-  from = "/videographer"
-  to = "/services/videographer/"
+  from = "/wedding-videographer-portugal.html"
+  to = "/locations/portugal/"
   status = 301
 
 [[redirects]]
-  from = "/wedding-videographer.html"
-  to = "/services/wedding-videographer/"
+  from = "/wedding-videographer-portugal"
+  to = "/locations/portugal/"
   status = 301
 
 [[redirects]]
-  from = "/wedding-videographer"
-  to = "/services/wedding-videographer/"
+  from = "/services/wedding-videographer"
+  to = "/locations/portugal/"
   status = 301
 
 # Removed Pages
