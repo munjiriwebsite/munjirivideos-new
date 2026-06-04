@@ -90,6 +90,11 @@
   status = 301
 
 [[redirects]]
+  from = "/video-advice-natural-light.html"
+  to = "/blog/skills/video-advice-natural-light/"
+  status = 301
+
+[[redirects]]
   from = "/common-mistakes-social-media-video-production"
   to = "/blog/strategy/common-mistakes-social-media-video-production/"
   status = 301
@@ -261,13 +266,113 @@
 # portfolio
 
 [[redirects]]
+  from = "/video-production-portfolio.html"
+  to = "/portfolio/"
+  status = 301
+
+[[redirects]]
+  from = "/video-production-portfolio"
+  to = "/portfolio/"
+  status = 301
+
+[[redirects]]
   from = "/african-bat-conservation-munjiri-videos.html"
   to = "/portfolio/african-bat-conservation/"
   status = 301
 
 [[redirects]]
+  from = "/african-bat-conservation-munjiri-videos"
+  to = "/portfolio/african-bat-conservation/"
+  status = 301
+
+[[redirects]]
+  from = "/charleston-house.html"
+  to = "/charleston-house/"
+  status = 301
+
+[[redirects]]
+  from = "/charleston-house"
+  to = "/portfolio/charleston-house/"
+  status = 301
+
+[[redirects]]
+  from = "/african-bat-conservation-munjiri-videos.html"
+  to = "/portfolio/collingwood-norris-knitwear/"
+  status = 301
+
+[[redirects]]
+  from = "/african-bat-conservation-munjiri-videos"
+  to = "/portfolio/collingwood-norris-knitwear/"
+  status = 301
+
+[[redirects]]
+  from = "/dehye-collective-cape-town.html"
+  to = "/portfolio/evelyn-bertrand/"
+  status = 301
+
+[[redirects]]
+  from = "/dehye-collective-cape-town"
+  to = "/portfolio/evelyn-bertrand/"
+  status = 301
+
+[[redirects]]
+  from = "/kate-ray-guided-wellbeing.html"
+  to = "/portfolio/kate-ray-guided-wellbeing/"
+  status = 301
+
+[[redirects]]
+  from = "/kate-ray-guided-wellbeing"
+  to = "/portfolio/kate-ray-guided-wellbeing/"
+  status = 301
+
+[[redirects]]
+  from = "/kew-gardens-palm-house.html"
+  to = "/portfolio/kew-gardens-palm-house/"
+  status = 301
+
+[[redirects]]
+  from = "/kew-gardens-palm-house"
+  to = "/portfolio/kew-gardens-palm-house/"
+  status = 301
+
+[[redirects]]
+  from = "/mayamiko-a-meaningful-wardrobe.html"
+  to = "/portfolio/mayamiko-a-meaningful-wardrobe/"
+  status = 301
+
+[[redirects]]
+  from = "/mayamiko-a-meaningful-wardrobe"
+  to = "/portfolio/mayamiko-a-meaningful-wardrobe/"
+  status = 301
+
+[[redirects]]
   from = "/natasha-minyon-sale-the-adorned.html"
   to = "/portfolio/natasha-minyon-sale-the-adorned/"
+  status = 301
+
+[[redirects]]
+  from = "/natasha-minyon-sale-the-adorned"
+  to = "/portfolio/natasha-minyon-sale-the-adorned/"
+  status = 301
+
+[[redirects]]
+  from = "/soul-design-jewellery-munjiri-videos.html"
+  to = "/portfolio/soul-design-jewellery/"
+  status = 301
+
+[[redirects]]
+  from = "/soul-design-jewellery-munjiri-videos"
+  to = "/portfolio/soul-design-jewellery/"
+  status = 301
+
+[[redirects]]
+  from = "/sour-fig-jam-recipe.html"
+  to = "/portfolio/sour-fig-jam-recipe/"
+  status = 301
+
+[[redirects]]
+  from = "/sour-fig-jam-recipe"
+  to = "/portfolio/sour-fig-jam-recipe/"
   status = 301
 
 # Services
