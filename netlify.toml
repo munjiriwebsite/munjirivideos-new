@@ -23,6 +23,11 @@
   status = 301
 
 [[redirects]]
+  from = "/videographer-portugal-cost"
+  to = "/locations/portugal/"
+  status = 301
+
+[[redirects]]
   from = "/contact.html"
   to = "/contact/"
   status = 301
@@ -41,6 +46,16 @@
 
 [[redirects]]
   from = "/portfolio/picking-damsons-jam-recipe/"
+  to = "/blog/field-notes/picking-damsons-jam-recipe/"
+  status = 301
+
+[[redirects]]
+  from = "/picking-damsons-jam-recipe"
+  to = "/blog/field-notes/picking-damsons-jam-recipe/"
+  status = 301
+
+[[redirects]]
+  from = "/picking-damsons-jam-recipe.html"
   to = "/blog/field-notes/picking-damsons-jam-recipe/"
   status = 301
 
@@ -155,6 +170,11 @@
 
 [[redirects]]
   from = "/videographer-kenya"
+  to = "/locations/videographer-kenya/"
+  status = 301
+
+[[redirects]]
+  from = "/videographer-kenya.html"
   to = "/locations/videographer-kenya/"
   status = 301
 
@@ -296,12 +316,12 @@
   status = 301
 
 [[redirects]]
-  from = "/african-bat-conservation-munjiri-videos.html"
+  from = "/collingwood-norris-knitwear-munjiri-videos.html"
   to = "/portfolio/collingwood-norris-knitwear/"
   status = 301
 
 [[redirects]]
-  from = "/african-bat-conservation-munjiri-videos"
+  from = "/collingwood-norris-knitwear-munjiri-videos"
   to = "/portfolio/collingwood-norris-knitwear/"
   status = 301
 
@@ -380,6 +400,16 @@
 [[redirects]]
   from = "/videographer"
   to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/brand-videos.html"
+  to = "/services/brand-videographer/"
+  status = 301
+
+[[redirects]]
+  from = "/brand-videos"
+  to = "/services/brand-videographer/"
   status = 301
 
 [[redirects]]
