@@ -16,6 +16,7 @@ export default defineConfig({
         pickingdamsonsjamrecipe: path.resolve(__dirname, 'blog/field-notes/picking-damsons-jam-recipe/index.html'),
         wanderingthecederberg: path.resolve(__dirname, 'blog/field-notes/wandering-the-cederberg/index.html'),
         hirevideographer: path.resolve(__dirname, 'blog/hire-videographer/index.html'),
+        videoproductionprocess: path.resolve(__dirname, 'blog/hire-videographer/video-production-process/index.html'),
         questionstoaskavideographerportugal: path.resolve(__dirname, 'blog/hire-videographer/questions-to-ask-a-videographer-portugal/index.html'),
         skills: path.resolve(__dirname, 'blog/skills/index.html'),
         howtobemoreconfidentoncamera: path.resolve(__dirname, 'blog/skills/how-to-be-more-confident-on-camera/index.html'),

@@ -39,7 +39,7 @@ html {
 /* Global typography */
 @layer base {
   body {
-    @apply bg-linen font-crimson text-base md:text-lg text-gray-700 leading-relaxed;
+    @apply bg-linen font-crimson text-base md:text-lg text-gray-800 leading-relaxed;
   }
 
   h1 {
