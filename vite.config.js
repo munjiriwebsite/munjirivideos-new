@@ -54,6 +54,7 @@ export default defineConfig({
         brandvideoproduction: path.resolve(__dirname, 'services/brand-videographer/index.html'),
         charityvideographer: path.resolve(__dirname, 'services/charity-videographer/index.html'),
         dronevideographer: path.resolve(__dirname, 'services/drone-videographer/index.html'),
+        eventvideographer: path.resolve(__dirname, 'services/event-videographer/index.html'),
         socialmediavideograper: path.resolve(__dirname, 'services/social-media-videographer/index.html'),
         travelvideographer: path.resolve(__dirname, 'services/travel-videographer/index.html'),
       }
