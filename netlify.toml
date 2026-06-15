@@ -564,6 +564,11 @@
   to = "/locations/portugal/"
   status = 301
 
+[[redirects]]
+  from = "/services/woman-videographer"
+  to = "/services/"
+  status = 301
+
 # Removed Pages
 
 [[redirects]]

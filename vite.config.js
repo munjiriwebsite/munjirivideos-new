@@ -56,7 +56,6 @@ export default defineConfig({
         dronevideographer: path.resolve(__dirname, 'services/drone-videographer/index.html'),
         socialmediavideograper: path.resolve(__dirname, 'services/social-media-videographer/index.html'),
         travelvideographer: path.resolve(__dirname, 'services/travel-videographer/index.html'),
-        womanvideographer: path.resolve(__dirname, 'services/woman-videographer/index.html'),
       }
     }
   }
