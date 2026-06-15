@@ -34,7 +34,6 @@ export default defineConfig({
         videographerportugal: path.resolve(__dirname, 'locations/portugal/index.html'),
         videographercoimbra: path.resolve(__dirname, 'locations/portugal/coimbra/index.html'),
         videographerlisbon: path.resolve(__dirname, 'locations/portugal/lisbon/index.html'),
-        videographerporto: path.resolve(__dirname, 'locations/portugal/porto/index.html'),
         videographersouthafrica: path.resolve(__dirname, 'locations/south-africa/index.html'),
         videographercapetown: path.resolve(__dirname, 'locations/south-africa/cape-town/index.html'),
         videographeruk: path.resolve(__dirname, 'locations/uk/index.html'),
