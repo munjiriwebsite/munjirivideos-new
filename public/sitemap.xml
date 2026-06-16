@@ -1,198 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
+  <!-- Core Pages -->
   <url>
-    <loc>https://www.munjiri.com</loc>
+    <loc>https://www.munjiri.com/</loc>
   </url>
-
   <url>
-    <loc>https://www.munjiri.com/blog/</loc>
+    <loc>https://www.munjiri.com/about/</loc>
   </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/field-notes/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/behind-the-scenes-videography-south-africa/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/nyika-national-park-travel-guide/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/wandering-the-cederberg/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/hire-videographer/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/questions-to-ask-a-videographer-portugal/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/skills/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/how-to-be-more-confident-on-camera/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/how-to-edit-videos-for-social-media/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/video-advice-composition/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/video-advice-natural-light/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/strategy/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/common-mistakes-social-media-video-production/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/social-media-video-ideas/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/the-best-way-to-upload-video-on-youtube/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/blog/video-storytelling/</loc>
-  </url>
-
   <url>
     <loc>https://www.munjiri.com/contact/</loc>
   </url>
-
+  <url>
+    <loc>https://www.munjiri.com/portfolio/</loc>
+  </url>
   <url>
     <loc>https://www.munjiri.com/learn/learn-video-making/</loc>
   </url>
 
+  <!-- Blog & Categories -->
+  <url>
+    <loc>https://www.munjiri.com/blog/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/field-notes/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/skills/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/strategy/</loc>
+  </url>
+
+  <!-- Blog Posts (Including Migrated Portfolio Items) -->
+  <url>
+    <loc>https://www.munjiri.com/blog/african-bat-conservation/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/behind-the-scenes-videography-south-africa/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/charleston-house/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/collingwood-norris-knitwear/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/common-mistakes-social-media-video-production/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/evelyn-bertrand/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/how-to-be-more-confident-on-camera/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/how-to-edit-videos-for-social-media/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/kate-ray-guided-wellbeing/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/kew-gardens-palm-house/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/mayamiko-a-meaningful-wardrobe/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/natasha-minyon-sale-the-adorned/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/nyika-national-park-travel-guide/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/picking-damsons-jam-recipe/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/questions-to-ask-a-videographer-portugal/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/social-media-video-ideas/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/soul-design-jewellery/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/sour-fig-jam-recipe/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/the-best-way-to-upload-video-on-youtube/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/video-advice-composition/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/video-advice-natural-light/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/video-storytelling/</loc>
+  </url>
+  <url>
+    <loc>https://www.munjiri.com/blog/wandering-the-cederberg/</loc>
+  </url>
+
+  <!-- Locations Hub & Regions -->
   <url>
     <loc>https://www.munjiri.com/locations/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/locations/kenya/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/locations/portugal/</loc>
   </url>
-
-   <url>
+  <url>
     <loc>https://www.munjiri.com/locations/portugal/coimbra/</loc>
   </url>
-
-   <url>
+  <url>
     <loc>https://www.munjiri.com/locations/portugal/lisbon/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/locations/south-africa/</loc>
   </url>
-
-   <url>
+  <url>
     <loc>https://www.munjiri.com/locations/south-africa/cape-town/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/locations/uk/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/locations/uk/london/</loc>
   </url>
 
-   <url>
-    <loc>https://www.munjiri.com/portfolio/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/african-bat-conservation/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/charleston-house/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/collingwood-norris-knitwear/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/evelyn-bertrand/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/kate-ray-guided-wellbeing/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/kew-gardens-palm-house/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/mayamiko-a-meaningful-wardrobe/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/natasha-minyon-sale-the-adorned/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/picking-damsons-jam-recipe/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/soul-design-jewellry/</loc>
-  </url>
-
-  <url>
-    <loc>https://www.munjiri.com/portfolio/sour-fig-jam-recipe/</loc>
-  </url>
-
+  <!-- Services -->
   <url>
     <loc>https://www.munjiri.com/services/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/brand-videographer/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/charity-videographer/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/drone-videographer/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/event-videographer/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/social-media-videographer/</loc>
   </url>
-
   <url>
     <loc>https://www.munjiri.com/services/travel-videographer/</loc>
   </url>
 
-   
+
 </urlset>
