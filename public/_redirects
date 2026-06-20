@@ -22,9 +22,10 @@
 /portfolio/collingwood-norris-knitwear/       /blog/collingwood-norris-knitwear/ 301
 
 # common mistakes social media video production
-/common-mistakes-social-media-video-production /blog/common-mistakes-social-media-video-production/ 301
-/common-mistakes-social-media-video-production.html /blog/common-mistakes-social-media-video-production/ 301
-/blog/strategy/common-mistakes-social-media-video-production/  /blog/common-mistakes-social-media-video-production/ 301
+/common-mistakes-social-media-video-production /services/social-media-videographer/ 301
+/common-mistakes-social-media-video-production.html /services/social-media-videographer/ 301
+/blog/strategy/common-mistakes-social-media-video-production/  /services/social-media-videographer/ 301
+/blog/common-mistakes-social-media-video-production/  /services/social-media-videographer/ 301
 
 # evelyn bertrand
 /portfolio/evelyn-bertrand/                   /blog/evelyn-bertrand/           301
@@ -35,8 +36,9 @@
 /blog/skills/how-to-be-more-confident-on-camera/ /blog/how-to-be-more-confident-on-camera/ 301
 
 # how to edit videos for social media
-/how-to-edit-videos-for-social-media         /blog/how-to-edit-videos-for-social-media/ 301
-/how-to-edit-videos-for-social-media.html    /blog/how-to-edit-videos-for-social-media/ 301
+/how-to-edit-videos-for-social-media         /services/how-to-edit-videos-for-social-media/ 301
+/how-to-edit-videos-for-social-media.html    /services/how-to-edit-videos-for-social-media/ 301
+/blog/how-to-edit-videos-for-social-media/   /services/how-to-edit-videos-for-social-media/ 301
 
 # kate ray guided wellbeing
 /kate-ray-guided-wellbeing.html               /blog/kate-ray-guided-wellbeing/ 301
@@ -66,6 +68,7 @@
 # social media video ideas
 /social-media-video-ideas                     /blog/social-media-video-ideas/ 301
 /social-media-video-ideas.html                /blog/social-media-video-ideas/ 301
+/blog/social-media-video-ideas/               /services/social-media-videographer/ 301
 
 # soul design jewellery
 /soul-design-jewellery-munjiri-videos         /blog/soul-design-jewellery/          301
@@ -95,7 +98,9 @@
 /video-advice-natural-light.html              /blog/video-advice-natural-light/ 301
 
 # video storytelling
-/video-storytelling                           /blog/video-storytelling/    301
+/video-storytelling                           /    301
+/blog/video-storytelling/                           /    301
+
 
 # wandering the cederberg
 /wandering-the-cederberg                      /blog/wandering-the-cederberg/ 301
@@ -156,6 +161,7 @@
 /videographer-south-africa.html               /locations/south-africa/              301
 /video-production-south-africa                /locations/south-africa/              301
 /video-production-south-africa.html           /locations/south-africa/              301
+/blog/behind-the-scenes-videography-south-africa/    /locations/south-africa/             301
 
 # South Africa - Cape Town
 /videographer-cape-town                       /locations/south-africa/cape-town/    301
@@ -261,5 +267,5 @@
 /wildlife-videography.html                    /services/nature-videographer/        301
 /dehye-collective-cape-town                   /portfolio/                           301
 /dehye-collective-cape-town.html              /portfolio/                           301
-/page55.html                                  /                                     410
-/page56.html                                  /                                     410
+/page55.html                                  /                                     301
+/page56.html                                  /                                     301
