@@ -1,610 +1,748 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Basic Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta -->
-  <title><!-- TITLE HERE --></title>
-  <meta name="description" content="<!-- PAGE DESCRIPTION HERE -->">
-  <link rel="canonical" href="https://www.munjiri.com/<!-- PAGE URL -->">
+    <!-- SEO Meta -->
+    <title><!-- TITLE HERE --></title>
+    <meta name="description" content="<!-- PAGE DESCRIPTION HERE -->" />
+    <link rel="canonical" href="https://www.munjiri.com/<!-- PAGE URL -->" />
 
-  <!-- Indexing -->
-  <meta name="robots" content="index, follow">
+    <!-- Indexing -->
+    <meta name="robots" content="index, follow" />
 
-  <!-- Author -->
-  <meta name="author" content="Munjiri Videos - Katy and Eugene">
+    <!-- Author -->
+    <meta name="author" content="Munjiri Videos - Katy and Eugene" />
 
-<!-- Favicons -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/src/style.css">
-
-  <!-- Analytics (Global – stays the same everywhere) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-57585637-2');
-  </script>
-</head>
-<!-- End of Head, Start of Body -->
-<body class="bg-linen font-crimson text-gray-800">
-    <!-- navbar -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
-      <!-- Logo -->
-      <div class="flex items-center">
-        <a href="/">
-          <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Videos" class="h-20 transition-all duration-300" id="logoImg" loading="eager">
-        </a>
-      </div>
-   <!-- Hamburger -->
-<div class="flex items-center md:hidden pr-2">
-  <button id="navToggleBtn"
-    class="text-gray-800 focus:outline-none z-50 relative"
-    aria-label="Toggle navigation menu">
-    <!-- Hamburger icon -->
-    <svg id="hamburgerIcon" class="h-7 w-7 transition-transform duration-300"
-      fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-</div>
-<!-- Overlay -->
-<div id="navOverlay"
-  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
-</div>
-<!-- Slide Menu -->
-<div id="mobileNav"
-  class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl
-         transform translate-x-full
-         transition-transform duration-300 ease-in-out
-         z-50">
-  <!-- Close button -->
-  <div class="absolute top-8 right-6">
-    <button id="navCloseBtn"
-      class="text-gray-800 focus:outline-none"
-      aria-label="Close menu">
-
-      <svg class="h-7 w-7"
-        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-
-        <path stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 6l12 12M6 18L18 6"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Links -->
-  <div class="pt-28 px-6 space-y-6">
-    <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
-    <a href="/services/" class="block text-lg text-gray-800">Services</a>
-    <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
-    <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
-    <a href="/about/" class="block text-lg text-gray-800">About</a>
-    <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
-  </div>
-</div>
-      <!-- Nav links -->
-      <nav class="hidden md:flex space-x-6 items-center">
-        <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
-        <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
-        <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
-        <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
-        <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
-        <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
-      </nav>
-    </div>
-  </nav>
-</header>
-<main class="pt-16">
-  
-</main>
-
-
-<!-- VIDEO EMBED YOUTUBE -->
- <section class="py-16 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
-    <figure class="w-full flex justify-center">
-      <div class="w-full max-w-4xl aspect-video">
-        <iframe
-          class="w-full h-full"
-          src="https://www.youtube.com/embed/F4gBQty6BUo?rel=0&showinfo=0&autoplay=0&loop=0"
-          frameborder="0"
-          allowfullscreen
-          title="Embedded Video"
-        ></iframe>
-      </div>
-    </figure>
-  </div>
-</section>
-
-<!-- VIDEO EMBED VIMEO -->
- <section class="py-16 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
-    <figure class="w-full flex justify-center">
-      <div class="w-full max-w-4xl aspect-video">
-        <iframe
-          class="w-full h-full"
-          src="https://player.vimeo.com/video/353360861?h=b4bd5269fb"
-          frameborder="0"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-          allowfullscreen
-          title="Vimeo Video"
-        ></iframe>
-      </div>
-    </figure>
-  </div>
-</section>
-<!-- 1 HORIZONTAL PHOTO -->
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/drone-videographer-15-1466x8248.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
-<!-- 2 HORIZONTAL PHOTOS -->
-  <section class="py-20 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
-    <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
-
-      <div class="relative aspect-video overflow-hidden">
-        <img
-          src="/src/assets/images/yoga-videographer-14-1086x611.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-      <div class="relative aspect-video overflow-hidden">
-        <img
-          src="/src/assets/images/yoga-videographer-19-626x352.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- 3 HORIZONTAL PHOTOS -->
- <section class="py-20 px-4 bg-linen">
-  <div class="max-w-6xl mx-auto">
-    <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-
-      <div class="relative aspect-video overflow-hidden">
-        <img
-          src="/src/assets/images/dsc03417-676x452.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-      <div class="relative aspect-video overflow-hidden">
-        <img
-          src="/src/assets/images/dsc03508-676x451.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-      <div class="relative aspect-video overflow-hidden">
-        <img
-          src="/src/assets/images/dsc03431-676x452.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- 4 HORIZONTAL PHOTOS-->
- <!-- 1 Vertical Photo -->
-  <section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto">
-    <img 
-      src="/src/assets/images/dsc09603-844x1264.jpg"
-      alt="Behind-the-scenes image"
-      class="w-full h-auto object-cover"
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/assets/images/logo/favicon-32x32.png"
     />
-  </div>
-</section>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/src/assets/images/logo/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/src/assets/images/logo/apple-touch-icon.png"
+    />
 
-<!-- 2 VERTICAL PHOTOS -->
- <section class="py-20 px-4">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left -->
-    <div class="md:w-1/2">
-      <img 
-        src="/src/assets/images/dsc09604-1156x1731.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/src/style.css" />
 
-    <!-- Right -->
-    <div class="md:w-1/2">
-      <img 
-        src="/src/assets/images/dsc09603-844x1264.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
+    <!-- Analytics (Global – stays the same everywhere) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-57585637-2");
+    </script>
+  </head>
+  <!-- End of Head, Start of Body -->
+  <body class="bg-linen font-crimson text-gray-800">
+    <!-- navbar -->
+    <header
+      id="siteHeader"
+      class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300"
+    >
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex justify-between items-center h-24 transition-all duration-300"
+          id="navInner"
+        >
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="/">
+              <img
+                src="/src/assets/images/logo/munjiri-take-two.gif"
+                alt="Munjiri Videos"
+                class="h-20 transition-all duration-300"
+                id="logoImg"
+                loading="eager"
+              />
+            </a>
+          </div>
+          <!-- Hamburger -->
+          <div class="flex items-center md:hidden pr-2">
+            <button
+              id="navToggleBtn"
+              class="text-gray-800 focus:outline-none z-50 relative"
+              aria-label="Toggle navigation menu"
+            >
+              <!-- Hamburger icon -->
+              <svg
+                id="hamburgerIcon"
+                class="h-7 w-7 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+          <!-- Overlay -->
+          <div
+            id="navOverlay"
+            class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40"
+          ></div>
+          <!-- Slide Menu -->
+          <div
+            id="mobileNav"
+            class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+          >
+            <!-- Close button -->
+            <div class="absolute top-8 right-6">
+              <button
+                id="navCloseBtn"
+                class="text-gray-800 focus:outline-none"
+                aria-label="Close menu"
+              >
+                <svg
+                  class="h-7 w-7"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 6l12 12M6 18L18 6"
+                  />
+                </svg>
+              </button>
+            </div>
 
-  </div>
-</section>
+            <!-- Links -->
+            <div class="pt-28 px-6 space-y-6">
+              <a href="/portfolio/" class="block text-lg text-gray-800"
+                >Portfolio</a
+              >
+              <a href="/services/" class="block text-lg text-gray-800"
+                >Services</a
+              >
+              <a href="/locations/" class="block text-lg text-gray-800"
+                >Locations</a
+              >
+              <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
+              <a href="/about/" class="block text-lg text-gray-800">About</a>
+              <a href="/contact/" class="block text-lg text-gray-800"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <!-- Nav links -->
+          <nav class="hidden md:flex space-x-6 items-center">
+            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500"
+              >Portfolio</a
+            >
+            <a href="/services/" class="text-gray-800 hover:text-gray-500"
+              >Services</a
+            >
+            <a href="/locations/" class="text-gray-800 hover:text-gray-500"
+              >Locations</a
+            >
+            <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
+            <a href="/about/" class="text-gray-800 hover:text-gray-500"
+              >About</a
+            >
+            <a href="/contact/" class="text-gray-800 hover:text-gray-500"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </nav>
+    </header>
+    <main class="pt-16"></main>
 
-<!-- 3 Vertical PHOTOS -->
- <section class="py-20 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
-    <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-
-      <div class="relative">
-        <img
-          src="/src/assets/images/event-shots-portrait-1-676x1202.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
+    <!-- VIDEO EMBED YOUTUBE -->
+    <section class="py-16 px-4 bg-linen">
+      <div class="max-w-5xl mx-auto">
+        <figure class="w-full flex justify-center">
+          <div class="w-full max-w-4xl aspect-video">
+            <iframe
+              class="w-full h-full"
+              src="https://www.youtube.com/embed/F4gBQty6BUo?rel=0&showinfo=0&autoplay=0&loop=0"
+              frameborder="0"
+              allowfullscreen
+              title="Embedded Video"
+            ></iframe>
+          </div>
+        </figure>
       </div>
+    </section>
 
-      <div class="relative">
-        <img
-          src="/src/assets/images/event-shots-portrait-2-676x1202.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
+    <!-- VIDEO EMBED VIMEO -->
+    <section class="py-16 px-4 bg-linen">
+      <div class="max-w-5xl mx-auto">
+        <figure class="w-full flex justify-center">
+          <div class="w-full max-w-4xl aspect-video">
+            <iframe
+              class="w-full h-full"
+              src="https://player.vimeo.com/video/353360861?h=b4bd5269fb"
+              frameborder="0"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="
+                autoplay;
+                fullscreen;
+                picture-in-picture;
+                clipboard-write;
+                encrypted-media;
+                web-share;
+              "
+              allowfullscreen
+              title="Vimeo Video"
+            ></iframe>
+          </div>
+        </figure>
       </div>
-
-      <div class="relative">
-        <img
-          src="/src/assets/images/event-shots-portrait-3-676x1202.jpg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- 4 VERTICAL PHOTOS -->
-<section class="py-20 px-4">
-  <div class="max-w-6xl mx-auto">
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-      
-      <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-19-at-08.12.24-510x508.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.20.13-510x771.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.23.34-480x882.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-      <div class="relative aspect-[2/3] overflow-hidden">
-        <img src="/src/assets/images/screenshot-2025-07-18-at-12.25.47-510x769.png"
-             class="w-full h-full object-cover" />
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Links -->
-
-<a href="" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"></a>
-<a href="https://example.com" target="_blank" rel="noopener noreferrer" class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300"></a>
-
-<a
-  href="mailto:katy@munjiri.com"
-  class="text-zinc-600 hover:text-zinc-800 transition-colors duration-300"
->
-  katy@munjiri.com
-</a>
-
-
-<!-- Testimonials -->
-<section class="font-crimson text-black py-20 px-4">
-  <div class="max-w-2xl mx-auto text-center">
-    <h2 class="mb-12">
-      What Our Clients Say
-    </h2>
-
-    <div class="space-y-12 text-left text-lg leading-relaxed font-light">
-      <blockquote>
-        "Working with Katy was a great experience and also really fun! She went the extra mile to help me achieve everything I wanted in the film. She’s so professional but also very easygoing and helped me feel relaxed during filming. I’m thrilled with the results and would highly recommend Munjiri Videos."
-       <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">Sarah Rueger, Amaranthine Skincare</footer>
-      </blockquote>
-
-      <blockquote>
-        "We absolutely loved working with Katy and Eugene. They were so professional from start to finish and managed to capture Heartfelt beautifully. We would highly recommend them and will definitely work with them again."
-        <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">Julie Hadley, The Heartfelt Project</footer>
-      </blockquote>
-
-      <blockquote>
-        "The footage is the best we have seen from our schools – the colors, images, shots, etc. It’s amazing that Katy was able to find a compelling story to fit what we needed, and we are so grateful for her expertise and time!"
-        <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">Reshma, Impact Network</footer>
-      </blockquote>
-    </div>
-  </div>
-  
-</section>
-
-<!-- CAROUSEL -->
-<section class="py-8 px-4">
-  <div class="mx-auto max-w-2xl space-y-6">
-
-    <h2 class="text-center">Frequently Asked Questions About Nature Video Production</h2>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        What is nature video production?
-      </summary>
-      <p class="mt-2">
-        Nature video production is the process of creating video content that highlights
-        the natural world and the people, brands, or organisations working to protect and
-        celebrate it. It blends documentary-style storytelling with a strong visual
-        connection to landscapes, wildlife, and sustainable living.
-      </p>
-    </details>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        What kinds of brands do you work with?
-      </summary>
-      <p class="mt-2">
-        We work with eco-conscious brands, wildlife charities, nature retreats, tourism
-        projects, and social enterprises. If you care about nature and have a story to
-        share, we’d love to collaborate.
-      </p>
-    </details>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        Do you film in remote or wild locations?
-      </summary>
-      <p class="mt-2">
-        Yes. A big part of our nature video production work involves filming in wild and
-        often remote areas. We have experience working in challenging environments and
-        adapting to real-world conditions.
-      </p>
-    </details>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        Can you include drone footage?
-      </summary>
-      <p class="mt-2">
-        Absolutely. We offer drone videography as part of our nature video packages.
-        It’s a powerful way to showcase landscapes, scale, and the full impact of your
-        work, whether it’s reforestation, eco-building, or wildlife conservation.
-      </p>
-    </details>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        What if we don’t have a clear story yet?
-      </summary>
-      <p class="mt-2">
-        That’s totally fine. In the early stages of our nature video production process,
-        we help you discover and shape your story. We’ll guide you through story planning
-        so your message is clear, emotional, and engaging.
-      </p>
-    </details>
-
-    <details class="border-b pb-4">
-      <summary class="cursor-pointer py-2">
-        Do you help with strategy after the video is finished?
-      </summary>
-      <p class="mt-2">
-        Yes. Projects can include delivery in multiple formats plus guidance on how and
-        where to use your videos for the most impact. From websites and Instagram to
-        YouTube and email newsletters, we help you get the most value from your content.
-      </p>
-    </details>
-
-  </div>
-</section>
-<!-- Footer -->
-<footer>
-
-  <div class="max-w-6xl mx-auto px-6 py-16">
-
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-
-      <!-- Column 1: Logo + Location -->
-      <div>
-        <a href="/" class="inline-block pl-6 mb-2">
+    </section>
+    <!-- 1 HORIZONTAL PHOTO -->
+    <section class="py-20 px-4">
+      <div class="max-w-4xl mx-auto">
+        <div class="relative aspect-video overflow-hidden">
           <img
-            src="/src/assets/images/logo/munjiri-take-two.gif"
-            alt="Munjiri Logo"
-            class="h-20 object-contain"
+            src="/src/assets/images/drone-videographer-15-1466x8248.jpg"
+            alt="Beautiful horizontal shot"
+            class="w-full h-full object-cover"
           />
-        </a>
-
-        <p class="text-sm leading-relaxed">
-        Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so you can grow your brand. Based between <a href="/locations/portugal/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Portugal</a> and <a href="/locations/south-africa/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">South Africa</a>.
-        </p>
-
+        </div>
       </div>
+    </section>
+    <!-- 2 HORIZONTAL PHOTOS -->
+    <section class="py-20 px-4 bg-linen">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/yoga-videographer-14-1086x611.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
 
-      <!-- Column 2: Services -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Services
-        </h3>
-
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Production</a>
-          <a href="/services/social-media-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Social Media</a>
-          <a href="/services/brand-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Brand</a>
-          <a href="/services/charity-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Non-Profit</a>
-          <a href="/services/travel-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Travel & Lifestyle</a>
-        </nav>
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/yoga-videographer-19-626x352.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- 3 HORIZONTAL PHOTOS -->
+    <section class="py-20 px-4 bg-linen">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/dsc03417-676x452.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
 
-       <!-- Column 3: Blog -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Blog
-        </h3>
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/dsc03508-676x451.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
 
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/blog/skills/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Filmaking Craft</a>
-          <a href="/blog/strategy/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Strategy</a>
-          <a href="/blog/field-notes/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Field Notes</a>
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/dsc03431-676x452.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4 HORIZONTAL PHOTOS-->
+    <!-- 1 Vertical Photo -->
+    <section class="py-20 px-4">
+      <div class="max-w-3xl mx-auto">
+        <img
+          src="/src/assets/images/dsc09603-844x1264.jpg"
+          alt="Behind-the-scenes image"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </section>
 
-        </nav>
-          <p class="mt-4 text-sm">
-          Email:
-          <a
-            href="mailto:katy@munjiri.com"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+    <!-- 2 VERTICAL PHOTOS -->
+    <section class="py-20 px-4">
+      <div
+        class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center"
+      >
+        <!-- Left -->
+        <div class="md:w-1/2">
+          <img
+            src="/src/assets/images/dsc09604-1156x1731.jpg"
+            alt=""
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+        <!-- Right -->
+        <div class="md:w-1/2">
+          <img
+            src="/src/assets/images/dsc09603-844x1264.jpg"
+            alt=""
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Vertical PHOTOS -->
+    <section class="py-20 px-4 bg-linen">
+      <div class="max-w-5xl mx-auto">
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          <div class="relative">
+            <img
+              src="/src/assets/images/event-shots-portrait-1-676x1202.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="relative">
+            <img
+              src="/src/assets/images/event-shots-portrait-2-676x1202.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="relative">
+            <img
+              src="/src/assets/images/event-shots-portrait-3-676x1202.jpg"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 4 VERTICAL PHOTOS -->
+    <section class="py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div class="relative aspect-[2/3] overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2025-07-19-at-08.12.24-510x508.png"
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="relative aspect-[2/3] overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2025-07-18-at-12.20.13-510x771.png"
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="relative aspect-[2/3] overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2025-07-18-at-12.23.34-480x882.png"
+              class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="relative aspect-[2/3] overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2025-07-18-at-12.25.47-510x769.png"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links -->
+
+    <a
+      href=""
+      class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+    ></a>
+    <a
+      href="https://example.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+    ></a>
+
+    <a
+      href="mailto:katy@munjiri.com"
+      class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+    >
+      katy@munjiri.com
+    </a>
+
+    <!-- Testimonials -->
+    <section class="font-crimson text-black py-20 px-4">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="mb-12">What Our Clients Say</h2>
+
+        <div class="space-y-12 text-left text-lg leading-relaxed font-light">
+          <blockquote>
+            "Working with Katy was a great experience and also really fun! She
+            went the extra mile to help me achieve everything I wanted in the
+            film. She’s so professional but also very easygoing and helped me
+            feel relaxed during filming. I’m thrilled with the results and would
+            highly recommend Munjiri Videos."
+            <footer
+              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
+            >
+              Sarah Rueger, Amaranthine Skincare
+            </footer>
+          </blockquote>
+
+          <blockquote>
+            "We absolutely loved working with Katy and Eugene. They were so
+            professional from start to finish and managed to capture Heartfelt
+            beautifully. We would highly recommend them and will definitely work
+            with them again."
+            <footer
+              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
+            >
+              Julie Hadley, The Heartfelt Project
+            </footer>
+          </blockquote>
+
+          <blockquote>
+            "The footage is the best we have seen from our schools – the colors,
+            images, shots, etc. It’s amazing that Katy was able to find a
+            compelling story to fit what we needed, and we are so grateful for
+            her expertise and time!"
+            <footer
+              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
+            >
+              Reshma, Impact Network
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="py-8 px-4">
+      <div class="mx-auto max-w-2xl space-y-6">
+        <h2 class="text-center">
+          Frequently Asked Questions About Nature Video Production
+        </h2>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            What is nature video production?
+          </summary>
+          <p class="mt-2">
+            Nature video production is the process of creating video content
+            that highlights the natural world and the people, brands, or
+            organisations working to protect and celebrate it. It blends
+            documentary-style storytelling with a strong visual connection to
+            landscapes, wildlife, and sustainable living.
+          </p>
+        </details>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            What kinds of brands do you work with?
+          </summary>
+          <p class="mt-2">
+            We work with eco-conscious brands, wildlife charities, nature
+            retreats, tourism projects, and social enterprises. If you care
+            about nature and have a story to share, we’d love to collaborate.
+          </p>
+        </details>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            Do you film in remote or wild locations?
+          </summary>
+          <p class="mt-2">
+            Yes. A big part of our nature video production work involves filming
+            in wild and often remote areas. We have experience working in
+            challenging environments and adapting to real-world conditions.
+          </p>
+        </details>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            Can you include drone footage?
+          </summary>
+          <p class="mt-2">
+            Absolutely. We offer drone videography as part of our nature video
+            packages. It’s a powerful way to showcase landscapes, scale, and the
+            full impact of your work, whether it’s reforestation, eco-building,
+            or wildlife conservation.
+          </p>
+        </details>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            What if we don’t have a clear story yet?
+          </summary>
+          <p class="mt-2">
+            That’s totally fine. In the early stages of our nature video
+            production process, we help you discover and shape your story. We’ll
+            guide you through story planning so your message is clear,
+            emotional, and engaging.
+          </p>
+        </details>
+
+        <details class="border-b pb-4">
+          <summary class="cursor-pointer py-2">
+            Do you help with strategy after the video is finished?
+          </summary>
+          <p class="mt-2">
+            Yes. Projects can include delivery in multiple formats plus guidance
+            on how and where to use your videos for the most impact. From
+            websites and Instagram to YouTube and email newsletters, we help you
+            get the most value from your content.
+          </p>
+        </details>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="max-w-6xl mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <!-- Column 1: Logo + Location -->
+          <div>
+            <a href="/" class="inline-block pl-6 mb-2">
+              <img
+                src="/src/assets/images/logo/munjiri-take-two.gif"
+                alt="Munjiri Logo"
+                class="h-20 object-contain"
+              />
+            </a>
+
+            <p class="text-sm leading-relaxed">
+              Munjiri Videos is a video production company who create beautiful,
+              down-to-earth videos with strategy, so you can grow your brand.
+              Based between
+              <a
+                href="/locations/portugal/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Portugal</a
+              >
+              and
+              <a
+                href="/locations/south-africa/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >South Africa</a
+              >.
+            </p>
+          </div>
+
+          <!-- Column 2: Services -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Services</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Production</a
+              >
+              <a
+                href="/services/social-media-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Social Media</a
+              >
+              <a
+                href="/services/brand-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Brand</a
+              >
+              <a
+                href="/services/charity-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Non-Profit</a
+              >
+              <a
+                href="/services/travel-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Travel & Lifestyle</a
+              >
+            </nav>
+          </div>
+
+          <!-- Column 3: Blog -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Blog</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/blog/skills/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Filmaking Craft</a
+              >
+              <a
+                href="/blog/strategy/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Strategy</a
+              >
+              <a
+                href="/blog/field-notes/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Field Notes</a
+              >
+            </nav>
+            <p class="mt-4 text-sm">
+              Email:
+              <a
+                href="mailto:katy@munjiri.com"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                katy@munjiri.com
+              </a>
+            </p>
+
+            <p class="mt-2 text-sm">
+              <a
+                href="https://share.google/vufDLiB4bUczl1kJI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                View us on Google
+              </a>
+            </p>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Join Our Newsletter</h3>
+
+            <p class="text-sm mb-4">
+              Monthly filmmaking tips, behind-the-scenes stories.
+            </p>
+
+            <form
+              action="https://app.kit.com/forms/9564838/subscriptions"
+              method="post"
+              class="flex flex-col gap-3"
+            >
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email address"
+                required
+                class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
+              />
+
+              <button
+                type="submit"
+                class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Footer -->
+      <div class="bg-white border-t border-gray-200">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-col-reverse md:flex-row items-center justify-between text-xs md:text-sm text-gray-600 space-y-4 md:space-y-0"
+        >
+          <!-- Copyright -->
+          <div class="text-center md:text-left">
+            © 2026 Munjiri Videos. All Rights Reserved.
+            <span class="hidden md:inline"> </span>
+          </div>
+
+          <!-- Social Icons -->
+          <div
+            class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0"
           >
-            katy@munjiri.com
-          </a>
-        </p>
-        
-      
+            <a
+              href="https://www.instagram.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-50 transition"
+            >
+              <img
+                src="/src/assets/images/logo/instagram.svg"
+                alt="Instagram"
+                class="w-5 h-5"
+              />
+            </a>
 
-        <p class="mt-2 text-sm">
-          <a
-            href="https://share.google/vufDLiB4bUczl1kJI"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            View us on Google
-          </a>
-        </p>
+            <a
+              href="https://uk.pinterest.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Pinterest"
+              class="hover:opacity-50 transition"
+            >
+              <img
+                src="/src/assets/images/logo/pinterest.svg"
+                alt="Pinterest"
+                class="w-5 h-5"
+              />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@munjiri_videos"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-50 transition"
+            >
+              <img
+                src="/src/assets/images/logo/youtube.svg"
+                alt="YouTube"
+                class="w-5 h-5"
+              />
+            </a>
+          </div>
+        </div>
       </div>
+    </footer>
 
-
-      <!-- Column 4: Newsletter -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Join Our Newsletter
-        </h3>
-
-        <p class="text-sm mb-4">
-          Monthly filmmaking tips, behind-the-scenes stories.
-        </p>
-
-   <form
-  action="https://app.kit.com/forms/9564838/subscriptions"
-  method="post"
-  class="flex flex-col gap-3"
->
-  <input
-    type="email"
-    name="email_address"
-    placeholder="Your email address"
-    required
-    class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
-  />
-
-  <button
-    type="submit"
-    class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
-  >
-    Subscribe
-  </button>
-</form>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Bottom Footer -->
-<div class="bg-white border-t border-gray-200">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-4
-              flex flex-col-reverse md:flex-row
-              items-center justify-between
-              text-xs md:text-sm text-gray-600
-              space-y-4 md:space-y-0">
-
-    <!-- Copyright -->
-    <div class="text-center md:text-left">
-      © 2026 Munjiri Videos. All Rights Reserved.
-      <span class="hidden md:inline">
-      </span>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
-      <a
-        href="https://www.instagram.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Instagram"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://uk.pinterest.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Pinterest"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://www.youtube.com/@munjiri_videos"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="YouTube"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-      </a>
-    </div>
-
-  </div>
-  </div>
-</footer>
-
-<script type="module" src="src/main.js"></script>
-</body>
+    <script type="module" src="src/main.js"></script>
+  </body>
 </html>
 
 <section class="py-20 px-4">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10">
-    
+  <div
+    class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10"
+  >
     <!-- Image -->
     <div class="md:w-2/3">
-      <img 
-        src="/src/assets/images/about-9-952x536.jpg" 
-        alt="A Selection of Our Proud Partnerships" 
-        title="A Selection of Our Proud Partnerships" 
+      <img
+        src="/src/assets/images/about-9-952x536.jpg"
+        alt="A Selection of Our Proud Partnerships"
+        title="A Selection of Our Proud Partnerships"
         class="shadow-lg rounded-none md:rounded-md w-full h-auto object-cover"
       />
     </div>
@@ -612,9 +750,9 @@
     <!-- Text Content -->
     <div class="font-crimson md:w-1/3 flex items-center">
       <p class="text-black font-light text-center md:text-left">
-        Even Michelle Obama likes our work (she posted a video we shot to her 56.9 million followers on Instagram.)
+        Even Michelle Obama likes our work (she posted a video we shot to her
+        56.9 million followers on Instagram.)
       </p>
     </div>
-
   </div>
 </section>
