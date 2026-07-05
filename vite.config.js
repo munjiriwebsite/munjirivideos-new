@@ -15,6 +15,10 @@ export default defineConfig({
           __dirname,
           "blog/how-much-does-video-production-cost/index.html",
         ),
+        ishiringavideographerworthit: path.resolve(
+          __dirname,
+          "blog/is-hiring-videographer-worth-it/index.html",
+        ),
         nyikanationalparktravelguide: path.resolve(
           __dirname,
           "blog/nyika-national-park-travel-guide/index.html",
