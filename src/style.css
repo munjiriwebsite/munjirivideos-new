@@ -1,22 +1,22 @@
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-Regular.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-Italic.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Crimson Text';
-  src: url('./assets/fonts/CrimsonText-Bold.woff2') format('woff2');
+  font-family: "Crimson Text";
+  src: url("/fonts/CrimsonText-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 ::selection {
   background: #f5e3d2;
-  color: rgb(41, 41, 41)
+  color: rgb(41, 41, 41);
 }
 
 html {
@@ -40,12 +40,10 @@ html {
 @layer base {
   html {
     @apply scroll-smooth;
-
   }
   body {
     @apply bg-linen font-crimson text-base md:text-lg text-gray-800 leading-relaxed;
   }
-
 
   h1 {
     @apply font-crimson font-bold text-xl md:text-2xl;
@@ -85,7 +83,7 @@ html {
 .youtube-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.15);
+  background: rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,14 +91,14 @@ html {
 }
 
 .youtube-lite:hover .youtube-overlay {
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .youtube-play {
   width: 68px;
   height: 48px;
   transition: transform 0.2s ease;
-  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.35));
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35));
 }
 
 .youtube-lite:hover .youtube-play {
@@ -119,7 +117,7 @@ html {
 
 #heroVideo {
   opacity: 0;
-  transition: opacity .8s ease;
+  transition: opacity 0.8s ease;
 }
 
 #heroVideo.loaded {
