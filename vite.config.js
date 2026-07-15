@@ -22,6 +22,7 @@ export default defineConfig({
         videoadvicenaturallight: path.resolve(__dirname, "blog/video-advice-natural-light/index.html"),
         strategy: path.resolve(__dirname, "blog/strategy/index.html"),
         filminginlisbon: path.resolve(__dirname, "blog/filming-in-lisbon/index.html"),
+        filmingpermitslisbon: path.resolve(__dirname, "blog/film-permits-lisbon/index.html"),
         thebestwaytouploadvideoonyoutube: path.resolve(
           __dirname,
           "blog/the-best-way-to-upload-video-on-youtube/index.html",
