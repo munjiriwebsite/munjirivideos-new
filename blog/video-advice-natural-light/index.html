@@ -1,610 +1,635 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Basic Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta -->
-  <title>How to Use Natural Light in Your Video</title>
-  <meta name="description" content="Learn how to use natural light to create videos that are visually satisfying and keep viewers interested. Natural light is an essential part of your toolkit to connect with the right people and get them to act.">
-  <link rel="canonical" href="https://www.munjiri.com/blog/video-advice-natural-light/">
+    <!-- SEO Meta -->
+    <title>How to Use Natural Light in Your Video</title>
+    <meta
+      name="description"
+      content="Learn how to use natural light to create videos that are visually satisfying and keep viewers interested. Natural light is an essential part of your toolkit to connect with the right people and get them to act."
+    />
+    <link rel="canonical" href="https://www.munjiri.com/blog/video-advice-natural-light/" />
 
-  <!-- Indexing -->
-  <meta name="robots" content="index, follow">
+    <!-- Indexing -->
+    <meta name="robots" content="index, follow" />
 
-<!-- Favicons -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png">
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png" />
+  </head>
+  <!-- End of Head, Start of Body -->
+  <body class="bg-linen font-crimson text-gray-800">
+    <!-- navbar -->
+    <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="/">
+              <img
+                src="/src/assets/images/logo/munjiri-take-two.gif"
+                alt="Munjiri Videos"
+                class="h-20 transition-all duration-300"
+                id="logoImg"
+                loading="eager"
+              />
+            </a>
+          </div>
+          <!-- Hamburger -->
+          <div class="flex items-center md:hidden pr-2">
+            <button
+              id="navToggleBtn"
+              class="text-gray-800 focus:outline-none z-50 relative"
+              aria-label="Toggle navigation menu"
+            >
+              <!-- Hamburger icon -->
+              <svg
+                id="hamburgerIcon"
+                class="h-7 w-7 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+          <!-- Overlay -->
+          <div
+            id="navOverlay"
+            class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40"
+          ></div>
+          <!-- Slide Menu -->
+          <div
+            id="mobileNav"
+            class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+          >
+            <!-- Close button -->
+            <div class="absolute top-8 right-6">
+              <button id="navCloseBtn" class="text-gray-800 focus:outline-none" aria-label="Close menu">
+                <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M6 18L18 6" />
+                </svg>
+              </button>
+            </div>
 
-</head>
-<!-- End of Head, Start of Body -->
-<body class="bg-linen font-crimson text-gray-800">
-  <!-- navbar -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
-      <!-- Logo -->
-      <div class="flex items-center">
-        <a href="/">
-          <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Videos" class="h-20 transition-all duration-300" id="logoImg" loading="eager">
-        </a>
-      </div>
-   <!-- Hamburger -->
-<div class="flex items-center md:hidden pr-2">
-  <button id="navToggleBtn"
-    class="text-gray-800 focus:outline-none z-50 relative"
-    aria-label="Toggle navigation menu">
-    <!-- Hamburger icon -->
-    <svg id="hamburgerIcon" class="h-7 w-7 transition-transform duration-300"
-      fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-</div>
-<!-- Overlay -->
-<div id="navOverlay"
-  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
-</div>
-<!-- Slide Menu -->
-<div id="mobileNav"
-  class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl
-         transform translate-x-full
-         transition-transform duration-300 ease-in-out
-         z-50">
-  <!-- Close button -->
-  <div class="absolute top-8 right-6">
-    <button id="navCloseBtn"
-      class="text-gray-800 focus:outline-none"
-      aria-label="Close menu">
-
-      <svg class="h-7 w-7"
-        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-
-        <path stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 6l12 12M6 18L18 6"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Links -->
-  <div class="pt-28 px-6 space-y-6">
-    <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
-    <a href="/services/" class="block text-lg text-gray-800">Services</a>
-    <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
-    <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
-    <a href="/about/" class="block text-lg text-gray-800">About</a>
-    <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
-  </div>
-</div>
-      <!-- Nav links -->
-      <nav class="hidden md:flex space-x-6 items-center">
-        <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
-        <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
-        <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
-        <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
-        <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
-        <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+            <!-- Links -->
+            <div class="pt-28 px-6 space-y-6">
+              <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
+              <a href="/services/" class="block text-lg text-gray-800">Services</a>
+              <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
+              <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
+              <a href="/about/" class="block text-lg text-gray-800">About</a>
+              <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
+            </div>
+          </div>
+          <!-- Nav links -->
+          <nav class="hidden md:flex space-x-6 items-center">
+            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
+            <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
+            <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
+            <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
+            <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
+            <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+          </nav>
+        </div>
       </nav>
-    </div>
-  </nav>
-</header>
-<main class="pt-16">
- <section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+    </header>
+    <main class="pt-16">
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Heading -->
+          <h1 class="mb-6">How to Use Natural Light in Your Video</h1>
+          <!-- Meta / Author -->
+          <div class="mb-4 text-sm">by <span class="font-medium text-gray-700">Munjiri Videos</span></div>
 
-    <!-- Heading -->
-    <h1 class="mb-6">
-      How to Use Natural Light in Your Video
-    </h1>
-        <!-- Meta / Author -->
-    <div class="mb-4 text-sm">
-      by <span class="font-medium text-gray-700">Munjiri Videos</span>
-    </div>
+          <!-- Intro Paragraphs -->
+          <div class="space-y-6">
+            <p>
+              Natural light is one of the most powerful tools for creating high-quality videos. Whether you're a
+              creative brand, sustainable business, or
+              <a
+                href="/services/charity-videographer/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >charity</a
+              >, harnessing natural light can enhance your visuals and cut down production costs. Natural light is a
+              fundamental aspect of cinematography, significantly influencing the mood and atmosphere of a scene. At
+              Munjiri Videos, we believe that great videos don't always require expensive gear, sometimes, all you need
+              is the light around you.
+            </p>
 
-    <!-- Intro Paragraphs -->
-    <div class="space-y-6">
-      <p>
-        Natural light is one of the most powerful tools for creating high-quality videos. Whether you're a creative brand, sustainable business, or <a href="/services/charity-videographer/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">charity</a>, harnessing natural light can enhance your visuals and cut down production costs. Natural light is a fundamental aspect of cinematography, significantly influencing the mood and atmosphere of a scene. At Munjiri Videos, we believe that great videos don't always require expensive gear, sometimes, all you need is the light around you.
-      </p>
+            <p>
+              In this guide, we'll walk you through how to use natural light in your video production to create
+              stunning, professional-looking content without breaking the bank.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <p>
-      In this guide, we'll walk you through how to use natural light in your video production to create stunning, professional-looking content without breaking the bank.
-      </p>
-    </div>
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/golden-hour-1576x887.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
-  </div>
-</section>
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Section Heading -->
+          <h2 class="mb-8">Why Use Natural Light in Video Production?</h2>
 
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/golden-hour-1576x887.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+          <!-- Intro Paragraph -->
+          <div>
+            <p>
+              Natural light isn't just free, it's also incredibly versatile. It creates soft, authentic visuals that
+              resonate with your audience.
+            </p>
+            <p>Here’s why natural light works so well:</p>
 
-<section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+            <!-- Benefits List -->
+            <ul class="list-none list-inside space-y-2">
+              <li>It gives your videos an authentic, down-to-earth feel.</li>
+              <li>
+                It's perfect for showcasing products, interviews, and
+                <a
+                  href="/blog/behind-the-scenes-videography-south-africa/"
+                  class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                  >behind-the-scenes</a
+                >
+                content.
+              </li>
+              <li>
+                It helps people feel more
+                <a
+                  href="/blog/how-to-be-more-confident-on-camera/"
+                  class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                  >comfortable on camera</a
+                >
+                without harsh artificial lighting.
+              </li>
+            </ul>
 
-    <!-- Section Heading -->
-    <h2 class="mb-8">
-      Why Use Natural Light in Video Production?
-    </h2>
+            <p>Now, let's dive into some actionable tips on how to use natural light for your video shoots.</p>
+          </div>
 
-    <!-- Intro Paragraph -->
-    <div>
-      <p>
-        Natural light isn't just free, it's also incredibly versatile. It creates soft, authentic visuals
-        that resonate with your audience.
-      </p>
-      <p>
-        Here’s why natural light works so well:
-      </p>
+          <!-- Top Tips Heading -->
+          <h3 class="py-24">Top Tips for Using Natural Light in Your Videos</h3>
 
-      <!-- Benefits List -->
-      <ul class="list-none list-inside space-y-2">
-        <li>It gives your videos an authentic, down-to-earth feel.</li>
-        <li>It's perfect for showcasing products, interviews, and <a href="/blog/behind-the-scenes-videography-south-africa/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">behind-the-scenes</a> content.</li>
-        <li>It helps people feel more <a href="/blog/how-to-be-more-confident-on-camera/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">comfortable on camera</a> without harsh artificial lighting.</li>
-      </ul>
+          <!-- Tip 1 -->
+          <div class="space-y-6">
+            <p>1. Choose the Right Time of Day</p>
+            <p>
+              Timing is everything when working with natural light. The best times to shoot are during Golden Hour, just
+              after sunrise or before sunset. The light during these times is soft, warm, and perfect for capturing
+              dreamy visuals.
+            </p>
+            <p class="italic">
+              Pro Tip: Use Golden Hour for outdoor shoots or to create beautiful backlighting effects.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <p>
-        Now, let's dive into some actionable tips on how to use natural light for your video shoots.
-      </p>
-    </div>
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/dsc08014-1576x886.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
-    <!-- Top Tips Heading -->
-    <h3 class="py-24">
-      Top Tips for Using Natural Light in Your Videos
-    </h3>
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Section Heading -->
+          <h3 class="mb-6">2. Use Open Shade for Balanced Lighting</h3>
 
-    <!-- Tip 1 -->
-    <div class="space-y-6">
-      <p>
-        1. Choose the Right Time of Day
-      </p>
-      <p>
-        Timing is everything when working with natural light. The best times to shoot are during Golden Hour,
-        just after sunrise or before sunset. The light during these times is soft, warm, and perfect for capturing
-        dreamy visuals.
-      </p>
-      <p class="italic">
-        Pro Tip: Use Golden Hour for outdoor shoots or to create beautiful backlighting effects.
-      </p>
-    </div>
+          <!-- Tip Content -->
+          <div class="space-y-6 mb-12">
+            <p>
+              Direct sunlight can create harsh shadows and make your subjects squint. Instead, look for open shade, a
+              shaded area illuminated by reflected light. This creates soft, even lighting without harsh shadows.
+            </p>
 
-  </div>
-</section>
+            <p>Examples of open shade locations:</p>
+            <ul class="list-none list-inside space-y-2 text-gray-700">
+              <li>Under trees</li>
+              <li>Building awnings</li>
+              <li>Covered pathways</li>
+            </ul>
+          </div>
 
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/dsc08014-1576x886.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+          <!-- Tip 3 -->
+          <h3 class="mb-6">3. Window Light for Indoor Shoots</h3>
 
-<section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <div class="space-y-6">
+            <p>
+              When filming indoors, window light is your best friend. Position your subject facing the window to get
+              soft, natural lighting on their face. If you're looking for more drama, place your subject to the side of
+              the window for moodier shadows.
+            </p>
 
-    <!-- Section Heading -->
-    <h3 class="mb-6">
-      2. Use Open Shade for Balanced Lighting
-    </h3>
+            <p class="italic">
+              Pro Tip: Avoid putting your subject directly in front of the window, or you'll end up with a silhouette
+              effect.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <!-- Tip Content -->
-    <div class="space-y-6 mb-12">
-      <p>
-        Direct sunlight can create harsh shadows and make your subjects squint. Instead, look for open shade,
-        a shaded area illuminated by reflected light. This creates soft, even lighting without harsh shadows.
-      </p>
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2020-07-08-at-10.02.15-copy-980x551.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
-      <p>Examples of open shade locations:</p>
-      <ul class="list-none list-inside space-y-2 text-gray-700">
-        <li>Under trees</li>
-        <li>Building awnings</li>
-        <li>Covered pathways</li>
-      </ul>
-    </div>
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Tip 4 -->
+          <h3 class="mb-6">4. Cloudy Days are Perfect for Video Shoots</h3>
 
-    <!-- Tip 3 -->
-    <h3 class="mb-6">
-      3. Window Light for Indoor Shoots
-    </h3>
+          <div class="space-y-6 mb-12">
+            <p>
+              Don't cancel your shoot just because it's cloudy! Overcast skies create diffused, even lighting that
+              eliminates harsh shadows and makes colors pop.
+            </p>
+            <p class="italic">
+              Pro Tip: If the footage looks a little flat, you can always add contrast in post-production.
+            </p>
+          </div>
 
-    <div class="space-y-6">
-      <p>
-        When filming indoors, window light is your best friend. Position your subject facing the window to get soft,
-        natural lighting on their face. If you're looking for more drama, place your subject to the side of the window
-        for moodier shadows.
-      </p>
+          <!-- Tip 5 -->
+          <h3 class="mb-6">5. Use Reflectors to Fill Shadows</h3>
 
-      <p class="italic">
-        Pro Tip: Avoid putting your subject directly in front of the window, or you'll end up with a silhouette effect.
-      </p>
-    </div>
+          <div class="space-y-6">
+            <p>
+              A simple reflector can bounce sunlight onto your subject, helping to fill in shadows and create a balanced
+              image.
+            </p>
 
-  </div>
-</section>
+            <p>You don't need expensive gear — try using:</p>
+            <ul class="list-none list-inside space-y-2">
+              <li>White foam boards</li>
+              <li>Mirrors</li>
+              <li>Light-colored walls</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/screenshot-2020-07-08-at-10.02.15-copy-980x551.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/img-3120-1414x795.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
-<section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Tip 6 -->
+          <h3 class="mb-6">6. Backlighting for Dramatic Effects</h3>
 
-    <!-- Tip 4 -->
-    <h3 class="mb-6">
-      4. Cloudy Days are Perfect for Video Shoots
-    </h3>
+          <div class="space-y-6 mb-12">
+            <p>
+              Backlighting adds depth and creates a stunning visual effect. Position the sun behind your subject to
+              create a natural glow or silhouette.
+            </p>
+            <p class="italic">
+              Pro Tip: Hide the sun directly behind your subject's head to prevent overexposure and add a soft halo
+              effect.
+            </p>
+          </div>
 
-    <div class="space-y-6 mb-12">
-      <p>
-        Don't cancel your shoot just because it's cloudy! Overcast skies create diffused, even lighting
-        that eliminates harsh shadows and makes colors pop.
-      </p>
-      <p class="italic">
-        Pro Tip: If the footage looks a little flat, you can always add contrast in post-production.
-      </p>
-    </div>
+          <!-- Indoor Lighting -->
+          <h3 class="mb-6">How to Create Natural Light Indoors</h3>
 
-    <!-- Tip 5 -->
-    <h3 class="mb-6">
-      5. Use Reflectors to Fill Shadows
-    </h3>
+          <div class="space-y-6">
+            <p>
+              If you're shooting at night or in a room without windows, you can recreate natural light using everyday
+              items.
+            </p>
 
-    <div class="space-y-6">
-      <p>
-        A simple reflector can bounce sunlight onto your subject, helping to fill in shadows and create a balanced image.
-      </p>
+            <p>Here's how:</p>
+            <ul class="list-none list-inside space-y-2">
+              <li>Hang a white bedsheet where you want the light to come from.</li>
+              <li>Place powerful LED lights behind the sheet to diffuse the light.</li>
+              <li>Adjust the lights until you get soft, even lighting across your frame.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-      <p>You don't need expensive gear — try using:</p>
-      <ul class="list-none list-inside space-y-2">
-        <li>White foam boards</li>
-        <li>Mirrors</li>
-        <li>Light-colored walls</li>
-      </ul>
-    </div>
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/screenshot-2020-07-08-at-09.52.12-1320x742.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
-  </div>
-</section>
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+          <!-- Tip: Add More Natural Light -->
+          <h3 class="mb-6">How to Add More Natural Light to a Room</h3>
 
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/img-3120-1414x795.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+          <div class="space-y-6 mb-12">
+            <p>Need more light in your scene? Try these simple tricks:</p>
 
-<section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+            <ul class="list-none list-inside space-y-2">
+              <li>Use reflectors to bounce light into darker areas.</li>
+              <li>Choose light-colored furniture and decor to reflect more light.</li>
+              <li>Add mirrors to reflect sunlight into your shot.</li>
+              <li>Shoot in rooms with large windows or skylights.</li>
+            </ul>
+          </div>
 
-    <!-- Tip 6 -->
-    <h3 class=" mb-6">
-      6. Backlighting for Dramatic Effects
-    </h3>
+          <!-- Preparation -->
+          <h3 class="mb-6">Preparation is Key</h3>
 
-    <div class="space-y-6 mb-12">
-      <p>
-        Backlighting adds depth and creates a stunning visual effect. Position the sun behind your subject
-        to create a natural glow or silhouette.
-      </p>
-      <p class="italic">
-        Pro Tip: Hide the sun directly behind your subject's head to prevent overexposure and add a soft halo effect.
-      </p>
-    </div>
+          <div class="space-y-6 mb-12">
+            <p>
+              Working with natural light requires careful preparation. Plan your shoot around the best times of day,
+              scout your location for light sources, and always have backup locations in mind in case the weather
+              changes.
+            </p>
+            <p>Create a shot list and schedule to make the most of the available light.</p>
+          </div>
 
-    <!-- Indoor Lighting -->
-    <h3 class="mb-6">
-      How to Create Natural Light Indoors
-    </h3>
+          <!-- FAQ Section -->
+          <h3 class="mb-6">Frequently Asked Questions About How to Use Natural Light in Your Video</h3>
 
-    <div class="space-y-6">
-      <p>
-        If you're shooting at night or in a room without windows, you can recreate natural light using everyday items.
-      </p>
+          <div class="space-y-8 mb-12">
+            <div>
+              <p class="mb-1">1. What is the best time to film using natural light?</p>
+              <p>
+                The best time to film is during Golden Hour, just after sunrise or before sunset, when the light is soft
+                and warm.
+              </p>
+            </div>
 
-      <p>Here's how:</p>
-      <ul class="list-none list-inside space-y-2">
-        <li>Hang a white bedsheet where you want the light to come from.</li>
-        <li>Place powerful LED lights behind the sheet to diffuse the light.</li>
-        <li>Adjust the lights until you get soft, even lighting across your frame.</li>
-      </ul>
-    </div>
+            <div>
+              <p class="mb-1">2. How do I avoid harsh shadows when filming outside?</p>
+              <p>Look for open shade or use a reflector to bounce light onto your subject.</p>
+            </div>
 
-  </div>
-</section>
+            <div>
+              <p class="mb-1">3. Can I use natural light indoors?</p>
+              <p>Yes! Use window light to create soft, flattering lighting indoors.</p>
+            </div>
 
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/screenshot-2020-07-08-at-09.52.12-1320x742.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+            <div>
+              <p class="mb-1">4. What’s the best way to diffuse sunlight?</p>
+              <p>Use sheer curtains, white sheets, or reflectors to soften sunlight.</p>
+            </div>
 
-<section class="py-20">
-  <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+            <div>
+              <p class="mb-1">5. What equipment do I need to work with natural light?</p>
+              <p>A simple reflector, white foam board, and your camera are all you need!</p>
+            </div>
+          </div>
 
-    <!-- Tip: Add More Natural Light -->
-    <h3 class="mb-6">
-      How to Add More Natural Light to a Room
-    </h3>
+          <!-- Final Thoughts -->
+          <h3 class="pt-24 pb-12">Final Thoughts</h3>
 
-    <div class="space-y-6 mb-12">
-      <p>Need more light in your scene? Try these simple tricks:</p>
+          <div class="space-y-6">
+            <p>
+              Natural light is one of the easiest, most affordable ways to create
+              <a
+                href="/portfolio/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >professional-looking video</a
+              >s. Whether you're shooting a documentary, product video, or
+              <a
+                href="/services/social-media-videographer/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >social media</a
+              >
+              reel, mastering natural light can take your visuals to the next level.
+            </p>
+            <p>
+              At <span>Munjiri Videos</span>, we're passionate about helping purpose-driven brands tell their stories
+              through impactful videos. If you'd like help planning your next video shoot,
+              <a
+                href="mailto:katy@munjiri.com"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >get in touch with us today</a
+              >!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <!-- Column 1: Logo + Location -->
+          <div>
+            <a href="/" class="inline-block pl-6 mb-2">
+              <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Logo" class="h-20 object-contain" />
+            </a>
 
-      <ul class="list-none list-inside space-y-2">
-        <li>Use reflectors to bounce light into darker areas.</li>
-        <li>Choose light-colored furniture and decor to reflect more light.</li>
-        <li>Add mirrors to reflect sunlight into your shot.</li>
-        <li>Shoot in rooms with large windows or skylights.</li>
-      </ul>
-    </div>
+            <p class="text-sm leading-relaxed">
+              Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so
+              you can grow your brand. Based between
+              <a
+                href="/locations/portugal/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Portugal</a
+              >
+              and
+              <a
+                href="/locations/south-africa/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >South Africa</a
+              >
+              from
+              <a
+                href="/locations/portugal/lisbon/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Lisbon</a
+              >
+              to Cape Town.
+            </p>
+          </div>
 
-    <!-- Preparation -->
-    <h3 class="mb-6">
-      Preparation is Key
-    </h3>
+          <!-- Column 2: Services -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Services</h3>
 
-    <div class="space-y-6 mb-12">
-      <p>
-        Working with natural light requires careful preparation. Plan your shoot around the best times
-        of day, scout your location for light sources, and always have backup locations in mind in case
-        the weather changes.
-      </p>
-      <p>Create a shot list and schedule to make the most of the available light.</p>
-    </div>
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Production</a
+              >
+              <a
+                href="/services/social-media-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Social Media</a
+              >
+              <a
+                href="/services/brand-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Brand</a
+              >
+              <a
+                href="/services/charity-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Non-Profit</a
+              >
+              <a
+                href="/services/travel-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Travel & Lifestyle</a
+              >
+            </nav>
+          </div>
 
-    <!-- FAQ Section -->
-    <h3 class="mb-6">
-      Frequently Asked Questions About How to Use Natural Light in Your Video
-    </h3>
+          <!-- Column 3: Blog -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Blog</h3>
 
-    <div class="space-y-8 mb-12">
-      <div>
-        <p class="mb-1">1. What is the best time to film using natural light?</p>
-        <p>The best time to film is during Golden Hour, just after sunrise or before sunset, when the light is soft and warm.</p>
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/blog/skills/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Filmaking Craft</a
+              >
+              <a
+                href="/blog/strategy/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Strategy</a
+              >
+              <a
+                href="/blog/field-notes/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Field Notes</a
+              >
+            </nav>
+            <p class="mt-4 text-sm">
+              Email:
+              <a
+                href="mailto:katy@munjiri.com"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                katy@munjiri.com
+              </a>
+            </p>
+
+            <p class="mt-2 text-sm">
+              <a
+                href="https://share.google/vufDLiB4bUczl1kJI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                View us on Google
+              </a>
+            </p>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Join Our Newsletter</h3>
+
+            <p class="text-sm mb-4">Monthly filmmaking tips, behind-the-scenes stories.</p>
+
+            <form action="https://app.kit.com/forms/9564838/subscriptions" method="post" class="flex flex-col gap-3">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email address"
+                required
+                class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
+              />
+
+              <button
+                type="submit"
+                class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
+      <!-- Bottom Footer -->
+      <div class="bg-white border-t border-gray-200">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-col-reverse md:flex-row items-center justify-between text-xs md:text-sm text-gray-600 space-y-4 md:space-y-0"
+        >
+          <!-- Copyright -->
+          <div class="text-center md:text-left">
+            © 2026 Munjiri Videos. All Rights Reserved.
+            <span class="hidden md:inline"> </span>
+          </div>
 
-      <div>
-        <p class="mb-1">2. How do I avoid harsh shadows when filming outside?</p>
-        <p>Look for open shade or use a reflector to bounce light onto your subject.</p>
+          <!-- Social Icons -->
+          <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
+            <a
+              href="https://www.instagram.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://uk.pinterest.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Pinterest"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@munjiri_videos"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
+            </a>
+          </div>
+        </div>
       </div>
+    </footer>
 
-      <div>
-        <p class="mb-1">3. Can I use natural light indoors?</p>
-        <p>Yes! Use window light to create soft, flattering lighting indoors.</p>
-      </div>
-
-      <div>
-        <p class="mb-1">4. What’s the best way to diffuse sunlight?</p>
-        <p>Use sheer curtains, white sheets, or reflectors to soften sunlight.</p>
-      </div>
-
-      <div>
-        <p class="mb-1">5. What equipment do I need to work with natural light?</p>
-        <p>A simple reflector, white foam board, and your camera are all you need!</p>
-      </div>
-    </div>
-
-    <!-- Final Thoughts -->
-    <h3 class="pt-24 pb-12">
-      Final Thoughts
-    </h3>
-
-    <div class="space-y-6">
-      <p>
-        Natural light is one of the easiest, most affordable ways to create <a href="/portfolio/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">professional-looking video</a>s.
-        Whether you're shooting a documentary, product video, or <a href="/services/social-media-videographer/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">social media</a> reel, mastering natural light
-        can take your visuals to the next level.
-      </p>
-      <p>
-        At <span>Munjiri Videos</span>, we're passionate about helping
-        purpose-driven brands tell their stories through impactful videos. If you'd like help planning
-        your next video shoot, <a href="mailto:katy@munjiri.com" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">get in touch with us today</a>!
-      </p>
-    </div>
-
-  </div>
-</section>
-
-</main>
-<!-- Footer -->
-<footer>
-
-  <div class="max-w-6xl mx-auto px-6 py-12">
-
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-
-      <!-- Column 1: Logo + Location -->
-      <div>
-        <a href="/" class="inline-block pl-6 mb-2">
-          <img
-            src="/src/assets/images/logo/munjiri-take-two.gif"
-            alt="Munjiri Logo"
-            class="h-20 object-contain"
-          />
-        </a>
-
-        <p class="text-sm leading-relaxed">
-        Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so you can grow your brand. Based between <a href="/locations/portugal/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Portugal</a> and <a href="/locations/south-africa/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">South Africa</a> from <a href="/locations/portugal/lisbon/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Lisbon</a> to <a href="/locations/south-africa/cape-town/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Cape Town</a>.
-        </p>
-
-      </div>
-
-      <!-- Column 2: Services -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Services
-        </h3>
-
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Production</a>
-          <a href="/services/social-media-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Social Media</a>
-          <a href="/services/brand-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Brand</a>
-          <a href="/services/charity-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Non-Profit</a>
-          <a href="/services/travel-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Travel & Lifestyle</a>
-        </nav>
-      </div>
-
-       <!-- Column 3: Blog -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Blog
-        </h3>
-
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/blog/skills/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Filmaking Craft</a>
-          <a href="/blog/strategy/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Strategy</a>
-          <a href="/blog/field-notes/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Field Notes</a>
-
-        </nav>
-          <p class="mt-4 text-sm">
-          Email:
-          <a
-            href="mailto:katy@munjiri.com"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            katy@munjiri.com
-          </a>
-        </p>
-        
-      
-
-        <p class="mt-2 text-sm">
-          <a
-            href="https://share.google/vufDLiB4bUczl1kJI"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            View us on Google
-          </a>
-        </p>
-      </div>
-
-
-      <!-- Column 4: Newsletter -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Join Our Newsletter
-        </h3>
-
-        <p class="text-sm mb-4">
-          Monthly filmmaking tips, behind-the-scenes stories.
-        </p>
-
-   <form
-  action="https://app.kit.com/forms/9564838/subscriptions"
-  method="post"
-  class="flex flex-col gap-3"
->
-  <input
-    type="email"
-    name="email_address"
-    placeholder="Your email address"
-    required
-    class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
-  />
-
-  <button
-    type="submit"
-    class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
-  >
-    Subscribe
-  </button>
-</form>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Bottom Footer -->
-<div class="bg-white border-t border-gray-200">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-4
-              flex flex-col-reverse md:flex-row
-              items-center justify-between
-              text-xs md:text-sm text-gray-600
-              space-y-4 md:space-y-0">
-
-    <!-- Copyright -->
-    <div class="text-center md:text-left">
-      © 2026 Munjiri Videos. All Rights Reserved.
-      <span class="hidden md:inline">
-      </span>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
-      <a
-        href="https://www.instagram.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Instagram"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://uk.pinterest.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Pinterest"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://www.youtube.com/@munjiri_videos"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="YouTube"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-      </a>
-    </div>
-
-  </div>
-  </div>
-</footer>
-
-<script type="module" src="/src/main.js"></script>
-</body>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

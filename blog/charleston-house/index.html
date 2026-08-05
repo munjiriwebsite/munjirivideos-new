@@ -1,452 +1,521 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Basic Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta -->
-  <title>Painting on every available surface, Charleston House | Munjiri Videos</title>
-  <meta name="description" content="Visiting and photographing Charleston House, home of Vanessa Bell, where every room bursts with Bloomsbury colour and playfulness.">
-  <link rel="canonical" href="https://www.munjiri.com/blog/charleston-house/">
+    <!-- SEO Meta -->
+    <title>Painting on every available surface, Charleston House | Munjiri Videos</title>
+    <meta
+      name="description"
+      content="Visiting and photographing Charleston House, home of Vanessa Bell, where every room bursts with Bloomsbury colour and playfulness."
+    />
+    <link rel="canonical" href="https://www.munjiri.com/blog/charleston-house/" />
 
-  <!-- Indexing -->
-  <meta name="robots" content="index, follow">
+    <!-- Indexing -->
+    <meta name="robots" content="index, follow" />
 
-<!-- Favicons -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png">
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png" />
+  </head>
+  <!-- End of Head, Start of Body -->
+  <body class="bg-linen font-crimson text-gray-800">
+    <!-- navbar -->
+    <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="/">
+              <img
+                src="/src/assets/images/logo/munjiri-take-two.gif"
+                alt="Munjiri Videos"
+                class="h-20 transition-all duration-300"
+                id="logoImg"
+                loading="eager"
+              />
+            </a>
+          </div>
+          <!-- Hamburger -->
+          <div class="flex items-center md:hidden pr-2">
+            <button
+              id="navToggleBtn"
+              class="text-gray-800 focus:outline-none z-50 relative"
+              aria-label="Toggle navigation menu"
+            >
+              <!-- Hamburger icon -->
+              <svg
+                id="hamburgerIcon"
+                class="h-7 w-7 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+          <!-- Overlay -->
+          <div
+            id="navOverlay"
+            class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40"
+          ></div>
+          <!-- Slide Menu -->
+          <div
+            id="mobileNav"
+            class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+          >
+            <!-- Close button -->
+            <div class="absolute top-8 right-6">
+              <button id="navCloseBtn" class="text-gray-800 focus:outline-none" aria-label="Close menu">
+                <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M6 18L18 6" />
+                </svg>
+              </button>
+            </div>
 
-</head>
-<!-- End of Head, Start of Body -->
-<body class="bg-linen font-crimson text-gray-800">
-  <!-- navbar -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
-      <!-- Logo -->
-      <div class="flex items-center">
-        <a href="/">
-          <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Videos" class="h-20 transition-all duration-300" id="logoImg" loading="eager">
-        </a>
-      </div>
-   <!-- Hamburger -->
-<div class="flex items-center md:hidden pr-2">
-  <button id="navToggleBtn"
-    class="text-gray-800 focus:outline-none z-50 relative"
-    aria-label="Toggle navigation menu">
-    <!-- Hamburger icon -->
-    <svg id="hamburgerIcon" class="h-7 w-7 transition-transform duration-300"
-      fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-</div>
-<!-- Overlay -->
-<div id="navOverlay"
-  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
-</div>
-<!-- Slide Menu -->
-<div id="mobileNav"
-  class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl
-         transform translate-x-full
-         transition-transform duration-300 ease-in-out
-         z-50">
-  <!-- Close button -->
-  <div class="absolute top-8 right-6">
-    <button id="navCloseBtn"
-      class="text-gray-800 focus:outline-none"
-      aria-label="Close menu">
-
-      <svg class="h-7 w-7"
-        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-
-        <path stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 6l12 12M6 18L18 6"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Links -->
-  <div class="pt-28 px-6 space-y-6">
-    <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
-    <a href="/services/" class="block text-lg text-gray-800">Services</a>
-    <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
-    <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
-    <a href="/about/" class="block text-lg text-gray-800">About</a>
-    <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
-  </div>
-</div>
-      <!-- Nav links -->
-      <nav class="hidden md:flex space-x-6 items-center">
-        <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
-        <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
-        <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
-        <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
-        <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
-        <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+            <!-- Links -->
+            <div class="pt-28 px-6 space-y-6">
+              <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
+              <a href="/services/" class="block text-lg text-gray-800">Services</a>
+              <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
+              <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
+              <a href="/about/" class="block text-lg text-gray-800">About</a>
+              <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
+            </div>
+          </div>
+          <!-- Nav links -->
+          <nav class="hidden md:flex space-x-6 items-center">
+            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
+            <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
+            <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
+            <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
+            <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
+            <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+          </nav>
+        </div>
       </nav>
-    </div>
-  </nav>
-</header>
-<main class="pt-16">
-<section class="relative w-full h-screen bg-black">
-  <!-- Background Image -->
-  <div class="absolute inset-0">
-    <img src="/src/assets/images/dsc09556-2000x2994.jpg" alt="Painting at Charleston House" class="w-full h-full object-cover" />
-    <div class="absolute inset-0 bg-black/50"></div> <!-- optional dark overlay for better text visibility -->
-  </div>
-
-  <!-- Centered Text -->
-  <div class="relative z-10 flex items-center justify-center h-full">
-    <h1 class="text-white text-center px-4">
-      Painting on every available surface, at Charleston House
-    </h1>
-  </div>
-</section>
-
-<section class="py-12 px-6e">
-  <div class="max-w-4xl mx-auto text-center">
-    <p>
-      Last weekend I headed to Charleston House, it was the home of Vanessa Bell, an artist and member of the Bloomsbury group. Almost as soon as she and Duncan moved into the house, they began to paint, not just on canvas, but over every available surface. The usual walls, but also tables, chairs, bedheads and bookcases; all glowed with swirls and spirals of colour and pattern, full of life and playfulness. Their house was an escape from the conventional and restrictive Edwardian world <a href="/locations/uk/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">in the UK</a> at the time.
-    </p>
-    <p>
-      As a <a href="/services/travel-videographer/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">travel videographer</a>, visiting historic creative hubs like this is incredibly inspiring for gathering visual inspiration for our future projects.
-    </p>
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left: Horizontal Image -->
-    <div class="md:w-6/12">
-      <img 
-        src="/src/assets/images/dsc09549-829x1241.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right: Horizontal Image -->
-    <div class="md:w-5/12">
-      <img 
-        src="/src/assets/images/dsc09565-1170x1752.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-12 px-4">
-  <div class="max-w-3xl mx-auto text-center">
-    <p class="italic">
-      “I can only try to evoke the impression I got on first entering the hall as a visitor — 
-      the strong feeling of life being intensely and purposefully lived, of animated talk, laughter, 
-      brilliant colour everywhere, youth.”
-    </p>
-    <p class="mt-4">- Francis Partridge</p>
-    <p>
-      Capturing that vibrant, authentic energy is at the very heart of great <a href="/blog/video-storytelling/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">storytelling</a>.
-    </p>
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left: Horizontal Image -->
-    <div class="md:w-5/12">
-      <img 
-        src="/src/assets/images/dsc09504-1159x1735.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right: Vertical Image -->
-    <div class="md:w-6/12">
-      <img 
-        src="/src/assets/images/dsc09540-730x1093.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-12 px-4">
-  <div class="max-w-3xl mx-auto text-center">
-    <p class="italic">
-      “Bloomsbury paints in circles, lives in squares and loves in triangles.”
-    </p>
-    <p class="mt-4 text-gray-600 font-semibold">- Dorothy Parker</p>
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left: Horizontal Image -->
-    <div class="md:w-6/12">
-      <img 
-        src="/src/assets/images/dsc09499-890x1333.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right: Vertical Image -->
-    <div class="md:w-5/12">
-      <img 
-        src="/src/assets/images/dsc09464-1087x1627.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-12 px-4">
-  <div class="max-w-3xl mx-auto text-center">
-    <p class="italic">
-      “The house seems full of young people in very high spirits, laughing a great deal at their own jokes ... lying about in the garden which is simply a dithering blaze of flowers and butterflies and apples.”
-    </p>
-    <p class="mt-4">- Vanessa Bell</p>
-    <p>
-      This lively imagery reminds me so much of filming vibrant outdoor settings, similar to the work we do when highlighting gorgeous locations. (If you love stunning gardens and historic architecture, you might also enjoy our piece on the <a href="/blog/kew-gardens-palm-house/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Kew Gardens Palm House</a>).
-    </p>
-  </div>
-</section>
-
- <section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto">
-    <div class="relative aspect-video overflow-hidden">
-      <img
-        src="/src/assets/images/dsc09562-1776x1186.jpg"
-        alt="Beautiful horizontal shot"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
-
-<section class="py-12 px-4">
-  <div class="max-w-3xl mx-auto text-center">
-    <p class="italic">
-      “It will be an odd life, but…it ought to be a good one for painting.”
-    </p>
-    <p class="mt-4">- Vanessa Bell</p>
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left: Horizontal Image -->
-    <div class="md:w-6/12">
-      <img 
-        src="/src/assets/images/dsc09604-1156x1731.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right: Vertical Image -->
-    <div class="md:w-5/12">
-      <img 
-        src="/src/assets/images/dsc09603-844x1264.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-<section class="py-12 px-4">
-  <div class="max-w-3xl mx-auto text-center">
-    <h2>
-      Planning Your Next Creative Project?
-    </h2>
-    <p>
-   Whether we are filming historic spaces in <a href="/locations/uk/london/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">London</a> or capturing brand stories across the wider UK, we love bringing a unique, artistic eye to every frame.
-    </p>
-    <p>If you are a creative brand or independent creator looking to showcase your space, explore our full range of <a href="/services/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">services</a> or take a look at our complete <a href="/portfolio/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">portfolio</a>. Ready to collaborate? You can <a href="/contact/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">contact</a> us here to start the conversation.</p>
-  </div>
-</section>
-</main>
-<!-- Footer -->
-<footer>
-
-  <div class="max-w-6xl mx-auto px-6 py-12">
-
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-
-      <!-- Column 1: Logo + Location -->
-      <div>
-        <a href="/" class="inline-block pl-6 mb-2">
+    </header>
+    <main class="pt-16">
+      <section class="relative w-full h-screen bg-black">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
           <img
-            src="/src/assets/images/logo/munjiri-take-two.gif"
-            alt="Munjiri Logo"
-            class="h-20 object-contain"
+            src="/src/assets/images/dsc09556-2000x2994.jpg"
+            alt="Painting at Charleston House"
+            class="w-full h-full object-cover"
           />
-        </a>
+          <div class="absolute inset-0 bg-black/50"></div>
+          <!-- optional dark overlay for better text visibility -->
+        </div>
 
-        <p class="text-sm leading-relaxed">
-        Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so you can grow your brand. Based between <a href="/locations/portugal/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Portugal</a> and <a href="/locations/south-africa/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">South Africa</a> from <a href="/locations/portugal/lisbon/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Lisbon</a> to <a href="/locations/south-africa/cape-town/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Cape Town</a>.
-        </p>
+        <!-- Centered Text -->
+        <div class="relative z-10 flex items-center justify-center h-full">
+          <h1 class="text-white text-center px-4">Painting on every available surface, at Charleston House</h1>
+        </div>
+      </section>
 
+      <section class="py-12 px-6e">
+        <div class="max-w-4xl mx-auto text-center">
+          <p>
+            Last weekend I headed to Charleston House, it was the home of Vanessa Bell, an artist and member of the
+            Bloomsbury group. Almost as soon as she and Duncan moved into the house, they began to paint, not just on
+            canvas, but over every available surface. The usual walls, but also tables, chairs, bedheads and bookcases;
+            all glowed with swirls and spirals of colour and pattern, full of life and playfulness. Their house was an
+            escape from the conventional and restrictive Edwardian world
+            <a
+              href="/locations/uk/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >in the UK</a
+            >
+            at the time.
+          </p>
+          <p>
+            As a
+            <a
+              href="/services/travel-videographer/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >travel videographer</a
+            >, visiting historic creative hubs like this is incredibly inspiring for gathering visual inspiration for
+            our future projects.
+          </p>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left: Horizontal Image -->
+          <div class="md:w-6/12">
+            <img
+              src="/src/assets/images/dsc09549-829x1241.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right: Horizontal Image -->
+          <div class="md:w-5/12">
+            <img
+              src="/src/assets/images/dsc09565-1170x1752.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-12 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="italic">
+            “I can only try to evoke the impression I got on first entering the hall as a visitor — the strong feeling
+            of life being intensely and purposefully lived, of animated talk, laughter, brilliant colour everywhere,
+            youth.”
+          </p>
+          <p class="mt-4">- Francis Partridge</p>
+          <p>
+            Capturing that vibrant, authentic energy is at the very heart of great
+            <a
+              href="/blog/video-storytelling/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >storytelling</a
+            >.
+          </p>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left: Horizontal Image -->
+          <div class="md:w-5/12">
+            <img
+              src="/src/assets/images/dsc09504-1159x1735.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right: Vertical Image -->
+          <div class="md:w-6/12">
+            <img
+              src="/src/assets/images/dsc09540-730x1093.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-12 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="italic">“Bloomsbury paints in circles, lives in squares and loves in triangles.”</p>
+          <p class="mt-4 text-gray-600 font-semibold">- Dorothy Parker</p>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left: Horizontal Image -->
+          <div class="md:w-6/12">
+            <img
+              src="/src/assets/images/dsc09499-890x1333.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right: Vertical Image -->
+          <div class="md:w-5/12">
+            <img
+              src="/src/assets/images/dsc09464-1087x1627.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-12 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="italic">
+            “The house seems full of young people in very high spirits, laughing a great deal at their own jokes ...
+            lying about in the garden which is simply a dithering blaze of flowers and butterflies and apples.”
+          </p>
+          <p class="mt-4">- Vanessa Bell</p>
+          <p>
+            This lively imagery reminds me so much of filming vibrant outdoor settings, similar to the work we do when
+            highlighting gorgeous locations. (If you love stunning gardens and historic architecture, you might also
+            enjoy our piece on the
+            <a
+              href="/blog/kew-gardens-palm-house/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >Kew Gardens Palm House</a
+            >).
+          </p>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-3xl mx-auto">
+          <div class="relative aspect-video overflow-hidden">
+            <img
+              src="/src/assets/images/dsc09562-1776x1186.jpg"
+              alt="Beautiful horizontal shot"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-12 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="italic">“It will be an odd life, but…it ought to be a good one for painting.”</p>
+          <p class="mt-4">- Vanessa Bell</p>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left: Horizontal Image -->
+          <div class="md:w-6/12">
+            <img
+              src="/src/assets/images/dsc09604-1156x1731.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right: Vertical Image -->
+          <div class="md:w-5/12">
+            <img
+              src="/src/assets/images/dsc09603-844x1264.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="py-12 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2>Planning Your Next Creative Project?</h2>
+          <p>
+            Whether we are filming historic spaces in
+            <a
+              href="/locations/uk/london/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >London</a
+            >
+            or capturing brand stories across the wider UK, we love bringing a unique, artistic eye to every frame.
+          </p>
+          <p>
+            If you are a creative brand or independent creator looking to showcase your space, explore our full range of
+            <a
+              href="/services/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >services</a
+            >
+            or take a look at our complete
+            <a
+              href="/portfolio/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >portfolio</a
+            >. Ready to collaborate? You can
+            <a
+              href="/contact/"
+              class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+              >contact</a
+            >
+            us here to start the conversation.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <!-- Column 1: Logo + Location -->
+          <div>
+            <a href="/" class="inline-block pl-6 mb-2">
+              <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Logo" class="h-20 object-contain" />
+            </a>
+
+            <p class="text-sm leading-relaxed">
+              Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so
+              you can grow your brand. Based between
+              <a
+                href="/locations/portugal/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Portugal</a
+              >
+              and
+              <a
+                href="/locations/south-africa/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >South Africa</a
+              >
+              from
+              <a
+                href="/locations/portugal/lisbon/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Lisbon</a
+              >
+              to Cape Town.
+            </p>
+          </div>
+
+          <!-- Column 2: Services -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Services</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Production</a
+              >
+              <a
+                href="/services/social-media-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Social Media</a
+              >
+              <a
+                href="/services/brand-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Brand</a
+              >
+              <a
+                href="/services/charity-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Non-Profit</a
+              >
+              <a
+                href="/services/travel-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Travel & Lifestyle</a
+              >
+            </nav>
+          </div>
+
+          <!-- Column 3: Blog -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Blog</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/blog/skills/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Filmaking Craft</a
+              >
+              <a
+                href="/blog/strategy/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Strategy</a
+              >
+              <a
+                href="/blog/field-notes/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Field Notes</a
+              >
+            </nav>
+            <p class="mt-4 text-sm">
+              Email:
+              <a
+                href="mailto:katy@munjiri.com"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                katy@munjiri.com
+              </a>
+            </p>
+
+            <p class="mt-2 text-sm">
+              <a
+                href="https://share.google/vufDLiB4bUczl1kJI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                View us on Google
+              </a>
+            </p>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Join Our Newsletter</h3>
+
+            <p class="text-sm mb-4">Monthly filmmaking tips, behind-the-scenes stories.</p>
+
+            <form action="https://app.kit.com/forms/9564838/subscriptions" method="post" class="flex flex-col gap-3">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email address"
+                required
+                class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
+              />
+
+              <button
+                type="submit"
+                class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
+      <!-- Bottom Footer -->
+      <div class="bg-white border-t border-gray-200">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-col-reverse md:flex-row items-center justify-between text-xs md:text-sm text-gray-600 space-y-4 md:space-y-0"
+        >
+          <!-- Copyright -->
+          <div class="text-center md:text-left">
+            © 2026 Munjiri Videos. All Rights Reserved.
+            <span class="hidden md:inline"> </span>
+          </div>
 
-      <!-- Column 2: Services -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Services
-        </h3>
+          <!-- Social Icons -->
+          <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
+            <a
+              href="https://www.instagram.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
+            </a>
 
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Production</a>
-          <a href="/services/social-media-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Social Media</a>
-          <a href="/services/brand-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Brand</a>
-          <a href="/services/charity-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Non-Profit</a>
-          <a href="/services/travel-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Travel & Lifestyle</a>
-        </nav>
+            <a
+              href="https://uk.pinterest.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Pinterest"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@munjiri_videos"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
+            </a>
+          </div>
+        </div>
       </div>
+    </footer>
 
-       <!-- Column 3: Blog -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Blog
-        </h3>
-
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/blog/skills/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Filmaking Craft</a>
-          <a href="/blog/strategy/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Strategy</a>
-          <a href="/blog/field-notes/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Field Notes</a>
-
-        </nav>
-          <p class="mt-4 text-sm">
-          Email:
-          <a
-            href="mailto:katy@munjiri.com"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            katy@munjiri.com
-          </a>
-        </p>
-        
-      
-
-        <p class="mt-2 text-sm">
-          <a
-            href="https://share.google/vufDLiB4bUczl1kJI"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            View us on Google
-          </a>
-        </p>
-      </div>
-
-
-      <!-- Column 4: Newsletter -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Join Our Newsletter
-        </h3>
-
-        <p class="text-sm mb-4">
-          Monthly filmmaking tips, behind-the-scenes stories.
-        </p>
-
-   <form
-  action="https://app.kit.com/forms/9564838/subscriptions"
-  method="post"
-  class="flex flex-col gap-3"
->
-  <input
-    type="email"
-    name="email_address"
-    placeholder="Your email address"
-    required
-    class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
-  />
-
-  <button
-    type="submit"
-    class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
-  >
-    Subscribe
-  </button>
-</form>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Bottom Footer -->
-<div class="bg-white border-t border-gray-200">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-4
-              flex flex-col-reverse md:flex-row
-              items-center justify-between
-              text-xs md:text-sm text-gray-600
-              space-y-4 md:space-y-0">
-
-    <!-- Copyright -->
-    <div class="text-center md:text-left">
-      © 2026 Munjiri Videos. All Rights Reserved.
-      <span class="hidden md:inline">
-      </span>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
-      <a
-        href="https://www.instagram.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Instagram"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://uk.pinterest.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Pinterest"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://www.youtube.com/@munjiri_videos"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="YouTube"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-      </a>
-    </div>
-
-  </div>
-  </div>
-</footer>
-
-<script type="module" src="/src/main.js"></script>
-</body>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

@@ -1,547 +1,586 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <!-- Basic Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta -->
-  <title>Mayamiko A Meaningful Wardrobe</title>
-  <meta name="description" content="Visiting Mayamiko in Malawi, who create ethical fashion through training and fair work, and support sustainable, community led design.">
-  <link rel="canonical" href="https://www.munjiri.com/blog/mayamiko-a-meaningful-wardrobe/">
+    <!-- SEO Meta -->
+    <title>Mayamiko A Meaningful Wardrobe</title>
+    <meta
+      name="description"
+      content="Visiting Mayamiko in Malawi, who create ethical fashion through training and fair work, and support sustainable, community led design."
+    />
+    <link rel="canonical" href="https://www.munjiri.com/blog/mayamiko-a-meaningful-wardrobe/" />
 
-  <!-- Indexing -->
-  <meta name="robots" content="index, follow">
+    <!-- Indexing -->
+    <meta name="robots" content="index, follow" />
 
-<!-- Favicons -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png">
-<link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png">
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png" />
+  </head>
+  <!-- End of Head, Start of Body -->
+  <body class="bg-linen font-crimson text-gray-800">
+    <!-- navbar -->
+    <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a href="/">
+              <img
+                src="/src/assets/images/logo/munjiri-take-two.gif"
+                alt="Munjiri Videos"
+                class="h-20 transition-all duration-300"
+                id="logoImg"
+                loading="eager"
+              />
+            </a>
+          </div>
+          <!-- Hamburger -->
+          <div class="flex items-center md:hidden pr-2">
+            <button
+              id="navToggleBtn"
+              class="text-gray-800 focus:outline-none z-50 relative"
+              aria-label="Toggle navigation menu"
+            >
+              <!-- Hamburger icon -->
+              <svg
+                id="hamburgerIcon"
+                class="h-7 w-7 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+          <!-- Overlay -->
+          <div
+            id="navOverlay"
+            class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40"
+          ></div>
+          <!-- Slide Menu -->
+          <div
+            id="mobileNav"
+            class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+          >
+            <!-- Close button -->
+            <div class="absolute top-8 right-6">
+              <button id="navCloseBtn" class="text-gray-800 focus:outline-none" aria-label="Close menu">
+                <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M6 18L18 6" />
+                </svg>
+              </button>
+            </div>
 
-</head>
-<!-- End of Head, Start of Body -->
-<body class="bg-linen font-crimson text-gray-800">
-  <!-- navbar -->
-<header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
-      <!-- Logo -->
-      <div class="flex items-center">
-        <a href="/">
-          <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Videos" class="h-20 transition-all duration-300" id="logoImg" loading="eager">
-        </a>
-      </div>
-   <!-- Hamburger -->
-<div class="flex items-center md:hidden pr-2">
-  <button id="navToggleBtn"
-    class="text-gray-800 focus:outline-none z-50 relative"
-    aria-label="Toggle navigation menu">
-    <!-- Hamburger icon -->
-    <svg id="hamburgerIcon" class="h-7 w-7 transition-transform duration-300"
-      fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-</div>
-<!-- Overlay -->
-<div id="navOverlay"
-  class="fixed inset-0 bg-black/40 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
-</div>
-<!-- Slide Menu -->
-<div id="mobileNav"
-  class="fixed top-0 right-0 h-full w-72 bg-linen shadow-xl
-         transform translate-x-full
-         transition-transform duration-300 ease-in-out
-         z-50">
-  <!-- Close button -->
-  <div class="absolute top-8 right-6">
-    <button id="navCloseBtn"
-      class="text-gray-800 focus:outline-none"
-      aria-label="Close menu">
-
-      <svg class="h-7 w-7"
-        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-
-        <path stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M6 6l12 12M6 18L18 6"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- Links -->
-  <div class="pt-28 px-6 space-y-6">
-    <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
-    <a href="/services/" class="block text-lg text-gray-800">Services</a>
-    <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
-    <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
-    <a href="/about/" class="block text-lg text-gray-800">About</a>
-    <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
-  </div>
-</div>
-      <!-- Nav links -->
-      <nav class="hidden md:flex space-x-6 items-center">
-        <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
-        <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
-        <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
-        <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
-        <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
-        <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+            <!-- Links -->
+            <div class="pt-28 px-6 space-y-6">
+              <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
+              <a href="/services/" class="block text-lg text-gray-800">Services</a>
+              <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
+              <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
+              <a href="/about/" class="block text-lg text-gray-800">About</a>
+              <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
+            </div>
+          </div>
+          <!-- Nav links -->
+          <nav class="hidden md:flex space-x-6 items-center">
+            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
+            <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
+            <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
+            <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
+            <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
+            <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
+          </nav>
+        </div>
       </nav>
-    </div>
-  </nav>
-</header>
-<main class="pt-16">
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-6">
+    </header>
+    <main class="pt-16">
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-6">
+          <h1>Mayamiko: Sustainable Fashion with a Story</h1>
 
-    <h1>Mayamiko: Sustainable Fashion with a Story</h1>
+          <p>
+            Fashion has always told a story, whether it’s through design, fabric, or the way it makes us feel when we
+            put it on. But for Mayamiko, their fashion isn’t just about looking good. Every piece of clothing,
+            accessory, fabric is rooted in a commitment to sustainability.
+          </p>
 
-    <p>
-     Fashion has always told a story, whether it’s through design, fabric, or the way it makes us feel when we put it on. But for Mayamiko, their fashion isn’t just about looking good. Every piece of clothing, accessory, fabric is rooted in a commitment to sustainability.
-    </p>
+          <p>
+            At Munjiri Videos, we believe in the power of storytelling to transform brands. And Mayamiko is a fab
+            example of how fashion can be a force for good.
+          </p>
+        </div>
+      </section>
 
-    <p>
-     At Munjiri Videos, we believe in the power of storytelling to transform brands. And Mayamiko is a fab example of how fashion can be a force for good.
-    </p>
-
-  </div>
-</section>
-
-<section class="py-12 px-4">
-  <div class="max-w-md mx-auto">
-    <img 
-      src="/src/assets/images/maya-856x1284.jpg"
-      alt="Behind-the-scenes image"
-      class="w-full h-auto object-cover"
-    />
-  </div>
-</section>
-
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <!-- Malawi -->
-    <div class="space-y-4">
-      <h2 class="pb-4">Malawi & Mayamiko</h2>
-<h3>Malawi</h3>
-      <p>
-       The story of Mayamiko begins in Malawi, a small, beautiful country in Southern Africa. When Maria, the founder of Mayamiko, first visited Malawi, she came across the chitenje fabric, a traditional textile worn by many people in the region. There was something magical about the patterns, the energy of these fabrics.
-      </p>
-      <p>
-Maria wanted to use this beautiful tradition to create something that would not only celebrate Malawi’s rich culture but also contribute to the economic growth of the local community. And so, Mayamiko was born, fashion with a purpose.
-      </p>
-    </div>
-
-    <!-- Ethical Fashion -->
-    <div class="space-y-4">
-      <h3>Ethical Fashion</h3>
-      <p>
-       Mayamiko isn’t just a fashion brand, Maria wanted to build a brand that didn’t just focus on style, but also on the well-being of the people behind the scenes and the planet that sustains us.
-      </p>
-    </div>
-
-  </div>
-</section>
-
- <section class="py-20 px-4">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left -->
-    <div class="md:w-3/5">
-      <img 
-        src="/src/assets/images/img-469-1104x736.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right -->
-    <div class="md:w-2/5">
-      <img 
-        src="/src/assets/images/img-407-1104x1656.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <!-- Behind Mayamiko's Creations -->
-    <div class="space-y-4">
-      <h2>Behind Mayamiko's Creations</h2>
-      <h3>The Fabrics: From Market to Garment</h3>
-      <p>
-        When you purchase a piece from Mayamiko, you're not just buying a garment, you’re holding a piece of someone’s story in your hands. The fabrics are sourced from local Malawian markets where women traders handpick each textile. Once these fabrics make their way to the solar-powered workshop in Lilongwe, they are transformed into something special. Each piece is crafted with care and love by local artisans who understand the importance of creating timeless fashion that will last.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-md mx-auto">
-    <img 
-      src="/src/assets/images/maya1-1088x1632.jpg"
-      alt="Behind-the-scenes image"
-      class="w-full h-auto object-cover"
-    />
-  </div>
-</section>
-
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <!-- Loved Clothes Last -->
-    <div class="space-y-4">
-      <h2>#LovedClothesLast</h2>
-      <p>
-     In a world obsessed with fast fashion, Mayamiko is a refreshing change. Their philosophy is simple but powerful: #LovedClothesLast. This isn’t just a catchy hashtag, it’s a commitment to making clothing that aren't just for the moment, but for the years to come. You’re investing in quality that will last far beyond fleeting trends. Each time you wear a piece from Mayamiko, you’re reminded of its story, the people who made it, and the positive impact your purchase is having.
-      </p>
-    </div>
-
-  </div>
-</section>
-
- <section class="py-20 px-4">
-  <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left -->
-    <div class="md:w-1/2">
-      <img 
-        src="/src/assets/images/img-419-1092x1637.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right -->
-    <div class="md:w-1/2">
-      <img 
-        src="/src/assets/images/img-431-620x930.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <!-- Empowering Communities -->
-    <div class="space-y-4">
-      <h2>Empowering Communities</h2>
-      <p>
-        One of the most inspiring aspects of Mayamiko’s story is their commitment to empowering women. Through their training programs, they provide disadvantaged women in Malawi with the skills to become successful seamstresses and entrepreneurs. The training isn’t just about sewing, it’s about financial literacy, business management, and entrepreneurship. Graduates leave the program not only with a skill but with the tools to start their own businesses and support their families.
-      </p>
-      <p>
-        After completing the training, Mayamiko helps these women get started by covering 70% of the cost of their own sewing machines. This isn’t charity; it’s a way to invest in women and help them break the cycle of poverty.
-      </p>
-    </div>
-
-    <!-- Zero Waste and Beyond -->
-    <div class="space-y-4">
-      <h2>Zero Waste and Beyond</h2>
-      <p>
-       If there’s one thing Mayamiko is passionate about, it’s sustainability. They’ve taken the zero-waste philosophy to heart, ensuring that every scrap of fabric is put to good use. What might be discarded elsewhere is repurposed into headbands, accessories, and even parcel bags. Nothing goes to waste, and every part of the production process serves a greater purpose.
-      </p>
-      <p>
-       Their workshop is solar-powered and commited to eco-friendly production. From the fabrics they source to the way they power their operations, sustainability is woven into every part of Mayamiko.
-      </p>
-    </div>
-
-  </div>
-</section>
-
- <section class="py-20 px-4">
-  <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
-    
-    <!-- Left -->
-    <div class="md:w-2/5">
-      <img 
-        src="/src/assets/images/img-390-1092x1638.jpg" 
-        alt="Behind-the-scenes horizontal image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-    <!-- Right -->
-    <div class="md:w-3/5">
-      <img 
-        src="/src/assets/images/img-467-620x413.jpg" 
-        alt="Behind-the-scenes vertical image"
-        class="w-full h-auto object-cover"
-      />
-    </div>
-
-  </div>
-</section>
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <!-- Fashion with Purpose -->
-    <div class="space-y-4">
-      <h2>Fashion with Purpose</h2>
-      <p>
-       Mayamiko’s dedication to sustainability and empowerment has not gone unnoticed. Their collections have been featured in major publications like Vogue, Refinery29, and Suitcase Magazine.Their fashion isn’t just about looking good it’s about knowing that every purchase supports a better future for the artisans, the community, and the planet.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<section class="py-20 px-4">
-  <div class="max-w-md mx-auto">
-    <img 
-      src="/src/assets/images/img-533-1576x2364.jpg"
-      alt="Behind-the-scenes image"
-      class="w-full h-auto object-cover"
-    />
-  </div>
-</section>
-
-
-<section class="py-20 px-6 md:px-12 lg:px-24">
-  <div class="max-w-4xl mx-auto text-center space-y-12">
-
-    <h2>Mayamiko and Sustainable Fashion</h2>
-
-    <div class="space-y-6">
-
-      <div class="space-y-2">
-        <h3>1. What makes Mayamiko’s clothing sustainable?</h3>
-        <p>
-         Mayamiko’s clothing is made from handpicked fabrics sourced from local Malawian markets and organic producers. Their solar-powered workshop and zero-waste philosophy ensure that each piece is crafted with the environment in mind.
-        </p>
-      </div>
-
-      <div class="space-y-2">
-        <h3>2. How does Mayamiko empower women?</h3>
-        <p>
-         Mayamiko provides sewing and business training to disadvantaged women in Malawi, helping them become entrepreneurs and seamstresses. Graduates of the program are given the opportunity to buy their own sewing machines with 70% of the cost covered by Mayamiko.
-        </p>
-      </div>
-
-      <div class="space-y-2">
-        <h3>3. What does #LovedClothesLast mean?</h3>
-        <p>
-         #LovedClothesLast is a movement encouraging the purchase of timeless, durable clothing. Mayamiko designs pieces that are built to last, promoting sustainable consumption and reducing the environmental impact of fast fashion.
-        </p>
-      </div>
-
-      <div class="space-y-2">
-        <h3>4. What kind of products does Mayamiko offer?</h3>
-        <p>
-         Mayamiko offers a wide range of products, including organic denim, handwoven blankets, knits, and accessories. They also have a collection of home decor items like table runners and cushion covers—all made with sustainable materials.
-        </p>
-      </div>
-
-      <div class="space-y-2">
-        <h3>5. How can video help my sustainable brand tell its story?</h3>
-        <p>
-          Video storytelling is an incredible tool to showcase your brand’s impact and connect with your audience on a personal level. At Munjiri Videos, we help sustainable brands craft meaningful video content that highlights their values, mission, and the people behind their brand.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<!-- VIDEO EMBED VIMEO -->
- <section class="py-16 px-4 bg-linen">
-  <div class="max-w-5xl mx-auto">
-    <figure class="w-full flex justify-center">
-      <div class="w-full max-w-4xl aspect-video">
-        <iframe
-          class="w-full h-full"
-          src="https://player.vimeo.com/video/716796436?h=fc5721ede5"
-          frameborder="0"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-          allowfullscreen
-          title="Vimeo Video"
-        ></iframe>
-      </div>
-    </figure>
-  </div>
-</section>
-
-</main>
-<!-- Footer -->
-<footer>
-
-  <div class="max-w-6xl mx-auto px-6 py-12">
-
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-
-      <!-- Column 1: Logo + Location -->
-      <div>
-        <a href="/" class="inline-block pl-6 mb-2">
+      <section class="py-12 px-4">
+        <div class="max-w-md mx-auto">
           <img
-            src="/src/assets/images/logo/munjiri-take-two.gif"
-            alt="Munjiri Logo"
-            class="h-20 object-contain"
+            src="/src/assets/images/maya-856x1284.jpg"
+            alt="Behind-the-scenes image"
+            class="w-full h-auto object-cover"
           />
-        </a>
+        </div>
+      </section>
 
-        <p class="text-sm leading-relaxed">
-        Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so you can grow your brand. Based between <a href="/locations/portugal/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Portugal</a> and <a href="/locations/south-africa/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">South Africa</a> from <a href="/locations/portugal/lisbon/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Lisbon</a> to <a href="/locations/south-africa/cape-town/" class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2">Cape Town</a>.
-        </p>
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <!-- Malawi -->
+          <div class="space-y-4">
+            <h2 class="pb-4">Malawi & Mayamiko</h2>
+            <h3>Malawi</h3>
+            <p>
+              The story of Mayamiko begins in Malawi, a small, beautiful country in Southern Africa. When Maria, the
+              founder of Mayamiko, first visited Malawi, she came across the chitenje fabric, a traditional textile worn
+              by many people in the region. There was something magical about the patterns, the energy of these fabrics.
+            </p>
+            <p>
+              Maria wanted to use this beautiful tradition to create something that would not only celebrate Malawi’s
+              rich culture but also contribute to the economic growth of the local community. And so, Mayamiko was born,
+              fashion with a purpose.
+            </p>
+          </div>
 
+          <!-- Ethical Fashion -->
+          <div class="space-y-4">
+            <h3>Ethical Fashion</h3>
+            <p>
+              Mayamiko isn’t just a fashion brand, Maria wanted to build a brand that didn’t just focus on style, but
+              also on the well-being of the people behind the scenes and the planet that sustains us.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left -->
+          <div class="md:w-3/5">
+            <img
+              src="/src/assets/images/img-469-1104x736.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right -->
+          <div class="md:w-2/5">
+            <img
+              src="/src/assets/images/img-407-1104x1656.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <!-- Behind Mayamiko's Creations -->
+          <div class="space-y-4">
+            <h2>Behind Mayamiko's Creations</h2>
+            <h3>The Fabrics: From Market to Garment</h3>
+            <p>
+              When you purchase a piece from Mayamiko, you're not just buying a garment, you’re holding a piece of
+              someone’s story in your hands. The fabrics are sourced from local Malawian markets where women traders
+              handpick each textile. Once these fabrics make their way to the solar-powered workshop in Lilongwe, they
+              are transformed into something special. Each piece is crafted with care and love by local artisans who
+              understand the importance of creating timeless fashion that will last.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-md mx-auto">
+          <img
+            src="/src/assets/images/maya1-1088x1632.jpg"
+            alt="Behind-the-scenes image"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <!-- Loved Clothes Last -->
+          <div class="space-y-4">
+            <h2>#LovedClothesLast</h2>
+            <p>
+              In a world obsessed with fast fashion, Mayamiko is a refreshing change. Their philosophy is simple but
+              powerful: #LovedClothesLast. This isn’t just a catchy hashtag, it’s a commitment to making clothing that
+              aren't just for the moment, but for the years to come. You’re investing in quality that will last far
+              beyond fleeting trends. Each time you wear a piece from Mayamiko, you’re reminded of its story, the people
+              who made it, and the positive impact your purchase is having.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left -->
+          <div class="md:w-1/2">
+            <img
+              src="/src/assets/images/img-419-1092x1637.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right -->
+          <div class="md:w-1/2">
+            <img
+              src="/src/assets/images/img-431-620x930.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <!-- Empowering Communities -->
+          <div class="space-y-4">
+            <h2>Empowering Communities</h2>
+            <p>
+              One of the most inspiring aspects of Mayamiko’s story is their commitment to empowering women. Through
+              their training programs, they provide disadvantaged women in Malawi with the skills to become successful
+              seamstresses and entrepreneurs. The training isn’t just about sewing, it’s about financial literacy,
+              business management, and entrepreneurship. Graduates leave the program not only with a skill but with the
+              tools to start their own businesses and support their families.
+            </p>
+            <p>
+              After completing the training, Mayamiko helps these women get started by covering 70% of the cost of their
+              own sewing machines. This isn’t charity; it’s a way to invest in women and help them break the cycle of
+              poverty.
+            </p>
+          </div>
+
+          <!-- Zero Waste and Beyond -->
+          <div class="space-y-4">
+            <h2>Zero Waste and Beyond</h2>
+            <p>
+              If there’s one thing Mayamiko is passionate about, it’s sustainability. They’ve taken the zero-waste
+              philosophy to heart, ensuring that every scrap of fabric is put to good use. What might be discarded
+              elsewhere is repurposed into headbands, accessories, and even parcel bags. Nothing goes to waste, and
+              every part of the production process serves a greater purpose.
+            </p>
+            <p>
+              Their workshop is solar-powered and commited to eco-friendly production. From the fabrics they source to
+              the way they power their operations, sustainability is woven into every part of Mayamiko.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+          <!-- Left -->
+          <div class="md:w-2/5">
+            <img
+              src="/src/assets/images/img-390-1092x1638.jpg"
+              alt="Behind-the-scenes horizontal image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+
+          <!-- Right -->
+          <div class="md:w-3/5">
+            <img
+              src="/src/assets/images/img-467-620x413.jpg"
+              alt="Behind-the-scenes vertical image"
+              class="w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <!-- Fashion with Purpose -->
+          <div class="space-y-4">
+            <h2>Fashion with Purpose</h2>
+            <p>
+              Mayamiko’s dedication to sustainability and empowerment has not gone unnoticed. Their collections have
+              been featured in major publications like Vogue, Refinery29, and Suitcase Magazine.Their fashion isn’t just
+              about looking good it’s about knowing that every purchase supports a better future for the artisans, the
+              community, and the planet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 px-4">
+        <div class="max-w-md mx-auto">
+          <img
+            src="/src/assets/images/img-533-1576x2364.jpg"
+            alt="Behind-the-scenes image"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+      </section>
+
+      <section class="py-20 px-6 md:px-12 lg:px-24">
+        <div class="max-w-4xl mx-auto text-center space-y-12">
+          <h2>Mayamiko and Sustainable Fashion</h2>
+
+          <div class="space-y-6">
+            <div class="space-y-2">
+              <h3>1. What makes Mayamiko’s clothing sustainable?</h3>
+              <p>
+                Mayamiko’s clothing is made from handpicked fabrics sourced from local Malawian markets and organic
+                producers. Their solar-powered workshop and zero-waste philosophy ensure that each piece is crafted with
+                the environment in mind.
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <h3>2. How does Mayamiko empower women?</h3>
+              <p>
+                Mayamiko provides sewing and business training to disadvantaged women in Malawi, helping them become
+                entrepreneurs and seamstresses. Graduates of the program are given the opportunity to buy their own
+                sewing machines with 70% of the cost covered by Mayamiko.
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <h3>3. What does #LovedClothesLast mean?</h3>
+              <p>
+                #LovedClothesLast is a movement encouraging the purchase of timeless, durable clothing. Mayamiko designs
+                pieces that are built to last, promoting sustainable consumption and reducing the environmental impact
+                of fast fashion.
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <h3>4. What kind of products does Mayamiko offer?</h3>
+              <p>
+                Mayamiko offers a wide range of products, including organic denim, handwoven blankets, knits, and
+                accessories. They also have a collection of home decor items like table runners and cushion covers—all
+                made with sustainable materials.
+              </p>
+            </div>
+
+            <div class="space-y-2">
+              <h3>5. How can video help my sustainable brand tell its story?</h3>
+              <p>
+                Video storytelling is an incredible tool to showcase your brand’s impact and connect with your audience
+                on a personal level. At Munjiri Videos, we help sustainable brands craft meaningful video content that
+                highlights their values, mission, and the people behind their brand.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- VIDEO EMBED VIMEO -->
+      <section class="py-16 px-4 bg-linen">
+        <div class="max-w-5xl mx-auto">
+          <figure class="w-full flex justify-center">
+            <div class="w-full max-w-4xl aspect-video">
+              <iframe
+                class="w-full h-full"
+                src="https://player.vimeo.com/video/716796436?h=fc5721ede5"
+                frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                allowfullscreen
+                title="Vimeo Video"
+              ></iframe>
+            </div>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <!-- Column 1: Logo + Location -->
+          <div>
+            <a href="/" class="inline-block pl-6 mb-2">
+              <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Logo" class="h-20 object-contain" />
+            </a>
+
+            <p class="text-sm leading-relaxed">
+              Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so
+              you can grow your brand. Based between
+              <a
+                href="/locations/portugal/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Portugal</a
+              >
+              and
+              <a
+                href="/locations/south-africa/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >South Africa</a
+              >
+              from
+              <a
+                href="/locations/portugal/lisbon/"
+                class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
+                >Lisbon</a
+              >
+              to Cape Town.
+            </p>
+          </div>
+
+          <!-- Column 2: Services -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Services</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Production</a
+              >
+              <a
+                href="/services/social-media-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Social Media</a
+              >
+              <a
+                href="/services/brand-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Brand</a
+              >
+              <a
+                href="/services/charity-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Non-Profit</a
+              >
+              <a
+                href="/services/travel-videographer/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Travel & Lifestyle</a
+              >
+            </nav>
+          </div>
+
+          <!-- Column 3: Blog -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Blog</h3>
+
+            <nav class="flex text-sm flex-col gap-2">
+              <a
+                href="/blog/skills/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Filmaking Craft</a
+              >
+              <a
+                href="/blog/strategy/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Video Strategy</a
+              >
+              <a
+                href="/blog/field-notes/"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+                >Field Notes</a
+              >
+            </nav>
+            <p class="mt-4 text-sm">
+              Email:
+              <a
+                href="mailto:katy@munjiri.com"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                katy@munjiri.com
+              </a>
+            </p>
+
+            <p class="mt-2 text-sm">
+              <a
+                href="https://share.google/vufDLiB4bUczl1kJI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
+              >
+                View us on Google
+              </a>
+            </p>
+          </div>
+
+          <!-- Column 4: Newsletter -->
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Join Our Newsletter</h3>
+
+            <p class="text-sm mb-4">Monthly filmmaking tips, behind-the-scenes stories.</p>
+
+            <form action="https://app.kit.com/forms/9564838/subscriptions" method="post" class="flex flex-col gap-3">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Your email address"
+                required
+                class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
+              />
+
+              <button
+                type="submit"
+                class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
+      <!-- Bottom Footer -->
+      <div class="bg-white border-t border-gray-200">
+        <div
+          class="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-col-reverse md:flex-row items-center justify-between text-xs md:text-sm text-gray-600 space-y-4 md:space-y-0"
+        >
+          <!-- Copyright -->
+          <div class="text-center md:text-left">
+            © 2026 Munjiri Videos. All Rights Reserved.
+            <span class="hidden md:inline"> </span>
+          </div>
 
-      <!-- Column 2: Services -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Services
-        </h3>
+          <!-- Social Icons -->
+          <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
+            <a
+              href="https://www.instagram.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Instagram"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
+            </a>
 
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Production</a>
-          <a href="/services/social-media-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Social Media</a>
-          <a href="/services/brand-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Brand</a>
-          <a href="/services/charity-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Non-Profit</a>
-          <a href="/services/travel-videographer/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Travel & Lifestyle</a>
-        </nav>
+            <a
+              href="https://uk.pinterest.com/munjirivideos/"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="Pinterest"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://www.youtube.com/@munjiri_videos"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              aria-label="YouTube"
+              class="hover:opacity-50 transition"
+            >
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
+            </a>
+          </div>
+        </div>
       </div>
+    </footer>
 
-       <!-- Column 3: Blog -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Blog
-        </h3>
-
-        <nav class="flex text-sm flex-col gap-2">
-          <a href="/blog/skills/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Filmaking Craft</a>
-          <a href="/blog/strategy/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Video Strategy</a>
-          <a href="/blog/field-notes/" class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1">Field Notes</a>
-
-        </nav>
-          <p class="mt-4 text-sm">
-          Email:
-          <a
-            href="mailto:katy@munjiri.com"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            katy@munjiri.com
-          </a>
-        </p>
-        
-      
-
-        <p class="mt-2 text-sm">
-          <a
-            href="https://share.google/vufDLiB4bUczl1kJI"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-1"
-          >
-            View us on Google
-          </a>
-        </p>
-      </div>
-
-
-      <!-- Column 4: Newsletter -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">
-          Join Our Newsletter
-        </h3>
-
-        <p class="text-sm mb-4">
-          Monthly filmmaking tips, behind-the-scenes stories.
-        </p>
-
-   <form
-  action="https://app.kit.com/forms/9564838/subscriptions"
-  method="post"
-  class="flex flex-col gap-3"
->
-  <input
-    type="email"
-    name="email_address"
-    placeholder="Your email address"
-    required
-    class="border border-zinc-300 px-2 py-2 rounded-md text-sm"
-  />
-
-  <button
-    type="submit"
-    class="w-fit px-3 py-1.5 text-sm border border-black bg-white hover:bg-black hover:text-white transition-colors"
-  >
-    Subscribe
-  </button>
-</form>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Bottom Footer -->
-<div class="bg-white border-t border-gray-200">
-  <div class="max-w-7xl mx-auto px-6 lg:px-12 py-4
-              flex flex-col-reverse md:flex-row
-              items-center justify-between
-              text-xs md:text-sm text-gray-600
-              space-y-4 md:space-y-0">
-
-    <!-- Copyright -->
-    <div class="text-center md:text-left">
-      © 2026 Munjiri Videos. All Rights Reserved.
-      <span class="hidden md:inline">
-      </span>
-    </div>
-
-    <!-- Social Icons -->
-    <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
-      <a
-        href="https://www.instagram.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Instagram"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://uk.pinterest.com/munjirivideos/"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="Pinterest"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5">
-      </a>
-
-      <a
-        href="https://www.youtube.com/@munjiri_videos"
-        target="_blank"
-        rel="nofollow noopener noreferrer"
-        aria-label="YouTube"
-        class="hover:opacity-50 transition"
-      >
-        <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5">
-      </a>
-    </div>
-
-  </div>
-  </div>
-</footer>
-
-<script type="module" src="/src/main.js"></script>
-</body>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

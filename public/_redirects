@@ -1,271 +1,328 @@
 # ==============================================================================
-# Blog Migration 
+
+# Blog Migration
+
 # ==============================================================================
 
 # african Bat Conservation
-/african-bat-conservation-munjiri-videos      /blog/african-bat-conservation/       301
-/african-bat-conservation-munjiri-videos.html /blog/african-bat-conservation/       301
-/portfolio/african-bat-conservation/          /blog/african-bat-conservation/       301
+
+/african-bat-conservation-munjiri-videos /blog/african-bat-conservation/ 301
+/african-bat-conservation-munjiri-videos.html /blog/african-bat-conservation/ 301
+/portfolio/african-bat-conservation/ /blog/african-bat-conservation/ 301
 
 # behind the scenes videography south african
-/behind-the-scenes-videography-south-africa   /blog/behind-the-scenes-videography-south-africa/  301
-/blog/field-notes/behind-the-scenes-videography-south-africa/     /blog/behind-the-scenes-videography-south-africa/       301
+
+/behind-the-scenes-videography-south-africa /blog/behind-the-scenes-videography-south-africa/ 301
+/blog/field-notes/behind-the-scenes-videography-south-africa/ /blog/behind-the-scenes-videography-south-africa/ 301
 
 # charleston house
-/charleston-house                             /blog/charleston-house/          301
-/charleston-house.html                        /blog/charleston-house/          301
-/portfolio/charleston-house/                  /blog/charleston-house/          301
+
+/charleston-house /blog/charleston-house/ 301
+/charleston-house.html /blog/charleston-house/ 301
+/portfolio/charleston-house/ /blog/charleston-house/ 301
 
 # collingwood norris knitwear
-/collingwood-norris-knitwear-munjiri-videos   /blog/collingwood-norris-knitwear/ 301
+
+/collingwood-norris-knitwear-munjiri-videos /blog/collingwood-norris-knitwear/ 301
 /collingwood-norris-knitwear-munjiri-videos.html /blog/collingwood-norris-knitwear/ 301
-/portfolio/collingwood-norris-knitwear/       /blog/collingwood-norris-knitwear/ 301
+/portfolio/collingwood-norris-knitwear/ /blog/collingwood-norris-knitwear/ 301
 
 # common mistakes social media video production
+
 /common-mistakes-social-media-video-production /services/social-media-videographer/ 301
 /common-mistakes-social-media-video-production.html /services/social-media-videographer/ 301
-/blog/strategy/common-mistakes-social-media-video-production/  /services/social-media-videographer/ 301
-/blog/common-mistakes-social-media-video-production/  /services/social-media-videographer/ 301
+/blog/strategy/common-mistakes-social-media-video-production/ /services/social-media-videographer/ 301
+/blog/common-mistakes-social-media-video-production/ /services/social-media-videographer/ 301
 
 # evelyn bertrand
-/portfolio/evelyn-bertrand/                   /blog/evelyn-bertrand/           301
+
+/portfolio/evelyn-bertrand/ /blog/evelyn-bertrand/ 301
 
 # how to be more confident on camera
-/how-to-be-more-confident-on-camera          /blog/how-to-be-more-confident-on-camera/ 301
-/how-to-be-more-confident-on-camera.html     /blog/how-to-be-more-confident-on-camera/ 301
+
+/how-to-be-more-confident-on-camera /blog/how-to-be-more-confident-on-camera/ 301
+/how-to-be-more-confident-on-camera.html /blog/how-to-be-more-confident-on-camera/ 301
 /blog/skills/how-to-be-more-confident-on-camera/ /blog/how-to-be-more-confident-on-camera/ 301
 
 # how to edit videos for social media
-/how-to-edit-videos-for-social-media         /services/how-to-edit-videos-for-social-media/ 301
-/how-to-edit-videos-for-social-media.html    /services/how-to-edit-videos-for-social-media/ 301
-/blog/how-to-edit-videos-for-social-media/   /services/how-to-edit-videos-for-social-media/ 301
+
+/how-to-edit-videos-for-social-media /services/how-to-edit-videos-for-social-media/ 301
+/how-to-edit-videos-for-social-media.html /services/how-to-edit-videos-for-social-media/ 301
+/blog/how-to-edit-videos-for-social-media/ /services/how-to-edit-videos-for-social-media/ 301
 
 # kate ray guided wellbeing
-/kate-ray-guided-wellbeing.html               /blog/kate-ray-guided-wellbeing/ 301
-/portfolio/kate-ray-guided-wellbeing/         /blog/kate-ray-guided-wellbeing/ 301
+
+/kate-ray-guided-wellbeing.html /blog/kate-ray-guided-wellbeing/ 301
+/portfolio/kate-ray-guided-wellbeing/ /blog/kate-ray-guided-wellbeing/ 301
 
 # kew gardens palm house
-/kew-gardens-palm-house                       /blog/kew-gardens-palm-house/    301
-/portfolio/kew-gardens-palm-house/            /blog/kew-gardens-palm-house/    301
+
+/kew-gardens-palm-house /blog/kew-gardens-palm-house/ 301
+/portfolio/kew-gardens-palm-house/ /blog/kew-gardens-palm-house/ 301
 
 # mayamiko a meaningful wardrobe
-/mayamiko-a-meaningful-wardrobe               /blog/mayamiko-a-meaningful-wardrobe/ 301
-/mayamiko-a-meaningful-wardrobe.html          /blog/mayamiko-a-meaningful-wardrobe/ 301
-/portfolio/mayamiko-a-meaningful-wardrobe/    /blog/mayamiko-a-meaningful-wardrobe/ 301
+
+/mayamiko-a-meaningful-wardrobe /blog/mayamiko-a-meaningful-wardrobe/ 301
+/mayamiko-a-meaningful-wardrobe.html /blog/mayamiko-a-meaningful-wardrobe/ 301
+/portfolio/mayamiko-a-meaningful-wardrobe/ /blog/mayamiko-a-meaningful-wardrobe/ 301
 
 # nastasha minyon sale the adorned
-/natasha-minyon-sale-the-adorned              /blog/natasha-minyon-sale-the-adorned/ 301
-/natasha-minyon-sale-the-adorned.html         /blog/natasha-minyon-sale-the-adorned/ 301
-/portfolio/natasha-minyon-sale-the-adorned/   /blog/natasha-minyon-sale-the-adorned/ 301
+
+/natasha-minyon-sale-the-adorned /blog/natasha-minyon-sale-the-adorned/ 301
+/natasha-minyon-sale-the-adorned.html /blog/natasha-minyon-sale-the-adorned/ 301
+/portfolio/natasha-minyon-sale-the-adorned/ /blog/natasha-minyon-sale-the-adorned/ 301
 
 # nyika national park travel guide
-/nyika-national-park-travel-guide             /blog/nyika-national-park-travel-guide/ 301
-/nyika-national-park-travel-guide.html        /blog/nyika-national-park-travel-guide/ 301
+
+/nyika-national-park-travel-guide /blog/nyika-national-park-travel-guide/ 301
+/nyika-national-park-travel-guide.html /blog/nyika-national-park-travel-guide/ 301
 
 # questions to ask a videographer portugal
-/questions-to-ask-a-videographer-portugal     /blog/questions-to-ask-a-videographer-portugal/              301
+
+/questions-to-ask-a-videographer-portugal /blog/questions-to-ask-a-videographer-portugal/ 301
 
 # social media video ideas
-/social-media-video-ideas                     /blog/social-media-video-ideas/ 301
-/social-media-video-ideas.html                /blog/social-media-video-ideas/ 301
-/blog/social-media-video-ideas/               /services/social-media-videographer/ 301
+
+/social-media-video-ideas /blog/social-media-video-ideas/ 301
+/social-media-video-ideas.html /blog/social-media-video-ideas/ 301
+/blog/social-media-video-ideas/ /services/social-media-videographer/ 301
 
 # soul design jewellery
-/soul-design-jewellery-munjiri-videos         /blog/soul-design-jewellery/          301
-/soul-design-jewellery-munjiri-videos.html    /blog/soul-design-jewellery/          301
-/portfolio/soul-design-jewellery/             /blog/soul-design-jewellery/          301
-/portfolio/soul-design-jewellry/              /blog/soul-design-jewellery/          301
+
+/soul-design-jewellery-munjiri-videos /blog/soul-design-jewellery/ 301
+/soul-design-jewellery-munjiri-videos.html /blog/soul-design-jewellery/ 301
+/portfolio/soul-design-jewellery/ /blog/soul-design-jewellery/ 301
+/portfolio/soul-design-jewellry/ /blog/soul-design-jewellery/ 301
 
 # sour-fig-jam-recipe
-/sour-fig-jam-recipe                          /blog/sour-fig-jam-recipe/            301
-/sour-fig-jam-recipe.html                     /blog/sour-fig-jam-recipe/            301
-/portfolio/sour-fig-jam-recipe/               /blog/sour-fig-jam-recipe/            301
+
+/sour-fig-jam-recipe /blog/sour-fig-jam-recipe/ 301
+/sour-fig-jam-recipe.html /blog/sour-fig-jam-recipe/ 301
+/portfolio/sour-fig-jam-recipe/ /blog/sour-fig-jam-recipe/ 301
 
 # picking-damsons-jam-recipe
-/picking-damsons-jam-recipe                   /blog/field-notes/picking-damsons-jam-recipe/     301
-/portfolio/picking-damsons-jam-recipe/        /blog/field-notes/picking-damsons-jam-recipe/     301
+
+/picking-damsons-jam-recipe /blog/field-notes/picking-damsons-jam-recipe/ 301
+/portfolio/picking-damsons-jam-recipe/ /blog/field-notes/picking-damsons-jam-recipe/ 301
 
 # the best way to upload video on youtube
-/the-best-way-to-upload-video-on-youtube      /blog/the-best-way-to-upload-video-on-youtube/ 301
+
+/the-best-way-to-upload-video-on-youtube /blog/the-best-way-to-upload-video-on-youtube/ 301
 /the-best-way-to-upload-video-on-youtube.html /blog/the-best-way-to-upload-video-on-youtube/ 301
 
 # video advice composition
-/video-advice-composition.html                /blog/video-advice-composition/ 301
-/blog/skills/video-advice-composition/  /blog/video-advice-composition/ 301
+
+/video-advice-composition.html /blog/video-advice-composition/ 301
+/blog/skills/video-advice-composition/ /blog/video-advice-composition/ 301
 
 # video advice natural light
-/video-advice-natural-light                   /blog/video-advice-natural-light/ 301
-/video-advice-natural-light.html              /blog/video-advice-natural-light/ 301
+
+/video-advice-natural-light /blog/video-advice-natural-light/ 301
+/video-advice-natural-light.html /blog/video-advice-natural-light/ 301
 
 # video storytelling
-/video-storytelling                           /    301
-/blog/video-storytelling/                           /    301
 
+/video-storytelling / 301
+/blog/video-storytelling/ / 301
 
 # wandering the cederberg
-/wandering-the-cederberg                      /blog/wandering-the-cederberg/ 301
-/wandering-the-cederberg.html                 /blog/wandering-the-cederberg/ 301
 
+/wandering-the-cederberg /blog/wandering-the-cederberg/ 301
+/wandering-the-cederberg.html /blog/wandering-the-cederberg/ 301
 
 # ==============================================================================
+
 # Base Utilities & Structural Pages
+
 # ==============================================================================
 
 # Home Clean Up
-/index                                        /                                     301
-/index.html                                   /                                     301
+
+/index / 301
+/index.html / 301
 
 # Portfolio Migration
-/video-production-portfolio                   /portfolio/                           301
+
+/video-production-portfolio /portfolio/ 301
 
 # Contact Migration
-/contact.html                                 /contact/                             301
-/contact                                      /contact/                             301
+
+/contact.html /contact/ 301
+/contact /contact/ 301
 
 # Learn Video Making
-/learn-video-making                           /learn/learn-video-making/            301
-/learn-video-making.html                      /learn/learn-video-making/            301
 
+/learn-video-making /learn/learn-video-making/ 301
+/learn-video-making.html /learn/learn-video-making/ 301
 
 # ==============================================================================
+
 # Locations Migration
+
 # ==============================================================================
 
 # Locations Base
-/locations                                    /locations/                           301
+
+/locations /locations/ 301
 
 # Kenya
-/videographer-kenya                           /locations/kenya/                     301
-/video-production-kenya.html                  /locations/kenya/                     301
+
+/videographer-kenya /locations/kenya/ 301
+/video-production-kenya.html /locations/kenya/ 301
 
 # Portugal
-/videographer-portugal                        /locations/portugal/                  301
-/videographer-portugal.html                   /locations/portugal/                  301
-/video-production-portugal.html               /locations/portugal/                  301
-/blog/questions-to-ask-a-videographer-portugal/      /locations/portugal/           301
+
+/videographer-portugal /locations/portugal/ 301
+/videographer-portugal.html /locations/portugal/ 301
+/video-production-portugal.html /locations/portugal/ 301
+/blog/questions-to-ask-a-videographer-portugal/ /locations/portugal/ 301
 
 # Portugal - Coimbra
-/coimbra-videographer                         /locations/portugal/coimbra/          301
-/coimbra-video-production.html                /locations/portugal/coimbra/          301
+
+/coimbra-videographer /locations/portugal/coimbra/ 301
+/coimbra-video-production.html /locations/portugal/coimbra/ 301
 
 # Portugal - Lisbon
-/lisbon-videographer                          /locations/portugal/lisbon/           301
-/lisbon-videographer.html                     /locations/portugal/lisbon/           301
-/videographer-lisbon                          /locations/portugal/lisbon/           301
+
+/lisbon-videographer /locations/portugal/lisbon/ 301
+/lisbon-videographer.html /locations/portugal/lisbon/ 301
+/videographer-lisbon /locations/portugal/lisbon/ 301
 
 # Portugal - Porto
-/videographer-porto                           /locations/portugal/            301
+
+/videographer-porto /locations/portugal/ 301
 
 # South Africa
-/videographer-south-africa                    /locations/south-africa/              301
-/videographer-south-africa.html               /locations/south-africa/              301
-/video-production-south-africa                /locations/south-africa/              301
-/video-production-south-africa.html           /locations/south-africa/              301
-/blog/behind-the-scenes-videography-south-africa/    /locations/south-africa/             301
+
+/videographer-south-africa /locations/south-africa/ 301
+/videographer-south-africa.html /locations/south-africa/ 301
+/video-production-south-africa /locations/south-africa/ 301
+/video-production-south-africa.html /locations/south-africa/ 301
+/blog/behind-the-scenes-videography-south-africa/ /locations/south-africa/ 301
 
 # South Africa - Cape Town
-/videographer-cape-town                       /locations/south-africa/cape-town/    301
-/video-production-cape-town.html              /locations/south-africa/cape-town/    301
+
+/videographer-cape-town /locations/south-africa/ 301
+/video-production-cape-town.html /locations/south-africa/ 301
+/locations/south-africa/cape-town/ /locations/south-africa/ 301
 
 # UK
-/uk-videographer                              /locations/uk/                        301
-/uk-videographer.html                         /locations/uk/                        301
+
+/uk-videographer /locations/uk/ 301
+/uk-videographer.html /locations/uk/ 301
 
 # UK - London
-/videographer-london                          /locations/uk/london/                 301
 
+/videographer-london /locations/uk/london/ 301
 
 # ==============================================================================
+
 # Services
+
 # ==============================================================================
 
 # Service Packages
-/video-content-packages.html                  /services/                            301
-/video-content-packages                       /services/                            301
+
+/video-content-packages.html /services/ 301
+/video-content-packages /services/ 301
 
 # Brand Videographer
-/brand-videographer                           /services/brand-videographer/         301
-/brand-video-production.html                  /services/brand-videographer/         301
+
+/brand-videographer /services/brand-videographer/ 301
+/brand-video-production.html /services/brand-videographer/ 301
 
 # Charity Videographer
-/charity-videographer.html                    /services/charity-videographer/       301
-/charity-videographer                         /services/charity-videographer/       301
+
+/charity-videographer.html /services/charity-videographer/ 301
+/charity-videographer /services/charity-videographer/ 301
 
 # Creative Videographer
-/creative-videographer                        /services/      301
-/creative-video-production                    /services/      301
-/creative-video-productions.html              /services/      301
+
+/creative-videographer /services/ 301
+/creative-video-production /services/ 301
+/creative-video-productions.html /services/ 301
 
 # Drone Videographer
-/drone-videographer.html                      /services/drone-videographer/         301
-/drone-videographer                           /services/drone-videographer/         301
-/drone-videographer-portugal                  /services/drone-videographer/         301
+
+/drone-videographer.html /services/drone-videographer/ 301
+/drone-videographer /services/drone-videographer/ 301
+/drone-videographer-portugal /services/drone-videographer/ 301
 
 # Editor Videographer
-/editor-videographer                          /services/        301
-/editor-videographer.html                     /services/        301
+
+/editor-videographer /services/ 301
+/editor-videographer.html /services/ 301
 
 # Event Videographer
-/event-videographer                           /services/event-videographer/         301
-/event-video-production                       /services/event-videographer/         301
-/event-video-production.html                  /services/event-videographer/         301
+
+/event-videographer /services/event-videographer/ 301
+/event-video-production /services/event-videographer/ 301
+/event-video-production.html /services/event-videographer/ 301
 
 # Nature Videographer
-/nature-videographer                          /services/        301
-/nature-video-production                      /services/        301
-/nature-video-production.html                 /services/        301
+
+/nature-videographer /services/ 301
+/nature-video-production /services/ 301
+/nature-video-production.html /services/ 301
 
 # Product Videographer
-/product-videographer                         /services/       301
-/product-video-production.html                /services/       301
+
+/product-videographer /services/ 301
+/product-video-production.html /services/ 301
 
 # Social Media Videographer
-/social-media-videographer                    /services/social-media-videographer/  301
-/social-media-video-production                /services/social-media-videographer/  301
-/social-media-video-production.html           /services/social-media-videographer/  301
-/social-media-videography                     /services/social-media-videographer/  301
-/social-media-videography.html                /services/social-media-videographer/  301
+
+/social-media-videographer /services/social-media-videographer/ 301
+/social-media-video-production /services/social-media-videographer/ 301
+/social-media-video-production.html /services/social-media-videographer/ 301
+/social-media-videography /services/social-media-videographer/ 301
+/social-media-videography.html /services/social-media-videographer/ 301
 
 # Travel Videographer
-/travel-videographer                          /services/travel-videographer/        301
-/travel-video-production                      /services/travel-videographer/        301
-/travel-video-production.html                 /services/travel-videographer/        301
+
+/travel-videographer /services/travel-videographer/ 301
+/travel-video-production /services/travel-videographer/ 301
+/travel-video-production.html /services/travel-videographer/ 301
 
 # Wedding Videographer
-/wedding-videographer-portugal                /services/       301
-/wedding-videographer-portugal.html           /services/       301
+
+/wedding-videographer-portugal /services/ 301
+/wedding-videographer-portugal.html /services/ 301
 
 # Yoga Videographer
-/yoga-videographer                            /services/          301
-/yoga-videographer.html                       /services/         301
 
+/yoga-videographer /services/ 301
+/yoga-videographer.html /services/ 301
 
 # ==============================================================================
+
 # System Clean Ups & Removals (Redirected to structural pages)
+
 # ==============================================================================
-/where-to-find-freelance-videographers-near-me /services/                           301
-/what-is-a-videographer                       /blog/                                301
-/why-is-video-marketing-effective.html        /blog/                                301
-/videographer-portugal-cost                   /services/                            301
-/videographer-portugal-cost.html              /services/                            301
-/blog.html                                    /blog/                                301
-/munjiri-films.html                           /                                     301
-/brand-videos                                 /services/brand-videographer/         301
-/brand-videos.html                            /services/brand-videographer/         301
-/video-production-for-sustainable-brands.html /services/                            301
-/why-charities-need-videography.html          /services/charity-videographer/       301
-/how-to-plan-successful-video-content.html    /blog/strategy/                       301
-/sustainable-video-production.html            /services/                            301
-/how-to-create-a-storytelling-video.html      /blog/strategy/video-storytelling/    301
-/make-storytelling-video                      /blog/strategy/video-storytelling/    301
-/kgalagadi-national-park-travel-guide.html    /blog/field-notes/                    301
-/social-impact-video-production.html          /services/charity-videographer/       301
-/social-media-for-charity.html                /services/charity-videographer/       301
-/charity-video-production.html                /services/charity-videographer/       301
-/video-production-for-non-profit-questions.html /services/charity-videographer/     301
-/brand-story-video-guide.html                 /blog/strategy/                       301
-/wildlife-videography.html                    /services/nature-videographer/        301
-/dehye-collective-cape-town                   /portfolio/                           301
-/dehye-collective-cape-town.html              /portfolio/                           301
-/page55.html                                  /                                     301
-/page56.html                                  /                                     301
+
+/where-to-find-freelance-videographers-near-me /services/ 301
+/what-is-a-videographer /blog/ 301
+/why-is-video-marketing-effective.html /blog/ 301
+/videographer-portugal-cost /services/ 301
+/videographer-portugal-cost.html /services/ 301
+/blog.html /blog/ 301
+/munjiri-films.html / 301
+/brand-videos /services/brand-videographer/ 301
+/brand-videos.html /services/brand-videographer/ 301
+/video-production-for-sustainable-brands.html /services/ 301
+/why-charities-need-videography.html /services/charity-videographer/ 301
+/how-to-plan-successful-video-content.html /blog/strategy/ 301
+/sustainable-video-production.html /services/ 301
+/how-to-create-a-storytelling-video.html /blog/strategy/video-storytelling/ 301
+/make-storytelling-video /blog/strategy/video-storytelling/ 301
+/kgalagadi-national-park-travel-guide.html /blog/field-notes/ 301
+/social-impact-video-production.html /services/charity-videographer/ 301
+/social-media-for-charity.html /services/charity-videographer/ 301
+/charity-video-production.html /services/charity-videographer/ 301
+/video-production-for-non-profit-questions.html /services/charity-videographer/ 301
+/brand-story-video-guide.html /blog/strategy/ 301
+/wildlife-videography.html /services/nature-videographer/ 301
+/dehye-collective-cape-town /portfolio/ 301
+/dehye-collective-cape-town.html /portfolio/ 301
+/page55.html / 301
+/page56.html / 301
