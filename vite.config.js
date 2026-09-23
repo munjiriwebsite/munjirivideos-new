@@ -28,6 +28,7 @@ export default defineConfig({
           "blog/the-best-way-to-upload-video-on-youtube/index.html",
         ),
         contact: path.resolve(__dirname, "contact/index.html"),
+        coralandhive: path.resolve(__dirname, "coral-and-hive/index.html"),
         learn: path.resolve(__dirname, "learn/index.html"),
         learnvideomaking: path.resolve(__dirname, "learn/learn-video-making/index.html"),
         locations: path.resolve(__dirname, "locations/index.html"),
