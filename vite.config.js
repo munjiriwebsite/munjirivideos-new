@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, "index.html"),
         about: path.resolve(__dirname, "about/index.html"),
+        ajiritea: path.resolve(__dirname, "ajiri-tea/index.html"),
         blog: path.resolve(__dirname, "blog/index.html"),
         fieldnotes: path.resolve(__dirname, "blog/field-notes/index.html"),
         howmuchdoesvideoproductioncost: path.resolve(__dirname, "blog/how-much-does-video-production-cost/index.html"),
