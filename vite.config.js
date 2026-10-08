@@ -11,6 +11,7 @@ export default defineConfig({
         about: path.resolve(__dirname, "about/index.html"),
         ajiritea: path.resolve(__dirname, "ajiri-tea/index.html"),
         blog: path.resolve(__dirname, "blog/index.html"),
+        collectivewonder: path.resolve(__dirname, "collective-wonder-herb-school/index.html"),
         fieldnotes: path.resolve(__dirname, "blog/field-notes/index.html"),
         howmuchdoesvideoproductioncost: path.resolve(__dirname, "blog/how-much-does-video-production-cost/index.html"),
         ishiringavideographerworthit: path.resolve(__dirname, "blog/is-hiring-videographer-worth-it/index.html"),
