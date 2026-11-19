@@ -1,3 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-crimson: "Crimson Text", serif;
+  --color-linen: #fffcfa;
+}
+
 @font-face {
   font-family: "Crimson Text";
   src: url("/fonts/CrimsonText-Regular.woff2") format("woff2");
@@ -32,17 +39,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Global typography */
 @layer base {
   html {
     @apply scroll-smooth;
   }
   body {
-    @apply bg-linen font-crimson text-base md:text-lg text-gray-800 leading-relaxed;
+    @apply bg-linen font-crimson text-base text-gray-800 leading-relaxed;
   }
 
   h1 {
@@ -70,7 +73,13 @@ html {
   }
 
   p {
-    @apply mb-4 text-base md:text-lg;
+    @apply mb-4 text-base;
+  }
+  @media (min-width: 48rem) {
+    body,
+    p {
+      font-size: 1.125rem;
+    }
   }
 }
 

@@ -1,7 +1,13 @@
 import { defineConfig } from "vite";
+import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
+const root = fileURLToPath(new URL(".", import.meta.url));
+
 export default defineConfig({
+  plugins: [tailwindcss()],
   base: "/",
   build: {
     outDir: "dist",
@@ -54,12 +60,14 @@ export default defineConfig({
         sourfigjamrecipe: path.resolve(__dirname, "blog/sour-fig-jam-recipe/index.html"),
         services: path.resolve(__dirname, "services/index.html"),
         brandvideoproduction: path.resolve(__dirname, "services/brand-videographer/index.html"),
-        charityvideographer: path.resolve(__dirname, "services/charity-videographer/index.html"),
+        charityvideographer: path.resolve(__dirname, "services/nonprofit-video-production/index.html"),
         dronevideographer: path.resolve(__dirname, "services/drone-videographer/index.html"),
         eventvideographer: path.resolve(__dirname, "services/event-videographer/index.html"),
         socialmediavideograper: path.resolve(__dirname, "services/social-media-videographer/index.html"),
-        travelvideographer: path.resolve(__dirname, "services/travel-videographer/index.html"),
+        travelvideoproduction: path.resolve(__dirname, "services/travel-video-production/index.html"),
         videostorytelling: path.resolve(__dirname, "blog/video-storytelling/index.html"),
+        // Other Pages
+        410: resolve(root, "410.html"),
       },
     },
   },

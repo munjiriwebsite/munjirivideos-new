@@ -230,8 +230,9 @@
 
 # Charity Videographer
 
-/charity-videographer.html /services/charity-videographer/ 301
-/charity-videographer /services/charity-videographer/ 301
+/charity-videographer.html /services/nonprofit-video-production/ 301
+/charity-videographer /services/nonprofit-video-production/ 301
+/services/charity-videographer/ /services/nonprofit-video-production/ 301
 
 # Creative Videographer
 
@@ -296,13 +297,13 @@
 
 # ==============================================================================
 
-/where-to-find-freelance-videographers-near-me /services/ 301
-/what-is-a-videographer /blog/ 301
-/why-is-video-marketing-effective.html /blog/ 301
-/videographer-portugal-cost /services/ 301
-/videographer-portugal-cost.html /services/ 301
+/where-to-find-freelance-videographers-near-me /410.html 410
+/what-is-a-videographer /410.html 410
+/why-is-video-marketing-effective.html /410.html 410
+/videographer-portugal-cost /410.html 410
+/videographer-portugal-cost.html /410.html 410
 /blog.html /blog/ 301
-/munjiri-films.html / 301
+/munjiri-films.html / /410.html 410
 /brand-videos /services/brand-videographer/ 301
 /brand-videos.html /services/brand-videographer/ 301
 /video-production-for-sustainable-brands.html /services/ 301
@@ -320,5 +321,5 @@
 /wildlife-videography.html /services/nature-videographer/ 301
 /dehye-collective-cape-town /portfolio/ 301
 /dehye-collective-cape-town.html /portfolio/ 301
-/page55.html / 301
-/page56.html / 301
+/page55.html /410.html 410
+/page56.html /410.html 410
