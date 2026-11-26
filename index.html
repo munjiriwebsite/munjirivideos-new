@@ -19,6 +19,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png" />
     <link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png" />
 
+    <link rel="preload" href="/fonts/crimson-text-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/crimson-text-v19-latin-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/crimson-text-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+
     <link rel="preconnect" href="https://www.youtube.com" />
     <link rel="preconnect" href="https://www.youtube-nocookie.com" />
     <link rel="preconnect" href="https://i.ytimg.com" />
@@ -103,27 +107,17 @@
     </header>
     <main>
       <section class="relative h-screen w-full overflow-hidden mb-4 md:mb-24 bg-black">
-        <img
-          src="/src/assets/images/homepage/main-video-snippet-munjiri-videos-storytelling.webp"
-          alt="Munjiri video storytelling"
-          class="absolute inset-0 z-0 w-full h-full object-cover"
-          loading="eager"
-          fetchpriority="high"
-          decoding="async"
-        />
+        <!-- Background video -->
 
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/F4gBQty6BUo?autoplay=1&mute=1&loop=1&playlist=F4gBQty6BUo&controls=0&rel=0&playsinline=1&cc_load_policy=0&modestbranding=1"
-          title="Munjiri Background Video"
-          frameborder="0"
-          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <video class="absolute inset-0 z-0 w-full h-full object-cover" autoplay muted loop playsinline preload="auto">
+          <source src="/video/video-production-showreel.mp4" type="video/mp4" />
+        </video>
 
-        <div class="absolute inset-0 bg-black opacity-20 z-2"></div>
+        <!-- Dark overlay -->
+        <div class="absolute inset-0 bg-black/20 z-2"></div>
 
-        <div class="absolute inset-0 z-10 flex items-center justify-center">
+        <!-- Hero content -->
+        <div class="absolute inset-0 z-10 flex items-center justify-center pt-24 md:pt-0">
           <div class="text-center text-white px-6 max-w-5xl">
             <h1 class="mb-6 text-2xl md:text-4xl">
               The video production company crafting beautiful films built around your real marketing needs.
@@ -139,13 +133,14 @@
 
             <a
               href="/services/"
-              class="inline-flex items-center justify-center px-6 py-3 bg-white text-black border border-black font-medium"
+              class="inline-flex items-center justify-center px-7 py-3.5 bg-white text-black border border-white font-medium transition-all duration-300 ease-out hover:bg-transparent hover:text-white hover:shadow-lg active:translate-y-0"
             >
               View Videographer Services
             </a>
           </div>
         </div>
       </section>
+
       <section class="py-12 md:py-32 px-4">
         <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <!-- Image -->

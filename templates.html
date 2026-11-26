@@ -19,31 +19,15 @@
 
     <!-- Favicons -->
     <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/src/assets/images/logo/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/src/assets/images/logo/favicon-16x16.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="/src/assets/images/logo/apple-touch-icon.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/logo/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/src/assets/images/logo/apple-touch-icon.png" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="/src/style.css" />
 
     <!-- Analytics (Global – stays the same everywhere) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57585637-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -56,15 +40,9 @@
   <!-- End of Head, Start of Body -->
   <body class="bg-linen font-crimson text-gray-800">
     <!-- navbar -->
-    <header
-      id="siteHeader"
-      class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300"
-    >
+    <header id="siteHeader" class="bg-linen font-crimson fixed w-full z-50 transition-all duration-300">
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="flex justify-between items-center h-24 transition-all duration-300"
-          id="navInner"
-        >
+        <div class="flex justify-between items-center h-24 transition-all duration-300" id="navInner">
           <!-- Logo -->
           <div class="flex items-center">
             <a href="/">
@@ -92,12 +70,7 @@
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
           </div>
@@ -113,63 +86,31 @@
           >
             <!-- Close button -->
             <div class="absolute top-8 right-6">
-              <button
-                id="navCloseBtn"
-                class="text-gray-800 focus:outline-none"
-                aria-label="Close menu"
-              >
-                <svg
-                  class="h-7 w-7"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 6l12 12M6 18L18 6"
-                  />
+              <button id="navCloseBtn" class="text-gray-800 focus:outline-none" aria-label="Close menu">
+                <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6l12 12M6 18L18 6" />
                 </svg>
               </button>
             </div>
 
             <!-- Links -->
             <div class="pt-28 px-6 space-y-6">
-              <a href="/portfolio/" class="block text-lg text-gray-800"
-                >Portfolio</a
-              >
-              <a href="/services/" class="block text-lg text-gray-800"
-                >Services</a
-              >
-              <a href="/locations/" class="block text-lg text-gray-800"
-                >Locations</a
-              >
+              <a href="/portfolio/" class="block text-lg text-gray-800">Portfolio</a>
+              <a href="/services/" class="block text-lg text-gray-800">Services</a>
+              <a href="/locations/" class="block text-lg text-gray-800">Locations</a>
               <a href="/blog/" class="block text-lg text-gray-800">Blog</a>
               <a href="/about/" class="block text-lg text-gray-800">About</a>
-              <a href="/contact/" class="block text-lg text-gray-800"
-                >Contact</a
-              >
+              <a href="/contact/" class="block text-lg text-gray-800">Contact</a>
             </div>
           </div>
           <!-- Nav links -->
           <nav class="hidden md:flex space-x-6 items-center">
-            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500"
-              >Portfolio</a
-            >
-            <a href="/services/" class="text-gray-800 hover:text-gray-500"
-              >Services</a
-            >
-            <a href="/locations/" class="text-gray-800 hover:text-gray-500"
-              >Locations</a
-            >
+            <a href="/portfolio/" class="text-gray-800 hover:text-gray-500">Portfolio</a>
+            <a href="/services/" class="text-gray-800 hover:text-gray-500">Services</a>
+            <a href="/locations/" class="text-gray-800 hover:text-gray-500">Locations</a>
             <a href="/blog/" class="text-gray-800 hover:text-gray-500">Blog</a>
-            <a href="/about/" class="text-gray-800 hover:text-gray-500"
-              >About</a
-            >
-            <a href="/contact/" class="text-gray-800 hover:text-gray-500"
-              >Contact</a
-            >
+            <a href="/about/" class="text-gray-800 hover:text-gray-500">About</a>
+            <a href="/contact/" class="text-gray-800 hover:text-gray-500">Contact</a>
           </nav>
         </div>
       </nav>
@@ -203,14 +144,7 @@
               src="https://player.vimeo.com/video/353360861?h=b4bd5269fb"
               frameborder="0"
               referrerpolicy="strict-origin-when-cross-origin"
-              allow="
-                autoplay;
-                fullscreen;
-                picture-in-picture;
-                clipboard-write;
-                encrypted-media;
-                web-share;
-              "
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
               allowfullscreen
               title="Vimeo Video"
             ></iframe>
@@ -235,19 +169,11 @@
       <div class="max-w-5xl mx-auto">
         <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
           <div class="relative aspect-video overflow-hidden">
-            <img
-              src="/src/assets/images/yoga-videographer-14-1086x611.jpg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
+            <img src="/src/assets/images/yoga-videographer-14-1086x611.jpg" alt="" class="w-full h-full object-cover" />
           </div>
 
           <div class="relative aspect-video overflow-hidden">
-            <img
-              src="/src/assets/images/yoga-videographer-19-626x352.jpg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
+            <img src="/src/assets/images/yoga-videographer-19-626x352.jpg" alt="" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
@@ -257,27 +183,15 @@
       <div class="max-w-6xl mx-auto">
         <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
           <div class="relative aspect-video overflow-hidden">
-            <img
-              src="/src/assets/images/dsc03417-676x452.jpg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
+            <img src="/src/assets/images/dsc03417-676x452.jpg" alt="" class="w-full h-full object-cover" />
           </div>
 
           <div class="relative aspect-video overflow-hidden">
-            <img
-              src="/src/assets/images/dsc03508-676x451.jpg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
+            <img src="/src/assets/images/dsc03508-676x451.jpg" alt="" class="w-full h-full object-cover" />
           </div>
 
           <div class="relative aspect-video overflow-hidden">
-            <img
-              src="/src/assets/images/dsc03431-676x452.jpg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
+            <img src="/src/assets/images/dsc03431-676x452.jpg" alt="" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
@@ -296,25 +210,15 @@
 
     <!-- 2 VERTICAL PHOTOS -->
     <section class="py-20 px-4">
-      <div
-        class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center"
-      >
+      <div class="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
         <!-- Left -->
         <div class="md:w-1/2">
-          <img
-            src="/src/assets/images/dsc09604-1156x1731.jpg"
-            alt=""
-            class="w-full h-auto object-cover"
-          />
+          <img src="/src/assets/images/dsc09604-1156x1731.jpg" alt="" class="w-full h-auto object-cover" />
         </div>
 
         <!-- Right -->
         <div class="md:w-1/2">
-          <img
-            src="/src/assets/images/dsc09603-844x1264.jpg"
-            alt=""
-            class="w-full h-auto object-cover"
-          />
+          <img src="/src/assets/images/dsc09603-844x1264.jpg" alt="" class="w-full h-auto object-cover" />
         </div>
       </div>
     </section>
@@ -353,28 +257,28 @@
     <section class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          <div class="relative aspect-[2/3] overflow-hidden">
+          <div class="relative aspect-2/3 overflow-hidden">
             <img
               src="/src/assets/images/screenshot-2025-07-19-at-08.12.24-510x508.png"
               class="w-full h-full object-cover"
             />
           </div>
 
-          <div class="relative aspect-[2/3] overflow-hidden">
+          <div class="relative aspect-2/3 overflow-hidden">
             <img
               src="/src/assets/images/screenshot-2025-07-18-at-12.20.13-510x771.png"
               class="w-full h-full object-cover"
             />
           </div>
 
-          <div class="relative aspect-[2/3] overflow-hidden">
+          <div class="relative aspect-2/3 overflow-hidden">
             <img
               src="/src/assets/images/screenshot-2025-07-18-at-12.23.34-480x882.png"
               class="w-full h-full object-cover"
             />
           </div>
 
-          <div class="relative aspect-[2/3] overflow-hidden">
+          <div class="relative aspect-2/3 overflow-hidden">
             <img
               src="/src/assets/images/screenshot-2025-07-18-at-12.25.47-510x769.png"
               class="w-full h-full object-cover"
@@ -411,40 +315,28 @@
 
         <div class="space-y-12 text-left text-lg leading-relaxed font-light">
           <blockquote>
-            "Working with Katy was a great experience and also really fun! She
-            went the extra mile to help me achieve everything I wanted in the
-            film. She’s so professional but also very easygoing and helped me
-            feel relaxed during filming. I’m thrilled with the results and would
-            highly recommend Munjiri Videos."
-            <footer
-              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
-            >
+            "Working with Katy was a great experience and also really fun! She went the extra mile to help me achieve
+            everything I wanted in the film. She’s so professional but also very easygoing and helped me feel relaxed
+            during filming. I’m thrilled with the results and would highly recommend Munjiri Videos."
+            <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">
               Sarah Rueger, Amaranthine Skincare
             </footer>
           </blockquote>
 
           <blockquote>
-            "We absolutely loved working with Katy and Eugene. They were so
-            professional from start to finish and managed to capture Heartfelt
-            beautifully. We would highly recommend them and will definitely work
-            with them again."
-            <footer
-              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
-            >
+            "We absolutely loved working with Katy and Eugene. They were so professional from start to finish and
+            managed to capture Heartfelt beautifully. We would highly recommend them and will definitely work with them
+            again."
+            <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">
               Julie Hadley, The Heartfelt Project
             </footer>
           </blockquote>
 
           <blockquote>
-            "The footage is the best we have seen from our schools – the colors,
-            images, shots, etc. It’s amazing that Katy was able to find a
-            compelling story to fit what we needed, and we are so grateful for
-            her expertise and time!"
-            <footer
-              class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800"
-            >
-              Reshma, Impact Network
-            </footer>
+            "The footage is the best we have seen from our schools – the colors, images, shots, etc. It’s amazing that
+            Katy was able to find a compelling story to fit what we needed, and we are so grateful for her expertise and
+            time!"
+            <footer class="mt-4 pl-0 md:pl-6 italic font-semibold text-gray-800">Reshma, Impact Network</footer>
           </blockquote>
         </div>
       </div>
@@ -453,78 +345,56 @@
     <!-- CAROUSEL -->
     <section class="py-8 px-4">
       <div class="mx-auto max-w-2xl space-y-6">
-        <h2 class="text-center">
-          Frequently Asked Questions About Nature Video Production
-        </h2>
+        <h2 class="text-center">Frequently Asked Questions About Nature Video Production</h2>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            What is nature video production?
-          </summary>
+          <summary class="cursor-pointer py-2">What is nature video production?</summary>
           <p class="mt-2">
-            Nature video production is the process of creating video content
-            that highlights the natural world and the people, brands, or
-            organisations working to protect and celebrate it. It blends
-            documentary-style storytelling with a strong visual connection to
-            landscapes, wildlife, and sustainable living.
+            Nature video production is the process of creating video content that highlights the natural world and the
+            people, brands, or organisations working to protect and celebrate it. It blends documentary-style
+            storytelling with a strong visual connection to landscapes, wildlife, and sustainable living.
           </p>
         </details>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            What kinds of brands do you work with?
-          </summary>
+          <summary class="cursor-pointer py-2">What kinds of brands do you work with?</summary>
           <p class="mt-2">
-            We work with eco-conscious brands, wildlife charities, nature
-            retreats, tourism projects, and social enterprises. If you care
-            about nature and have a story to share, we’d love to collaborate.
+            We work with eco-conscious brands, wildlife charities, nature retreats, tourism projects, and social
+            enterprises. If you care about nature and have a story to share, we’d love to collaborate.
           </p>
         </details>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            Do you film in remote or wild locations?
-          </summary>
+          <summary class="cursor-pointer py-2">Do you film in remote or wild locations?</summary>
           <p class="mt-2">
-            Yes. A big part of our nature video production work involves filming
-            in wild and often remote areas. We have experience working in
-            challenging environments and adapting to real-world conditions.
+            Yes. A big part of our nature video production work involves filming in wild and often remote areas. We have
+            experience working in challenging environments and adapting to real-world conditions.
           </p>
         </details>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            Can you include drone footage?
-          </summary>
+          <summary class="cursor-pointer py-2">Can you include drone footage?</summary>
           <p class="mt-2">
-            Absolutely. We offer drone videography as part of our nature video
-            packages. It’s a powerful way to showcase landscapes, scale, and the
-            full impact of your work, whether it’s reforestation, eco-building,
-            or wildlife conservation.
+            Absolutely. We offer drone videography as part of our nature video packages. It’s a powerful way to showcase
+            landscapes, scale, and the full impact of your work, whether it’s reforestation, eco-building, or wildlife
+            conservation.
           </p>
         </details>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            What if we don’t have a clear story yet?
-          </summary>
+          <summary class="cursor-pointer py-2">What if we don’t have a clear story yet?</summary>
           <p class="mt-2">
-            That’s totally fine. In the early stages of our nature video
-            production process, we help you discover and shape your story. We’ll
-            guide you through story planning so your message is clear,
-            emotional, and engaging.
+            That’s totally fine. In the early stages of our nature video production process, we help you discover and
+            shape your story. We’ll guide you through story planning so your message is clear, emotional, and engaging.
           </p>
         </details>
 
         <details class="border-b pb-4">
-          <summary class="cursor-pointer py-2">
-            Do you help with strategy after the video is finished?
-          </summary>
+          <summary class="cursor-pointer py-2">Do you help with strategy after the video is finished?</summary>
           <p class="mt-2">
-            Yes. Projects can include delivery in multiple formats plus guidance
-            on how and where to use your videos for the most impact. From
-            websites and Instagram to YouTube and email newsletters, we help you
-            get the most value from your content.
+            Yes. Projects can include delivery in multiple formats plus guidance on how and where to use your videos for
+            the most impact. From websites and Instagram to YouTube and email newsletters, we help you get the most
+            value from your content.
           </p>
         </details>
       </div>
@@ -536,17 +406,12 @@
           <!-- Column 1: Logo + Location -->
           <div>
             <a href="/" class="inline-block pl-6 mb-2">
-              <img
-                src="/src/assets/images/logo/munjiri-take-two.gif"
-                alt="Munjiri Logo"
-                class="h-20 object-contain"
-              />
+              <img src="/src/assets/images/logo/munjiri-take-two.gif" alt="Munjiri Logo" class="h-20 object-contain" />
             </a>
 
             <p class="text-sm leading-relaxed">
-              Munjiri Videos is a video production company who create beautiful,
-              down-to-earth videos with strategy, so you can grow your brand.
-              Based between
+              Munjiri Videos is a video production company who create beautiful, down-to-earth videos with strategy, so
+              you can grow your brand. Based between
               <a
                 href="/locations/portugal/"
                 class="underline hover:underline underline-offset-[3px] decoration-1 decoration-amber-500 hover:decoration-2"
@@ -641,15 +506,9 @@
           <div>
             <h3 class="font-semibold text-lg mb-4">Join Our Newsletter</h3>
 
-            <p class="text-sm mb-4">
-              Monthly filmmaking tips, behind-the-scenes stories.
-            </p>
+            <p class="text-sm mb-4">Monthly filmmaking tips, behind-the-scenes stories.</p>
 
-            <form
-              action="https://app.kit.com/forms/9564838/subscriptions"
-              method="post"
-              class="flex flex-col gap-3"
-            >
+            <form action="https://app.kit.com/forms/9564838/subscriptions" method="post" class="flex flex-col gap-3">
               <input
                 type="email"
                 name="email_address"
@@ -680,9 +539,7 @@
           </div>
 
           <!-- Social Icons -->
-          <div
-            class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0"
-          >
+          <div class="flex space-x-6 justify-center md:justify-end pb-6 md:pb-0">
             <a
               href="https://www.instagram.com/munjirivideos/"
               target="_blank"
@@ -690,11 +547,7 @@
               aria-label="Instagram"
               class="hover:opacity-50 transition"
             >
-              <img
-                src="/src/assets/images/logo/instagram.svg"
-                alt="Instagram"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/instagram.svg" alt="Instagram" class="w-5 h-5" />
             </a>
 
             <a
@@ -704,11 +557,7 @@
               aria-label="Pinterest"
               class="hover:opacity-50 transition"
             >
-              <img
-                src="/src/assets/images/logo/pinterest.svg"
-                alt="Pinterest"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/pinterest.svg" alt="Pinterest" class="w-5 h-5" />
             </a>
 
             <a
@@ -718,11 +567,7 @@
               aria-label="YouTube"
               class="hover:opacity-50 transition"
             >
-              <img
-                src="/src/assets/images/logo/youtube.svg"
-                alt="YouTube"
-                class="w-5 h-5"
-              />
+              <img src="/src/assets/images/logo/youtube.svg" alt="YouTube" class="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -734,9 +579,7 @@
 </html>
 
 <section class="py-20 px-4">
-  <div
-    class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10"
-  >
+  <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10">
     <!-- Image -->
     <div class="md:w-2/3">
       <img
@@ -750,8 +593,7 @@
     <!-- Text Content -->
     <div class="font-crimson md:w-1/3 flex items-center">
       <p class="text-black font-light text-center md:text-left">
-        Even Michelle Obama likes our work (she posted a video we shot to her
-        56.9 million followers on Instagram.)
+        Even Michelle Obama likes our work (she posted a video we shot to her 56.9 million followers on Instagram.)
       </p>
     </div>
   </div>
